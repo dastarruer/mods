@@ -1,0 +1,486 @@
+{
+	"tempHash": "0071D9F6171DB77A",
+	"tbluHash": "00A534C3D99CD901",
+	"rootEntity": "22ea5f8267450642",
+	"entities": {
+		"22ea5f8267450642": {
+			"parent": null,
+			"name": "OUTFIT_Agent47_Recon_gear_HeroA_V0",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype,[modules:/zheroidlenetworkaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype,[modules:/zheroidlenetworkaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": 39.068450927734375,
+							"y": 4.066530227661133,
+							"z": 0.0
+						}
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0017416135CF879C",
+						"flag": "5F"
+					}
+				},
+				"m_bUsePerVertexStiffness": {
+					"type": "bool",
+					"value": true
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_bGlobalCollidersEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDamping": { "type": "float32", "value": 1.0 },
+				"m_fBendStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUsePerVertexDamping": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShearStiffness": { "type": "float32", "value": 1.0 },
+				"m_bUseSkinningPosNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseSkinningNegNormalConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_nIterations": { "type": "uint32", "value": 2 },
+				"m_fFrequency": { "type": "float32", "value": 90.0 },
+				"m_vTranslationScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.10000000149011612,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": { "x": 0.0, "y": 0.0, "z": -13.0 }
+				},
+				"m_fLODOffset": { "type": "float32", "value": 100.0 },
+				"m_fDragConstant": { "type": "float32", "value": 1.0 },
+				"m_eStretchConstrainType": {
+					"type": "EClothStretchConstrainType",
+					"value": "eClothBendConstrainType_LRA"
+				},
+				"m_fAngularVelocityThreshold": {
+					"type": "float32",
+					"value": 60.0
+				},
+				"m_eRootBone": {
+					"type": "BoneId.Enum",
+					"value": "PELVIS"
+				},
+				"m_bEnableAngularVelocityScale": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eBendConstrainType": {
+					"type": "EClothBendConstrainType",
+					"value": "eClothBendConstrainType_Triangle"
+				},
+				"m_bRandomStartState": { "type": "bool", "value": true },
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_bSimulationEnabled": { "type": "bool", "value": true },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ca9e86cfdaed4c16",
+						"cafe8f7d64bb2213",
+						"cafe8b875a8ed67a",
+						"cafe2347165471a3",
+						"cafeecb8c306daea",
+						"cafe805200d9485d",
+						"cafe98559fb8ab84",
+						"cafe1c6cc2f83fa2",
+						"cafe587d049bb4b6",
+						"cafe71cc0c57926b",
+						"cafe8c3c506f90e3",
+						"cafe8f6588fb611a",
+						"cafe630784e3ccfe",
+						"cafe18d8938c0146",
+						"cafeeb1455f029e0",
+						"cafe84d70cb416b4",
+						"cafecaa0b1d0e667"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"ca9e86cfdaed4c16": {
+			"parent": "22ea5f8267450642",
+			"name": "Head_47",
+			"factory": "00537D16B5CE7286",
+			"blueprint": "00F2E4A932ECAA63"
+		},
+		"281539d4914d0e9a": {
+			"parent": "22ea5f8267450642",
+			"name": "FX_Hitman_Wet_Logic_Character",
+			"factory": "0067CFB703A80787",
+			"blueprint": "00AA88C960CD2080",
+			"properties": {
+				"HeadMaterialOverride": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["22ea5f8267450642"]
+				},
+				"HeadMaterialToOverride": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009F7978C601815A",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe8f7d64bb2213": {
+			"parent": "22ea5f8267450642",
+			"name": "Pants_Cargo_Kneepads",
+			"factory": "00FCB856A7CE34EB",
+			"blueprint": "00FC68B60D3FE105",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#2a2a2a"
+				},
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B719796DB6D28B",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe8b875a8ed67a": {
+			"parent": "22ea5f8267450642",
+			"name": "Arms_Elbow_Wrist",
+			"factory": "00FCC39B2F164A8C",
+			"blueprint": "0011153A1CE6AF9C"
+		},
+		"cafe2347165471a3": {
+			"parent": "22ea5f8267450642",
+			"name": "Kneepads_Tactical",
+			"factory": "00850812E98D2DFE",
+			"blueprint": "00C18089270CC1AC",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#292929"
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/textures/male_reg_militia_elite_kneepads.texture?/diffuse_black.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0072BC7F1586E758",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafeecb8c306daea": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Balaclava",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0011003DA4C4132D",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"cafe15369f5da0b4": {
+			"parent": "22ea5f8267450642",
+			"name": "regmale_fauxcrystaldawn_balaclava_01",
+			"factory": "0000E3BD9743CBF3",
+			"blueprint": "008992585AC69B3C",
+			"properties": {
+				"Diffuse_Saturation_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"Diffuse_Saturation_01_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008F3B4B12936694",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2DNormal_01_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007E1E5C4745AF21",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009AC2156601756F",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["22ea5f8267450642"],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "22ea5f8267450642",
+					"postInit": true
+				}
+			}
+		},
+		"cafe805200d9485d": {
+			"parent": "22ea5f8267450642",
+			"name": "Belt_Utility_Military",
+			"factory": "00B04C9E30B044A7",
+			"blueprint": "00B3B5F4210D9F1F",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#2c2c2c"
+				}
+			}
+		},
+		"cafe98559fb8ab84": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_Shoulderpads",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00F20583CE933B03",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe1c6cc2f83fa2": {
+			"parent": "22ea5f8267450642",
+			"name": "Gloves_Combat_Kevlar_Fingerless",
+			"factory": "00FD1118F2E565AA",
+			"blueprint": "00FD18BB25AAEF50",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#262626"
+				}
+			}
+		},
+		"cafe587d049bb4b6": {
+			"parent": "22ea5f8267450642",
+			"name": "Hands",
+			"factory": "009A6D9F7927FB89",
+			"blueprint": "00F49463DEA8D412"
+		},
+		"cafe71cc0c57926b": {
+			"parent": "22ea5f8267450642",
+			"name": "Part_elbows",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00DDFC39E6AB2907",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe8c3c506f90e3": {
+			"parent": "22ea5f8267450642",
+			"name": "Sweater_Fleece_Tkd",
+			"factory": "00EB2B559C8F572A",
+			"blueprint": "005613FBDC0EC79B",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#1a1a1a"
+				}
+			}
+		},
+		"cafe8f6588fb611a": {
+			"parent": "22ea5f8267450642",
+			"name": "Shoes_Boots_Military",
+			"factory": "00A7DC37E14B3676",
+			"blueprint": "000315500CD95840",
+			"properties": {
+				"Diffuse_Color_01_Value": {
+					"type": "SColorRGB",
+					"value": "#252525"
+				}
+			}
+		},
+		"cafe630784e3ccfe": {
+			"parent": "22ea5f8267450642",
+			"name": "Part_Collar",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/geometry/male_reg_militia_spec_ops.wl2?/collar.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe18d8938c0146": {
+			"parent": "22ea5f8267450642",
+			"name": "Part_Vest",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "006F11A2B50C4C6F",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafeeb1455f029e0": {
+			"parent": "22ea5f8267450642",
+			"name": "Mesh_MaskMouth",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/geometry/male_reg_militia_spec_ops.wl2?/maskmouth.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"cafe84d70cb416b4": {
+			"parent": "22ea5f8267450642",
+			"name": "Part_Hat",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/geometry/male_reg_militia_spec_ops.wl2?/skullcap.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"cafecaa0b1d0e667": {
+			"parent": "22ea5f8267450642",
+			"name": "Part_Mask",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_spec_ops/geometry/male_reg_militia_spec_ops.wl2?/mask.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/specular_f.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/paris/philip/textures/male_reg_philip_01_tie_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00357C8C30F5EDF2", "flag": "5F" },
+		{ "resource": "00324339E7353795", "flag": "5F" },
+		{ "resource": "00C197DBB1B74FF6", "flag": "5F" },
+		{ "resource": "007E2F6DB1068A8D", "flag": "5F" },
+		{ "resource": "00AAD107E192CFAE", "flag": "5F" },
+		{ "resource": "0063B05E0712FBB3", "flag": "5F" },
+		{ "resource": "007D850436B0A092", "flag": "5F" },
+		{ "resource": "00D247582859CA87", "flag": "5F" },
+		{ "resource": "00D20CA72E352D16", "flag": "5F" },
+		{ "resource": "001EE759F57B6DCE", "flag": "5F" },
+		{ "resource": "0051A1136DC9485E", "flag": "5F" },
+		{ "resource": "00E4CE86EE7A5CC2", "flag": "5F" },
+		{ "resource": "00FFC5352D7A5D64", "flag": "5F" },
+		{ "resource": "001083E516801F5E", "flag": "5F" },
+		{ "resource": "002E38C4C7E4A025", "flag": "5F" },
+		{ "resource": "00D8722973695FDC", "flag": "5F" },
+		{ "resource": "00CCF189D80F8682", "flag": "5F" },
+		{ "resource": "008352F84E1949F2", "flag": "5F" },
+		{ "resource": "0062E48BEB6DF280", "flag": "5F" },
+		{ "resource": "006A3CDF8C2ED4E6", "flag": "5F" },
+		{ "resource": "006A40A918C06460", "flag": "5F" },
+		{ "resource": "00B40E9503CF9271", "flag": "5F" }
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

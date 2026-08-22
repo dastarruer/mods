@@ -1,0 +1,615 @@
+{
+	"tempHash": "00A1B91D545FD9F0",
+	"tbluHash": "006D5AC19869D089",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Mission_Mild_Radler",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"abcdad325493c7da": {
+			"parent": "fffffffffffffffe",
+			"name": "Trigger Events",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": {
+					"ForceEvacuation": [
+						{
+							"ref": "192a9370792a1332",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "5112892a6a9d9dee",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "ebbf85efbc24bed2",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		"feed9f43109ad792": {
+			"parent": "fffffffffffffffe",
+			"name": "tomorrowland",
+			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBankResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/tomorrowland.wwisesoundbank].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "e77d29c42a238b03",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/override_meyer.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 76 },
+						"position": {
+							"x": -22.051,
+							"y": 72.216,
+							"z": 0.0000110976
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "5641c031c2aab432",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/override_meyer.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "911eb93304400368",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/override_meyer.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -106.9171823185896
+						},
+						"position": {
+							"x": -22.051,
+							"y": 72.216,
+							"z": 0.0000110976
+						},
+						"scale": { "x": 1.0, "y": 1.0, "z": 1 }
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "5f75bd2c2bf91e7f",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "0523519e-608e-49fd-bdda-3edc75fd1f77"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f84cf7a75384c7ce",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "6e91639f37d58f12",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "2fd920784f81d2a1",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "6fa73774a7984465",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "d46c8f9f053f05a5",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "c611f5eb7b6eff3a",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "01fde9cc5724e11c",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "cac4244aa5704936",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "e4081fe89137610e",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "1aea9a55bad04774",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "f408b0c494e5ecae",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "46ae0e06fe1c8d00",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "5cafe0f5581af294",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": { "type": "bool", "value": true },
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c6ff92e361f23bde",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A6D966D0A25226",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a58fe041f1863e60",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "7e328b1cd1da9f01",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "8375431dc58917bf",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "52ad925def5eba64",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "c19fd22a628a5c4c",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "62e4f1e5cf487269",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "25bd029bec01e4f6",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "ed3265f024eb9eb7",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "a5ead42c789ec018",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "d1bd34e048f50c60",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "83e4bdce50c79a78",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "ae1d95e3a928232a",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "24cd9198019d4eea",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "5bf4d50a4ba40252",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "c081918651e5ea9d",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "ba092f9f94b65aad",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "4280771899a41ebd",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "c02984711767ab18",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "870196c93d786fff",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "baeaa64b50ed5340",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "a99d09e843358066",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "edd8421e33e55f4e",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "59ac8bad9566fac3",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "39c0ecda7361eb00",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "c7c2f7f373935d95",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "265a865dade5ec0e",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "265a504e2efc36ca",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "efbb15da70327d02",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "7543aa959aaff76c",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "08b81f5f0fec04e4",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "1c809f12dca22050",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "8d85d75f5e1af8ed",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "a9077f01fabc9d05",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+						},
+						{
+							"ref": "3e1ce2e68b4d7c14",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "8549f93560632091",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "28d86fa4d0add57e",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "35503eb8cb258912",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "4aa184bbc66c1829",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "6e387360066c9879",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "ce488dd8f512074d",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "b46d6d709325daaf",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "64c1a55f7148e2df",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "ecf14e3c3364cf74",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_radler.brick].pc_entitytype"
+						},
+						{
+							"ref": "8b4930848d25161b",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_radler.brick].pc_entitytype"
+						},
+						{
+							"ref": "394e2ea3f7d50a07",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_radler.brick].pc_entitytype"
+						},
+						{
+							"ref": "c3bf5957230ea48b",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "6ef78a6a24f1ef21",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "325231d2ad0fc389",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						},
+						{
+							"ref": "8a8931f954b2ae81",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e515ed02d87fec1d",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "2a3578db60f7252e",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "cac63ea2a484a761",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "5d60c5a282816f50",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "edfa3d779e681e77",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "a31586b66418a231",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "7e0f4d5516816bb8",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "2ead4dc5f69b2ece",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "c80cfd76b0846cbb",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "dc56e1865774d23e",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "e89d2cddaedec73e",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				},
+				{
+					"ref": "942a28bea7d45456",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eSituationType": {
+					"type": "ESituationAvailability",
+					"value": "ESA_AMBIENCE"
+				},
+				"m_nBasePriority": { "type": "int32", "value": 70 }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "20e39d9c46dc8a65",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "1933721afb0ad16b",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "3d78f482be05bd07",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "68c2c1063186d482",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "08e99afaeb742f45",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "920c5f2daf858611",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "917f8f177d4050f3",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "05916771a68a2638",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "13cc03647e6e24c6",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "d25872b749316469",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "f360474e6905947d",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "0870718335c2a1d6",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "430494253c45def4",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "41e9fc0084fde713",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "24b2f5be8b8ce4d6",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "b24025914ddef1e3",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "ca022da3cabdebcd",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "fddfb62485a9ca73",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "6d24ef3265416006",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				},
+				{
+					"ref": "c789f80978a00d61",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_nPriority": { "type": "int32", "value": 80 }
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "dcd2f11609dc06ba",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "08e3147072de4bd8",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "b3c8d868506bd619",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c3dd94eeb9400f5",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "271a451fbe2fb6d6",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "9b517f9f92e67dc6",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "414090c33d793bd3",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_radler.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_radler.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/override_meyer.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/mission_mild_meyer.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/tod_midday.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

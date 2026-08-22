@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "0076827FCC48E380",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43754_clnrevealupdate_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43754_clnrevealupdate_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43754_clnrevealupdate_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,2.6)\\\\47? Objective updated.//(2.6,7.5)\\\\I'm authorizing additional targets. Eliminate Valliant AND his Clones.//(7.5,37.5)\\\\None of them can make it out alive.",
+			"fr": "//(0,4.9)\\\\47 ? L'objectif a changé : j'autorise des cibles supplémentaires.//(4.9,7.6)\\\\Éliminez Valliant ET ses clones.//(7.6,37.6)\\\\Aucun ne doit survivre.",
+			"it": "//(0,2.6)\\\\47? Obiettivi aggiornati.//(2.6,7.5)\\\\Autorizzo bersagli aggiuntivi. Elimina SIA Valliant, SIA i suoi cloni.//(7.5,37.5)\\\\Nessuno di loro dovrà uscirne vivo.",
+			"de": "//(0,2.6)\\\\47? Die Mission wurde aktualisiert.//(2.6,7.5)\\\\Ich autorisiere hiermit zusätzliche Ziele. Eliminieren Sie Valliant UND seine Klone.//(7.5,37.5)\\\\Keiner von ihnen darf hier lebend raus.",
+			"es": "//(0,4.9)\\\\Objetivos actualizados, 47. Voy a autorizar objetivos adicionales.//(4.9,7.27)\\\\Elimina a Valliant y a sus clones.//(7.67,37.67)\\\\Ninguno de ellos puede salir con vida de aquí.",
+			"ru": "//(0,2.6)\\\\47-й? Твое задание изменилось.//(2.6,7.5)\\\\Разрешаю устранить дополнительные цели.//(7.5,37.5)\\\\Убери Вальяна и его клонов. Никто не должен выжить.",
+			"cn": "//(0,2.6)\\\\47？任务目标已更新。//(2.6,7.5)\\\\我会授权你消灭额外目标。消灭瓦兰特和他的所有克隆体。//(7.5,37.5)\\\\绝不能让他们任何一个活着离开。",
+			"tc": "//(0,4.8)\\\\47？目標更新，我已授權增加暗殺目標。//(4.8,34.8)\\\\解決瓦里安和他的複製人，一個都不能留。",
+			"jp": "//(0,4.8)\\\\47？目標を更新。更なるターゲットを許可するわ。//(4.8,34.8)\\\\ヴァリアントと彼のクローンを排除して。誰も生かしておいてはならないわ。"
+		}
+	}
+}

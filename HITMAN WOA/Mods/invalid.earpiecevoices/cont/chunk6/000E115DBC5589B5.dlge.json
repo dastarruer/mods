@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "000E115DBC5589B5",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43760_oglambicdead02_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43760_oglambicdead02_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43760_oglambicdead02_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\But we need to take down all the clones as well.",
+			"fr": "//(0,30)\\\\Nous devons cependant nous occuper des clones aussi.",
+			"it": "//(0,30)\\\\Ma dobbiamo sbarazzarci anche di tutti i suoi cloni.",
+			"de": "//(0,30)\\\\Aber wir müssen auch alle Klone ausschalten.",
+			"es": "//(0,30)\\\\Lo malo es que tenemos que acabar también con todos los clones.",
+			"ru": "//(0,30)\\\\Но мы должны уничтожить и всех его клонов.",
+			"cn": "//(0,30)\\\\但我们还需要消灭其他所有克隆体。",
+			"tc": "//(0,30)\\\\但我們還得解決他的複製人。",
+			"jp": "//(0,30)\\\\でもクローンも全員排除しないといけないわ。"
+		}
+	}
+}

@@ -1,0 +1,875 @@
+{
+	"tempHash": "004D4229C4B64540",
+	"tbluHash": "008B5D741BB684C6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"6c2968716337aea1",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "c3d943f5d5a38c86",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "bed57cb1313a4038",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "62478f3cc8224c75",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "eec93acfc0978a3b",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "05b57f18d186f01c",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "a1ecf171406a6cab",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "4acf5a902722bff1",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "31fcc160a8ce3544",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "bf57bb0e67cae928",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "cdb8b75b6c3073a8",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "cab888d97fe5b4b1",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "cd307dbd719e0504",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "6e7763a21db35378",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "6196585d3216b84e",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "27b86bd3ae6a27aa",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "f87f8e5197cd8d14",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "3bd58de20c14914f",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "09686a8b7d858109",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "9ffe932afa7959cb",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "ecb63bbf863d0533",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "8389ce20282ada7e",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "33db6c51e80f2d79",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "88231c71d2af92d7",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "52a7a4151a29e138",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "2d85b6e5fb18359c",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "f364474f7ef81531",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "49cd7f6e630d47f1",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "8f4c33f5cbb80a89",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "4fe9f254146ef418",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "7daebf6f0b16d503",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "f5a291a1c8d1fa60",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "4af4a6839d5cea55",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "38c7836108cc31c8",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "1b018b55ecb5f6e6",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "5bba83833168dc47",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "6b86fcd349a5fdf1",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "41bdf2fdd84577c9",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "61325d68eb687405",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "a45adc19463f3b9a",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "f4b7897d2f7865a5",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "c60491ee406ca57b",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "4de9951b51ccc74b",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "32da7e5a13d38fe3",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "ecc5fec762a74f33",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "3993b5ae429b7e7a",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "7de001fa6f70fa7f",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "67e7766e5b49a99b",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "d9ee0c3bf3118a17",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "02f9f1b1553b5d8d",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "99bb79833b3c155e",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "137d92448dd9ade2",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "f035366b3a988fb2",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "800de6be2a455e81",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "672fce4c1df79437",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "7f8cbe6313c0f290",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "85e0399d691b71c4",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "4ad588754b939c13",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "894f9e19f5a668f8",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "23ff1ba1494bfbd4",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "2848686f33c5cbff",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "2e76e81b0332e5ef",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "1a78a925691a0816",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "9fab49994f43960d",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "9698072f23959e19",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "a047e9554eaf9801",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "8038885c09f7e40b",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "2f63ef5b4500c04c",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "f28fec8211eafe2c",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "5d6579f2450b7134",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "86c2d5779bcae570",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "dbd7dc554b74ee02",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "612c9c96bb57b762",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "c64fa9c7ad6fc462",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "300c66becc097699",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "f032ce05a8d3d72b",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "dd9ce12d9dd4ac9e",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "bcbb92531d78abe7",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "425e8411c473b791",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "abd274565da72bb7",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "177256a0c74b6da4",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "2317ca49cdeb455d",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "0f8d8d273d2c7f1e",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "d8d9173e02173590",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "b9e77c3ba39d6e0e",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "857478d2ca834a01",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "0b4687c45ceb8fce",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "f3bd1ab73513d20d",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "42eb5b82cb106c1c",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "0c5289873c814283",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "b636616c99607241",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "764f4beab123dbbf",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "3a698096a6263a15",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "ce592149833f63cd",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "e729f97125e9fd85",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ee3dcf8c90cdb028",
+									{
+										"ref": "0655697ba4a7a760",
+										"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+									}
+								]
+							},
+							{ "AddItemAfter": ["ee3dcf8c90cdb028", "6cc4e3d9491bd1c5"] }
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

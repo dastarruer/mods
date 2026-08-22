@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "005F402DF7C66DBB",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43759_oglambicdead01_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43759_oglambicdead01_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43759_oglambicdead01_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\Excellent, 47. Valliant has been eliminated.",
+			"fr": "//(0,30)\\\\Excellent, 47. Valliant a été éliminé.",
+			"it": "//(0,30)\\\\Eccellente, 47. Valliant è stato eliminato.",
+			"de": "//(0,1.5)\\\\Hervorragend, 47.//(1.5,31.5)\\\\Valliant wurde eliminiert.",
+			"es": "//(0,30)\\\\Excelente, 47. Valliant ha sido eliminado.",
+			"ru": "//(0,30)\\\\Великолепно, 47-й. Вальян ликвидирован.",
+			"cn": "//(0,30)\\\\太棒了，47。瓦兰特已被消灭。",
+			"tc": "//(0,30)\\\\做得好，47。瓦里安已被消滅。",
+			"jp": "//(0,30)\\\\よくやったわ。ヴァリアントは排除された。"
+		}
+	}
+}

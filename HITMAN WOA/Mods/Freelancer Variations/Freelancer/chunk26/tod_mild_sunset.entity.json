@@ -1,0 +1,1604 @@
+{
+	"tempHash": "000171735DF16C2D",
+	"tbluHash": "00132EB90A734323",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "TOD_Mild_Sunset",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe6921a042f9e4": {
+			"parent": "fffffffffffffffe",
+			"name": "Cut Content Enablers",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe44dffe3202bd": {
+			"parent": "cafe6921a042f9e4",
+			"name": "CHAR_Gecko_Civilian_Guest_M_PRO_02",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.65851503834824
+						},
+						"position": {
+							"x": 22.940309524536133,
+							"y": 1.1203010082244873,
+							"z": 12.746580123901367
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "52aea773-939c-40e8-b03e-2d86f8e848c6"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Ian Readdie"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe3d53c8696afc": {
+			"parent": "cafe6921a042f9e4",
+			"name": "CHAR_Gecko_Civilian_Guest_M_PRO_01",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 39.58185879999359
+						},
+						"position": {
+							"x": 38.17564010620117,
+							"y": 2.1775898933410645,
+							"z": 12.921339988708496
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "9c612c1d-1001-4bc3-b0c9-0d05b7ff6a92"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Ricky Macon"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe6535aeae78c0": {
+			"parent": "cafe6921a042f9e4",
+			"name": "CHAR_Gecko_Civilian_Guest_M_PRO_03",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -25.679520767527816
+						},
+						"position": {
+							"x": -23.43324089050293,
+							"y": -62.73358154296875,
+							"z": 46.0406494140625
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "e8c47afb-8d83-495d-89ff-144adf9e245a"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "cfc20192-0c87-4490-936f-7ae7ef038c55"
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Akira Suzuki"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALECH01"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafe36312bfa503f": {
+			"parent": "cafe2c06304269ef",
+			"name": "CoverPlane199",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.9359120752107716,
+							"y": 0.0134878164442539,
+							"z": 0.20729594521597736
+						},
+						"position": {
+							"x": 0.01016916986554861,
+							"y": 1.7822610139846802,
+							"z": 0.20111480355262756
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.5702470541000366
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2c06304269ef",
+					"postInit": true
+				}
+			}
+		},
+		"cafe372fd1b5b3ed": {
+			"parent": "cafe2c06304269ef",
+			"name": "CoverPlane194",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.007087021505855234,
+							"y": 0.8555891896579705,
+							"z": -89.47288957498837
+						},
+						"position": {
+							"x": -0.7867251038551331,
+							"y": 0.5044376254081726,
+							"z": 0.1818125993013382
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 2.561583995819092
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2c06304269ef",
+					"postInit": true
+				}
+			}
+		},
+		"cafe17a8f75d79a4": {
+			"parent": "cafe2c06304269ef",
+			"name": "CoverPlane196",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.9659166662273264,
+							"y": -0.0245812541023091,
+							"z": 179.51508818473596
+						},
+						"position": {
+							"x": -0.005349363200366497,
+							"y": -1.8400349617004397,
+							"z": 0.14701509475708008
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.4544429779052734
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2c06304269ef",
+					"postInit": true
+				}
+			}
+		},
+		"cafe63453e54a933": {
+			"parent": "cafe2c06304269ef",
+			"name": "CoverPlane195",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.06758232219019045,
+							"y": 0.8534268017909388,
+							"z": -93.52730530321551
+						},
+						"position": {
+							"x": -0.7655214071273804,
+							"y": -1.3112009763717651,
+							"z": 0.15470820665359497
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.07225501537323
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2c06304269ef",
+					"postInit": true
+				}
+			}
+		},
+		"cafe28bddabf19ce": {
+			"parent": "cafe2c06304269ef",
+			"name": "CoverPlane197",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.027733460200002447,
+							"y": -0.8553814556544487,
+							"z": 92.8426671780443
+						},
+						"position": {
+							"x": 0.7505167722702026,
+							"y": -1.2564740180969238,
+							"z": 0.1559305042028427
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 1.1562210321426392
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2c06304269ef",
+					"postInit": true
+				}
+			}
+		},
+		"cafea612deeb4793": {
+			"parent": "cafe2c06304269ef",
+			"name": "CoverPlane198",
+			"factory": "[modules:/zcoverplane.class].pc_entitytype",
+			"blueprint": "[modules:/zcoverplane.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.009315509720713069,
+							"y": -0.8556489682342693,
+							"z": 90.37554728755008
+						},
+						"position": {
+							"x": 0.7872279286384583,
+							"y": 0.5501654744148254,
+							"z": 0.1829151064157486
+						}
+					}
+				},
+				"m_fCoverLength": {
+					"type": "float32",
+					"value": 2.458930015563965
+				},
+				"m_fCoverDepth": { "type": "float32", "value": 0.0 },
+				"m_eCoverType": {
+					"type": "ZCoverPlane.ECoverType",
+					"value": "eCoverOnly"
+				},
+				"m_eCoverSize": {
+					"type": "ZCoverPlane.ECoverSize",
+					"value": "eLowCover"
+				},
+				"m_bWindowCover": { "type": "bool", "value": false },
+				"m_bNPCShootOverCover": { "type": "bool", "value": false },
+				"m_bNPCUseCover": { "type": "bool", "value": true },
+				"m_bCornerLeftEnabled": { "type": "bool", "value": true },
+				"m_bCornerRightEnabled": { "type": "bool", "value": true },
+				"m_bHeroPushNPCOverRail": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2c06304269ef",
+					"postInit": true
+				}
+			}
+		},
+		"cafe2c06304269ef": {
+			"parent": "fffffffffffffffe",
+			"name": "Avance_Alpha_1_A_00",
+			"factory": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_alpha_1_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/vehicles/templates/vehicles_france_a.template?/avance_alpha_1_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.975986891651065,
+							"y": -4.982357405796662,
+							"z": -2.049858984144043
+						},
+						"position": {
+							"x": -6.149932861328125,
+							"y": -29.63797950744629,
+							"z": -0.08881500363349915
+						}
+					}
+				},
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#117432"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a3abfc17113fa981",
+						"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+					}
+				}
+			},
+			"events": {
+				"OnExplode": {
+					"SetTrue": [
+						{
+							"ref": "b114005c4fadd11d",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+						}
+					]
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
+				"AudioEmitters": ["fffffffffffffffe"]
+			}
+		},
+		"cafefc2f31e20aec": {
+			"parent": "cafe3776cc065575",
+			"name": "GameplayStart",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_GameplayStart"
+				}
+			},
+			"events": {
+				"EventOccurred": { "TransmitEvent": ["cafe411dc2e4088b"] }
+			}
+		},
+		"cafe411dc2e4088b": {
+			"parent": "cafefc2f31e20aec",
+			"name": "Event Transmitter",
+			"factory": "0037A7E362011A78",
+			"blueprint": "003D29EFE5AC1BCC",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe01295aa0b43e"
+				}
+			}
+		},
+		"cafe01295aa0b43e": {
+			"parent": "cafe411dc2e4088b",
+			"name": "Token Identity",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "Freelancer_Variations_WoT"
+				}
+			}
+		},
+		"cafe3776cc065575": {
+			"parent": "fffffffffffffffe",
+			"name": "Blackmarket Suppliers",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "64f823019e89abfe",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 124.31115 },
+						"position": {
+							"x": 31.079252,
+							"y": 23.317787,
+							"z": 8.548887
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9722d0c01602ea57",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": 146.63301 },
+						"position": {
+							"x": 82.319954,
+							"y": -55.130013,
+							"z": 16.600359
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "59c4c0f8fca5187b",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"VehiclePaintDiffuse": {
+					"type": "SColorRGB",
+					"value": "#117432"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "91535a5cd7c86164",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_targetEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe2c06304269ef"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "79ab1dccea1cc546",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mamba_outfits.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Cop"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "9a85bae66068f686",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "4b1f18f591932403",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "c870d9374661e712",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "551e8f442f49f9a9",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "00c4238edcec397f",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "03b54fec42ebcc3f",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "7e97da44c3e624ee",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "ddcdc386933c106d",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "1b7cf6f051301d79",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "52165daa44460ae7",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "09315ad0403dcd54",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "df7328d121270091",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "e82030951ee3ddb7",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "297e4e7738d5ebfe",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachshop_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "33c5cf36f87c2344",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachshop_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "eea4a79501867a1e",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "3de607af162c746b",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "9722d0c01602ea57",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "64f823019e89abfe",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "94a0d283-bea4-468d-ad8f-ec2735008511"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a61ee06ae71826c7",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe6535aeae78c0"]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "663df7ba53b80e3d",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_ceramicsstore_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe3d53c8696afc"]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "588ce524924a47c8",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_ceramicsstore_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe44dffe3202bd"]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e0498319f083126e",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 171.80465514783774
+						},
+						"position": {
+							"x": 2.278150796890259,
+							"y": 66.41047668457031,
+							"z": 10.493351936340332
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b3c2dbd39685a227",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "9bccfa0b167fb1f3",
+						"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "2fb21bc1d4efdcad",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_townhall_day.brick].pc_entitytype"
+				},
+				{
+					"ref": "cda2f7c62c4a45e8",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "fd56a934-f402-4b52-bdca-8bbc737400ff"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f9f4db0fa928be6d",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_piscosour.brick].pc_entitytype"
+				},
+				{
+					"ref": "58c121b75d763b68",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_piscosour.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALEES02"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "061395967072b20f",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "98ca7baed06a1211",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "0b73f0f796b6e4fb",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "315f9053eeac4cce",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "282743da10fcc29b",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "bb9f00761009c802",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "84250ece6d20c5cd",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "e8f4278e528aa8f1",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "d495bf71693885ab",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "5a0b944e25d79100",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "7af11941c556b8c9",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "64f823019e89abfe",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "babec0aae05acbbc",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_sewers_day.brick].pc_entitytype"
+						},
+						"cafe3d53c8696afc",
+						"cafe44dffe3202bd",
+						"cafe6535aeae78c0",
+						{
+							"ref": "30b684c37207151f",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "e9f78d8bbe4c4e98",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "655b7ffada7a204b",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "75c7345831f2fdb4",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "7e97da44c3e624ee",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "ddcdc386933c106d",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "1b7cf6f051301d79",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "d24ff213665ffa67",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "c3fb4f554799b566",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "4ec00b382279fdd2",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "c5b6b3f4c1ab22c6",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "24d63639d2bb4d31",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "e97cb0112672a95d",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "60dce6fc494391ff",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "e245578b753e1bbf",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "d1d928dca503cf9a",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "29770b259acee9a8",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "68a5a1210f9d75e0",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_smallshops_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "987b0cdfc72234be",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_smallshops_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "6d3d7564a556e46f",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_smallshops_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "825a733c81c3716a",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_smallshops_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "f5b5d4e8fe8524ee",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_smallshops_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "8fd05f60af8a7557",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_morgue_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "1e4345d8bc546a77",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "0f219ee0435019da",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "1123e27c892fef04",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "f602f68692178728",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "11a01a4a1c61a213",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "2fb21bc1d4efdcad",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_townhall_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "376149e1c0b42105",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_townhall_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "44a8e2a59d64d3fc",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "ed7e2d7242db1ee5",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "f53f85087e3b2e07",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "5aaa0e99c74c040f",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "4c4c5e5bf1c27a18",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "bf60006a5e142bfd",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "85ba39d3b9e70088",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "9057d921d46338f8",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "993f7b81f599ef57",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "26d6172097fca1cb",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+						},
+						{
+							"ref": "7cf7688d34733f49",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+						},
+						{
+							"ref": "d76936cf04536547",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+						},
+						{
+							"ref": "8bc4dd1f9de5af87",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+						},
+						{
+							"ref": "f0970c248bfd7bc3",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+						},
+						{
+							"ref": "00bccf1f7f801eae",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+						},
+						{
+							"ref": "66f04f571b862d54",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "a086ed75d14d0586",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "b026dc31c468b0af",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "f5ac73b28d020c04",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "e01b796d47e63e03",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "9d92e5c4e570c86b",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "a9a4a4c8ab26fee5",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "4593c5d354fc5e1f",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "3fb88facd195cd03",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+						},
+						{
+							"ref": "501216f8c2fe02cf",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+						},
+						{
+							"ref": "18939481a9606c54",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+						},
+						{
+							"ref": "1930b99466a63eae",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+						},
+						{
+							"ref": "1e8ce6a700aa7862",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+						},
+						{
+							"ref": "73950f139adc0e98",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+						},
+						{
+							"ref": "5173e7a911b59690",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "4c84df73564ec845",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "70f4ee0223221360",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "f72dbf26111659c1",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "8e3fe805a5ee9e01",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "278ff646f512b53b",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "d4d087d6e50955c3",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "91fb623e1c2121bf",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "f07c75007bd37e00",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "5add676f7ef66449",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+						},
+						{
+							"ref": "ee847883f9aa15c6",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "c9ded05a67ebe70b",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "58c121b75d763b68",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_piscosour.brick].pc_entitytype"
+						},
+						{
+							"ref": "54494f206aa61eac",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_quadruplerumandcoke.brick].pc_entitytype"
+						},
+						{
+							"ref": "f7a01a6b7732bbe5",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_quadruplerumandcoke.brick].pc_entitytype"
+						},
+						{
+							"ref": "3de607af162c746b",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "10cec2c65f72fee8",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "b43d59c9b2d47f03",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "adb3033a8a5dcf9c",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "48889f4bdcf8f346",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "c5900c4507df86d1",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "4559fa27ef0a3ad5",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "696d8f235556e374",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "9218bce893e8ca67",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "a85a27e6702c4ec1",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "44752eb0f9a11a44",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "750e5d96306d9353",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "6b59153df63484c3",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "0dbbc35ec8949506",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+						},
+						{
+							"ref": "913f4f2c2df2feb7",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "a0a21a86d45ca1d1",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "579753e9e5091542",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "484c149bbbf34747",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "a7337d652d8e1478",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "8a73c205c4795263",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "6afa1c50e26198b4",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "578582bdcd3c4407",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "fd6e378953306aba",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "5acf075e3ba7603",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "3f1fca22325f2af5",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "4bf4c25d1a6651ae",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "b210dca38acc9b1a",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "753e250c0d7ce218",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "3ccc05c0250a9972",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "1d4ee2599e324045",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "7590b4599efd4704",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "2cfe39eddb8a52ef",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "2ca3f83b0f2e97a9",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "155bb4babfe2d68c",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "eae902af0afc8c4b",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype"
+						},
+						{
+							"ref": "ccbc0dd8f892c2e5",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_sazerac.brick].pc_entitytype"
+						},
+						{
+							"ref": "ab833bb72534da0a",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_sazerac.brick].pc_entitytype"
+						},
+						{
+							"ref": "6522e04a17d72034",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_sazerac.brick].pc_entitytype"
+						},
+						{
+							"ref": "739bd8ed30a15988",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "f2903b900cc7763e",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+						},
+						{
+							"ref": "459d500217e1f390",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mintjulep.brick].pc_entitytype"
+						},
+						{
+							"ref": "cf0b605f8106cd94",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mintjulep.brick].pc_entitytype"
+						},
+						{
+							"ref": "a9db12652c5204e0",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mintjulep.brick].pc_entitytype"
+						},
+						{
+							"ref": "573a1cc2f857852b",
+							"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mintjulep.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c20a31cb7e091436",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "b0ea55163865e871",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+				},
+				{
+					"ref": "90cb9e17f0e3dedc",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false },
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c6eea3bb71b8bd43",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+				},
+				{
+					"ref": "e03979ab2a7bc928",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+				},
+				{
+					"ref": "b0fa415803376777",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "eefbaee27fcd2b03",
+					"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_EnableConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "13fdfbafed41a220",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+		},
+		{
+			"ref": "fb95a309c2871fca",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "cbefcb5fdd543047",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "e90ad5571b190875",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+		},
+		{
+			"ref": "8fe2f4f3497e714b",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+		},
+		{
+			"ref": "d6518c12359e84f1",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_ceramicsstore_day.brick].pc_entitytype"
+		},
+		{
+			"ref": "d80238fddc675470",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+		},
+		{
+			"ref": "1cfff86be21b6e12",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype"
+		},
+		{
+			"ref": "edc69ad02d59f31c",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+		},
+		{
+			"ref": "4ad16e2b68134ae3",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+		},
+		{
+			"ref": "d39b01b4311fe037",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype"
+		},
+		{
+			"ref": "691f68142bd89e3f",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_piscosour.brick].pc_entitytype"
+		},
+		{
+			"ref": "22748b9b1e9a1162",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_piscosour.brick].pc_entitytype"
+		},
+		{
+			"ref": "ea01e1a59789652f",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_piscosour.brick].pc_entitytype"
+		},
+		{
+			"ref": "6c66665dc70765c1",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_piscosour.brick].pc_entitytype"
+		},
+		{
+			"ref": "751eb623229cc0d1",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_quadruplerumandcoke.brick].pc_entitytype"
+		},
+		{
+			"ref": "634072b84de95efe",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_quadruplerumandcoke.brick].pc_entitytype"
+		},
+		{
+			"ref": "320014fec647a719",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_quadruplerumandcoke.brick].pc_entitytype"
+		},
+		{
+			"ref": "a38a65a9d87243d4",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_quadruplerumandcoke.brick].pc_entitytype"
+		},
+		{
+			"ref": "a97adc6142e438cd",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_quadruplerumandcoke.brick].pc_entitytype"
+		},
+		{
+			"ref": "f87dfc2d7658be79",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_sazerac.brick].pc_entitytype"
+		},
+		{
+			"ref": "e0c739174e6d4e89",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_sazerac.brick].pc_entitytype"
+		},
+		{
+			"ref": "8ca3e8c23e81de9b",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_sazerac.brick].pc_entitytype"
+		},
+		{
+			"ref": "2db7518965a763c9",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mintjulep.brick].pc_entitytype"
+		},
+		{
+			"ref": "46c74cad97faba50",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mintjulep.brick].pc_entitytype"
+		},
+		{
+			"ref": "f1f52b5c7a551412",
+			"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/mission_mintjulep.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/coastaltown/mission_piscosour.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/mission_harveywallbanger.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/mission_quadruplerumandcoke.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/mission_sazerac.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/mission_mild_bingo.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/mission_mintjulep.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_bakery_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_townhall_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_apartments_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_morgue_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_smallshops_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_ceramicsstore_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_sewers_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/mamba_outfits.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beach_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachshop_day.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/tod_wot_sunset.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

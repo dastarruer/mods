@@ -1,0 +1,334 @@
+{
+	"tempHash": "008CDE1D57EDF6C9",
+	"tbluHash": "008CA7D50BEABCE6",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b903fe02330c7e8a",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									"d8067878b456f262"
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									"ef0789f28fd24a2f"
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									"df1f4f22d731d3c7"
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "e4e18e710bdb2475",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "3eade85204b4d330",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "4d328153e4644df3",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "d714b787b9b58712",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "138fd53d4001f260",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "55441d882f048947",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "139be59d891e26d9",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "4a1ba5b1f666024a",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "2d83244099fe49fc",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "81ec34281885424e",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "889875c4de32d2ff",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "ede697badf974d1b",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "aa24d40dfe2af842",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "f6da96d86596c42a",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "76644344d7e42d9b",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "6e614185882e6383",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "60e2470873924c8f",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "aaa366a0db4a0a0b",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "8950013bf4ca70a2",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "5be971fb5627024d",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "47cce60d8f5f0d96",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "fc047b303fad9c30",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "1f31ca4c1aa0cadb",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "25ebec9906c08202",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									},
+									{
+										"ref": "553858be3285d236",
+										"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

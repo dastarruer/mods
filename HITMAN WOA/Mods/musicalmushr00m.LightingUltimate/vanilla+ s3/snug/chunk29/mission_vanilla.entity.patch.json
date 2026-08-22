@@ -1,0 +1,37 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"65cb0f19f187d34f",
+				{ "SetPropertyValue": { "property_name": "m_bHDRLensFlareEnabled", "value": false } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"65cb0f19f187d34f",
+				{ "SetPropertyValue": { "property_name": "m_bNoiseEnabled", "value": false } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"65cb0f19f187d34f",
+				{ "SetPropertyValue": { "property_name": "m_fNoiseScale", "value": 0 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"65cb0f19f187d34f",
+				{ "SetPropertyValue": { "property_name": "m_fHDRBloomScale", "value": 0.4 } }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"65cb0f19f187d34f",
+				{ "SetPropertyValue": { "property_name": "m_bVignetteEnabled", "value": false } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

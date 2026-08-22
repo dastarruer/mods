@@ -1,0 +1,16 @@
+{
+	"tempHash": "00496CCC247E5708",
+	"tbluHash": "009B2FAFF58E3114",
+	"patch": [
+		{ "SubEntityOperation": ["76ee97e63b3eb15a", { "SetName": "Agent47_Gloves_Driving" }] },
+		{ "SubEntityOperation": ["76ee97e63b3eb15a", { "SetFactory": "008897FB54E3DB82" }] },
+		{ "SubEntityOperation": ["76ee97e63b3eb15a", { "SetBlueprint": "00F716010CB776C3" }] },
+		{
+			"SubEntityOperation": [
+				"76ee97e63b3eb15a",
+				{ "SetPropertyValue": { "property_name": "Diffuse_Color_01_Value", "value": "#3b3b3b" } }
+			]
+		}
+	],
+	"patchVersion": 6
+}

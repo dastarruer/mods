@@ -1,0 +1,790 @@
+{
+	"tempHash": "00B4DA544A107E74",
+	"tbluHash": "00B902149E100490",
+	"patch": [
+		{ "RemoveEntityByID": "f96dcba4265300" },
+		{ "RemoveEntityByID": "fba41c58338ce6d" },
+		{ "RemoveEntityByID": "877aa3877be0402" },
+		{ "RemoveEntityByID": "44deaa4e44d466a" },
+		{ "RemoveEntityByID": "d65cc8da4f2baf4" },
+		{ "RemoveEntityByID": "a605dd488dc76a5" },
+		{ "RemoveEntityByID": "2b557aaac86f7a3" },
+		{ "RemoveEntityByID": "8743e03760245b7" },
+		{ "RemoveEntityByID": "8d3f13d43c40dc5" },
+		{ "RemoveEntityByID": "1ef29a5f34ca7cb" },
+		{ "RemoveEntityByID": "705bdbdf0f15e61" },
+		{ "RemoveEntityByID": "5c879ef29697297" },
+		{ "RemoveEntityByID": "9117cb66727eeda" },
+		{
+			"AddEntity": [
+				"00f96dcba4265300",
+				{
+					"parent": "7c3c167bb65b6c2d",
+					"name": "Act_MR_Guard_Stand_HandsCrossed",
+					"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_handscrossed.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_handscrossed.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 94.20837542959184 },
+								"position": { "x": -69.90267944335938, "y": 15.72212028503418, "z": 5 }
+							}
+						},
+						"m_fActTimeout": { "type": "float32", "value": 7 },
+						"m_pActor": { "type": "SEntityTemplateReference", "value": "90ac59c3d4e8d512", "postInit": true },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+					},
+					"events": { "OnActTimeout": { "Start": ["9a35b228a34b5fdd"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"0fba41c58338ce6d",
+				{
+					"parent": "f5e9ced234b16994",
+					"name": "Act_MR_Stand_Lean_Smoke_Rail",
+					"factory": "0027F6E5D5DE6D6D",
+					"blueprint": "0092D707F77431A4",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": -0.4365407710159891 },
+								"position": { "x": 42.01211929321289, "y": 13.749560356140137, "z": 6 }
+							}
+						},
+						"m_pActor": { "type": "SEntityTemplateReference", "value": "4036adb0104e29b1", "postInit": true },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+					},
+					"events": { "OnActTimeout": { "Start": ["6bc2861f6aa9b308"] } },
+					"subsets": { "Replicable": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{ "SubEntityOperation": ["c01129915637ef16", { "RemoveEventConnection": ["Out", "SetTrue", "877aa3877be0402"] }] },
+		{ "SubEntityOperation": ["c01129915637ef16", { "AddEventConnection": ["Out", "SetTrue", "0877aa3877be0402"] }] },
+		{
+			"SubEntityOperation": [
+				"bd11a81ab1deec6c",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_rSetPiece",
+						"value": {
+							"ref": "02b557aaac86f7a3",
+							"externalScene": null,
+							"exposedEntity": "SetPieceHelpers_PoisonSource"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"49e428ebf27879d8",
+				{ "RemoveEventConnection": ["OnActTimeout", "Start", "705bdbdf0f15e61"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"49e428ebf27879d8",
+				{ "AddEventConnection": ["OnActTimeout", "Start", "0705bdbdf0f15e61"] }
+			]
+		},
+		{
+			"AddEntity": [
+				"0877aa3877be0402",
+				{
+					"parent": "f5e9ced234b16994",
+					"name": "ValueBool_Basic",
+					"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{ "SubEntityOperation": ["79c4f1bf8c549c98", { "SetParent": "0a605dd488dc76a5" }] },
+		{
+			"AddEntity": [
+				"044deaa4e44d466a",
+				{
+					"parent": "7504826713191715",
+					"name": "VoidSignalOnce_Simple",
+					"factory": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/logic/signalpipes.template?/voidsignalonce_simple.entitytemplate].pc_entityblueprint",
+					"events": { "Out": { "spawnItem": ["b3a9eefe8f730b1f"] } }
+				}
+			]
+		},
+		{ "SubEntityOperation": ["eea89bc1640ec5fe", { "SetParent": "0a605dd488dc76a5" }] },
+		{
+			"SubEntityOperation": [
+				"eea89bc1640ec5fe",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aValues",
+						[
+							{
+								"RemoveItemByValue": {
+									"ref": "32e0e7336a57ad9",
+									"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype",
+									"exposedEntity": "exitActivated"
+								}
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "c2af8a66b31a45e4",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									},
+									{
+										"ref": "032e0e7336a57ad9",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype",
+										"exposedEntity": "exitActivated"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{ "SubEntityOperation": ["662f9b969fda632a", { "SetParent": "0a605dd488dc76a5" }] },
+		{
+			"AddEntity": [
+				"0d65cc8da4f2baf4",
+				{
+					"parent": "3eb00c5bf61c6085",
+					"name": "Act_MR_Sit_Smoke_Vape",
+					"factory": "[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_mr_sit_smoke_vape.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/acts/levels/hokkaido.template?/act_mr_sit_smoke_vape.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 179.63737259115842 },
+								"position": { "x": -26.7930908203125, "y": 62.22584915161133, "z": 4.949999809265137 }
+							}
+						},
+						"m_fActTimeout": { "type": "float32", "value": 15 },
+						"m_pActor": { "type": "SEntityTemplateReference", "value": "9ce14e6daae051b4", "postInit": true },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+					},
+					"events": { "OnActTimeout": { "Done": ["5e1db0c68b7d1f2b"] } },
+					"subsets": { "Replicable": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"0a605dd488dc76a5",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "Mission mild Solitaire",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a792826c7358df27",
+				{ "RemoveEventConnection": ["OnActTimeout", "Done", "5c879ef29697297"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"a792826c7358df27",
+				{ "AddEventConnection": ["OnActTimeout", "Done", "05c879ef29697297"] }
+			]
+		},
+		{ "SubEntityOperation": ["b73f66b84ca3025c", { "RemoveEventConnection": ["OnStart", "Start", "f96dcba4265300"] }] },
+		{ "SubEntityOperation": ["b73f66b84ca3025c", { "AddEventConnection": ["OnStart", "Start", "00f96dcba4265300"] }] },
+		{
+			"AddEntity": [
+				"02b557aaac86f7a3",
+				{
+					"parent": "3e32d69b154c535e",
+					"name": "SetPiece_Trap_Poison_100cm",
+					"factory": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_100cm.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/setpieces/setpieces_traps.template?/setpiece_trap_poison_100cm.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 66.880894404485 },
+								"position": { "x": -49.85309982299805, "y": 2.3189148902893066, "z": 4.6686248779296875 }
+							}
+						},
+						"m_sId": { "type": "ZGuid", "value": "7ea9cbfe-2b35-444c-98dc-5e2e7f01ac66" },
+						"m_aUIHighlightGeom": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								{
+									"ref": "6ecff2e236465cd1",
+									"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+								}
+							]
+						},
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" },
+						"m_aConditions": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["ef7c8361f1ae5e89"],
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{ "SubEntityOperation": ["5342f59d46ca096d", { "SetParent": "0a605dd488dc76a5" }] },
+		{ "SubEntityOperation": ["3be4bfbf1d5f7736", { "RemoveEventConnection": ["OnStart", "Start", "1ef29a5f34ca7cb"] }] },
+		{ "SubEntityOperation": ["3be4bfbf1d5f7736", { "AddEventConnection": ["OnStart", "Start", "01ef29a5f34ca7cb"] }] },
+		{
+			"SubEntityOperation": [
+				"90ac59c3d4e8d512",
+				{ "SetPropertyValue": { "property_name": "m_rActorProvider", "value": "08d3f13d43c40dc5" } }
+			]
+		},
+		{ "SubEntityOperation": ["7b246b50cd81d75c", { "SetParent": "0a605dd488dc76a5" }] },
+		{
+			"SubEntityOperation": [
+				"7b246b50cd81d75c",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"RemoveItemByValue": {
+									"ref": "ee6f031fec5376a",
+									"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+								}
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "293a070ccd6b3f6f",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									},
+									{
+										"ref": "0ee6f031fec5376a",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{ "RemoveItemByValue": "8743e03760245b7" },
+							{ "AddItemAfter": ["2a2354f5f9b6bef6", "08743e03760245b7"] },
+							{ "RemoveItemByValue": "8d3f13d43c40dc5" },
+							{ "AddItemAfter": ["bd7e5374f0c84e7e", "08d3f13d43c40dc5"] },
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "671eca7825738d23",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "5e81a9fe71807bf7",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "5eb34d5e7e4deb9f",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "239d82693e24ae21",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "d4b9249b6af1f765",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "e89b8cb3b09b1846",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "74c6d282e6fbb004",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "2fb46aaa8794af75",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "cd3bfdd3a0c3dcec",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "86e7a965c9b2e856",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "04fee80456be1988",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "7577190227cc620b",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "096ac94c29a91a5c",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "30635c9cce951e78",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "b5e03fb9c9915e3b",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "e19b69da19d6c0e4",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "31fbf1a42a2f3d68",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "c071d46c75ba13f3",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "31767a3a358ac2cb",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "4920d582e8da67f0",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "b901f648ba1ea70d",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "6a749af2b37a345d",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "cb4c45808efb932b",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "73ac2b4f08bc911e",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "b0c19ad27f43b9f8",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "c123abd06d0201a7",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "9506d32e028020d7",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "38d1311752e64a1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "927a22c0446e6d06",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "bebb0d1c20b251ed",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "a500644ea9979f44",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "c428d98ae299b9c0",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "171063ab1e378fcc",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "d44868a43fe7bebb",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "9a2afff6c42737a6",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"ed7fff52dcb38be1",
+									{
+										"ref": "06bf0950057a0aad",
+										"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{ "SubEntityOperation": ["e0566a876424cf65", { "SetParent": "0a605dd488dc76a5" }] },
+		{
+			"SubEntityOperation": ["d375d05a48dbf8b0", { "RemoveEventConnection": ["OnStart", "Signal", "44deaa4e44d466a"] }]
+		},
+		{ "SubEntityOperation": ["d375d05a48dbf8b0", { "AddEventConnection": ["OnStart", "Signal", "044deaa4e44d466a"] }] },
+		{
+			"SubEntityOperation": [
+				"e263b343d8d82552",
+				{ "SetPropertyValue": { "property_name": "m_rActorProvider", "value": "08743e03760245b7" } }
+			]
+		},
+		{ "SubEntityOperation": ["15043c6fb23e14f2", { "RemoveEventConnection": ["OnStart", "Start", "9117cb66727eeda"] }] },
+		{ "SubEntityOperation": ["15043c6fb23e14f2", { "AddEventConnection": ["OnStart", "Start", "09117cb66727eeda"] }] },
+		{
+			"SubEntityOperation": [
+				"e87dfc73fdf2cf46",
+				{ "RemoveEventConnection": ["OnActTimeout", "Start", "d65cc8da4f2baf4"] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"e87dfc73fdf2cf46",
+				{ "AddEventConnection": ["OnActTimeout", "Start", "0d65cc8da4f2baf4"] }
+			]
+		},
+		{ "SubEntityOperation": ["cd9767fd54fb018b", { "SetParent": "0a605dd488dc76a5" }] },
+		{
+			"AddEntity": [
+				"08743e03760245b7",
+				{
+					"parent": "cd9767fd54fb018b",
+					"name": "NPC_4",
+					"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 158.2077624744096 },
+								"position": { "x": 60.04328918457031, "y": -58.81745147705078, "z": 5 }
+							}
+						},
+						"RepositoryId": { "type": "ZGuid", "value": "76a3b402-d021-4cab-ab42-28bdbace04ae" },
+						"m_OutfitRepositoryID": { "type": "ZGuid", "value": "699ce756-8eef-4a6e-bc65-264d0e763fde" },
+						"m_nOutfitVariation": { "type": "int32", "value": 1 },
+						"m_sActorName": { "type": "ZString", "value": "Brandon Snipes" },
+						"m_bStartEnabled": { "type": "bool", "value": false },
+						"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE03" },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"08d3f13d43c40dc5",
+				{
+					"parent": "cd9767fd54fb018b",
+					"name": "NPC_9",
+					"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 98.21945289166021 },
+								"position": { "x": -117.32489776611328, "y": 15.807510375976563, "z": 4.946442127227783 }
+							}
+						},
+						"RepositoryId": { "type": "ZGuid", "value": "4122a8f4-bb2f-4341-b0f3-1491a069fffe" },
+						"m_OutfitRepositoryID": { "type": "ZGuid", "value": "078a5c70-737c-48b7-a190-b356438419b4" },
+						"m_nOutfitVariation": { "type": "int32", "value": 3 },
+						"m_sActorName": { "type": "ZString", "value": "Gabriel Silk" },
+						"m_bStartEnabled": { "type": "bool", "value": false },
+						"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE11" },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f86658930110bd5f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aConditions",
+						[{ "RemoveItemByValue": "877aa3877be0402" }, { "AddItem": "0877aa3877be0402" }]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"01ef29a5f34ca7cb",
+				{
+					"parent": "354ff4614b4f81a3",
+					"name": "Act_FR_Sit_Chair_Basic_Watch_TV",
+					"factory": "00A2F4C071DDACDB",
+					"blueprint": "000EAE8B38F65CFB",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": -2.0339117368687907 },
+								"position": { "x": -84.89745330810547, "y": -50.835201263427734, "z": 5.026607990264893 }
+							}
+						},
+						"m_fActTimeout": { "type": "float32", "value": 30 },
+						"m_pActor": { "type": "SEntityTemplateReference", "value": "b14f2fd6c185e5dc", "postInit": true },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+					},
+					"events": { "OnActTimeout": { "Start": ["d48b267248478fec"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"0705bdbdf0f15e61",
+				{
+					"parent": "f076559f0298baa3",
+					"name": "Act_MR_Stand_Piss",
+					"factory": "0054AB8CDEE8D60B",
+					"blueprint": "002EC1A1956C3D39",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 27.760190417527138 },
+								"position": { "x": -34.45484924316406, "y": 21.1807804107666, "z": 5 }
+							}
+						},
+						"m_pActor": { "type": "SEntityTemplateReference", "value": "261286f6a6c1158f", "postInit": true },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+					},
+					"events": { "OnActTimeout": { "Done": ["a8ae15dcd64243ae"] } },
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"05c879ef29697297",
+				{
+					"parent": "3e32d69b154c535e",
+					"name": "DramaSituationProxy",
+					"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "3e32d69b154c535e" }
+					},
+					"events": { "OnStart": { "Start": ["bd11a81ab1deec6c"], "Signal": ["71a1fcde345ffcbd"] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"09117cb66727eeda",
+				{
+					"parent": "f5e9ced234b16994",
+					"name": "Act_MR_Stand_LookAtScreen_Pace",
+					"factory": "00E6BA854EB846E2",
+					"blueprint": "000766FC88496B74",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": -102.76260131920932 },
+								"position": { "x": 49.3114013671875, "y": 21.03342056274414, "z": 6 }
+							}
+						},
+						"m_pActor": { "type": "SEntityTemplateReference", "value": "4036adb0104e29b1", "postInit": true },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+					},
+					"events": { "OnActTimeout": { "Start": ["0fba41c58338ce6d"] } }
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

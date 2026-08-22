@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "006FF49E400A97CA",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43758_clnprsntrevealno47_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43758_clnprsntrevealno47_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43758_clnprsntrevealno47_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,1.3)\\\\47?//(1.3,6.55)\\\\Valliant has presented his plan to Pritchard and it's worse than we thought.//(6.55,11.3)\\\\He has successfully created a clone army of himself.//(11.3,41.3)\\\\Please standby for further instructions.",
+			"fr": "//(0,1.3)\\\\Écoutez bien, 47.//(1.3,11.3)\\\\Valliant a présenté son plan à Pritchard, et la situation est grave : il a réussi à créer une armée de clones à son image.//(11.3,41.3)\\\\Tenez-vous prêt pour de nouvelles instructions.",
+			"it": "//(0,1.3)\\\\47?//(1.3,6.65)\\\\Valliant ha esposto il suo piano a Pritchard ed è peggio di quanto immaginassimo.//(6.65,11.3)\\\\È riuscito a clonare sé stesso, creando un esercito di persone uguali a lui.//(11.3,41.3)\\\\Resta in attesa di ulteriori istruzioni.",
+			"de": "//(0,6.5)\\\\47? Valliant hat Pritchard seinen Plan vorgestellt, und der ist schlimmer, als ich dachte.//(6.5,11.3)\\\\Ihm ist es gelungen, eine Klon-Armee von sich zu erschaffen.//(11.3,41.3)\\\\Bitte halten Sie sich bereit für weitere Anweisungen.",
+			"es": "//(0,6.35)\\\\47, Valliant le ha contado su plan a Pritchard y es peor de lo que pensábamos.//(6.8,10.88)\\\\Ha logrado crear un ejército de clones de sí mismo.//(11.43,41.43)\\\\Espera nuevas instrucciones.",
+			"ru": "//(0,1.3)\\\\47-й,//(1.3,6.55)\\\\Вальян представил свой план Притчарду, и ситуация хуже, чем мы предполагали.//(6.55,11.3)\\\\Ему удалось создать целую армию своих клонов.//(11.3,41.3)\\\\Жди дальнейших указаний.",
+			"cn": "//(0,1.3)\\\\47？//(1.3,6.55)\\\\瓦兰特已经向普里查德展示了他的计划，这比我们想象的还要糟。//(6.55,11.3)\\\\他成功制造了他自己的一支克隆体大军。//(11.3,41.3)\\\\请暂且待命，等待进一步指示。",
+			"tc": "//(0,6.7)\\\\47？瓦里安把計畫告訴普里查了，情況比我們想的還要嚴重。//(6.7,36.7)\\\\他成功創造了一支自己的複製人大軍，在收到進一步指示前先待命。",
+			"jp": "//(0,6.59)\\\\47？ヴァリアントはプリチャードに計画を話したんだけど、想像以上に危険なものだったわ。//(6.59,11)\\\\彼は自分のクローン軍団を作ることに成功したの。//(11,41)\\\\次の指示が来るまで待機してて。"
+		}
+	}
+}

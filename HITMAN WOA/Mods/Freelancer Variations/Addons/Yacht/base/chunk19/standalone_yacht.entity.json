@@ -1,0 +1,218 @@
+{
+	"tempHash": "00BC3035FF98493E",
+	"tbluHash": "00DA890223731A1A",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "cafe303f2f4be58f",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": -183.5689239501953,
+							"y": 158.2093963623047,
+							"z": -0.002993166446685791
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "abcd60502f7a398c",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0, "z": -149.7599 },
+						"position": {
+							"x": -60.65183,
+							"y": 8.699393,
+							"z": -104.24
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "abcd26812e1eae0e",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -79.87462,
+							"y": -52.608803,
+							"z": -92.15079
+						},
+						"position": {
+							"x": 20.03211,
+							"y": -3.301654,
+							"z": 22.25929
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "fffffffffffffffe",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "fffffffffffffffe",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": {
+							"x": -218.93112,
+							"y": 164.257396,
+							"z": 0.47924766
+						}
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "368e359b84e12686",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "efbba3c869ffb7c9",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "ab6426812c1c4c63",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "619a84a2f55f8689",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "0cc69071ac5c420a",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "d32ce3b9f42a96d8",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "56122da1021728a2",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "5debb9bd3a6c916c",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "f7a2d138ea8b0e91",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "84fb369f47af7406",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "d015aec3b1c79106",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "31541316b03e8f89",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "eb28ceaef80a328a",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "6f2989ead52a5f3b",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "06b4e1fb8d4f23d3",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "994f6932e339df04",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "cb9ecea2bda3dc47",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "3c7365b74e406107",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "02205c7a9f84abff",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "f6a58e3972a75171",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ee306cb6f047ad9",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "8e03a77eab32bb95",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		},
+		{
+			"ref": "0a16f956120443f3",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/miami_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

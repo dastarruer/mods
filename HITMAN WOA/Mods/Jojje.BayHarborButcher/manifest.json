@@ -1,0 +1,596 @@
+{
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"id": "Jojje.BayHarborButcher",
+	"name": "Bay Harbor Butcher",
+	"description": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.33.23",
+	"version": "1.1.0",
+	"contentFolders": ["base"],
+	"dependencies": [
+		{
+			"runtimeID": "00C799CFED86ED82",
+			"portFromChunk1": true
+		}
+	],
+	"options": [
+		{
+			"group": "Replace",
+			"name": "Peacock Addon (Challenge)",
+			"type": "select",
+			"tooltip": "Install the suit to your game as an addon without replacing existing suits. You will need to complete the Miami, The Finish Line assassination challenge \"Tonight's The Night\" to unlock the suit. This will only work if you're playing with Peacock.",
+			"enabledByDefault": true,
+			"contentFolders": ["replace/addon"],
+			"blobsFolders": ["blobs/addon"],
+			"localisedLines": {
+				"00BE1E1E1BBDFA0B": "UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME",
+				"0046FE38A057AF37": "UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Bay Harbor Butcher",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_NAME": "Tonight's The Night",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_DESC": "<li>Eliminate a target with a knife while wearing your suit.</li><li>No bodies found.</li>"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Le Boucher de Bay Harbor",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants.",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_NAME": "Ce Soir, C'est Le Grand Soir",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_DESC": "<li>Éliminez une cible avec un couteau dans votre tenue.</li><li>Aucun corps trouvé.</li>"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Il Macellaio di Bay Harbor",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente.",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_NAME": "Stanotte è La Notte",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_DESC": "<li>Elimina un bersaglio con un coltello mentre indossi il tuo abito.</li><li>Nessun corpo dev'essere rinvenuto.</li>"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Bay Harbor-Metzger",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird.",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_NAME": "Heute Nacht ist Die Nacht",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_DESC": "<li>Eliminieren Sie ein Ziel mit einem Messer, während Sie Ihren Anzug tragen.</li><li>Verstecken Sie alle Körper.</li>"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Carnicero de la Bahía",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas.",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_NAME": "Esta Noche, Es La Noche",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_DESC": "<li>Elimina a un objetivo con un cuchillo con el traje puesto.</li><li>Que no descubran cuerpos.</li>"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Мясника из Бэй-Харбор",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки.",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_NAME": "Сегодня та самая ночь",
+					"UI_CHALLENGES_BAY_HARBOR_BUTCHER_TONIGHTS_THE_NIGHT_DESC": "<li>Убейте цель с помощью ножа, не меняя костюм.</li><li>Тела не должны найти.</li>"
+				}
+			},
+			"peacockPlugins": ["replace/addon_challenge/BayHarborButcher.plugin.js"]
+		},
+		{
+			"group": "Replace",
+			"name": "Peacock Addon (Unlocked)",
+			"type": "select",
+			"tooltip": "Install the suit to your game as an addon without replacing existing suits. Unlocked from the start, you won't need to complete a challenge to use it. This will only work if you're playing with Peacock.",
+			"contentFolders": ["replace/addon", "replace/addon_nochallenge"],
+			"blobsFolders": ["blobs/addon"],
+			"localisedLines": {
+				"00BE1E1E1BBDFA0B": "UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME",
+				"0046FE38A057AF37": "UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Bay Harbor Butcher",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody."
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Le Boucher de Bay Harbor",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants."
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Il Macellaio di Bay Harbor",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente."
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Bay Harbor-Metzger",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird."
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Carnicero de la Bahía",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas."
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME": "Мясника из Бэй-Харбор",
+					"UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки."
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/bangkok"],
+			"blobsFolders": ["blobs/bangkok"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
+						"4086875141": "Bay Harbor Butcher"
+					},
+					"french": {
+						"2741280242": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants.",
+						"4086875141": "Le Boucher de Bay Harbor"
+					},
+					"italian": {
+						"2741280242": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente.",
+						"4086875141": "Il Macellaio di Bay Harbor"
+					},
+					"german": {
+						"2741280242": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird.",
+						"4086875141": "Bay Harbor-Metzger"
+					},
+					"spanish": {
+						"2741280242": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas.",
+						"4086875141": "Carnicero de la Bahía"
+					},
+					"russian": {
+						"2741280242": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки.",
+						"4086875141": "Мясника из Бэй-Харбор"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/sapienza"],
+			"blobsFolders": ["blobs/sapienza"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
+						"3648979387": "Bay Harbor Butcher"
+					},
+					"french": {
+						"3346035357": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants.",
+						"3648979387": "Le Boucher de Bay Harbor"
+					},
+					"italian": {
+						"3346035357": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente.",
+						"3648979387": "Il Macellaio di Bay Harbor"
+					},
+					"german": {
+						"3346035357": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird.",
+						"3648979387": "Bay Harbor-Metzger"
+					},
+					"spanish": {
+						"3346035357": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas.",
+						"3648979387": "Carnicero de la Bahía"
+					},
+					"russian": {
+						"3346035357": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки.",
+						"3648979387": "Мясника из Бэй-Харбор"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/miami"],
+			"blobsFolders": ["blobs/miami"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Bay Harbor Butcher",
+						"3175901226": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody."
+					},
+					"french": {
+						"1774659088": "Le Boucher de Bay Harbor",
+						"3175901226": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants."
+					},
+					"italian": {
+						"1774659088": "Il Macellaio di Bay Harbor",
+						"3175901226": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente."
+					},
+					"german": {
+						"1774659088": "Bay Harbor-Metzger",
+						"3175901226": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird."
+					},
+					"spanish": {
+						"1774659088": "Carnicero de la Bahía",
+						"3175901226": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas."
+					},
+					"russian": {
+						"1774659088": "Мясника из Бэй-Харбор",
+						"3175901226": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/sanfortuna"],
+			"blobsFolders": ["blobs/sanfortuna"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Bay Harbor Butcher",
+						"3533044117": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody."
+					},
+					"french": {
+						"2978719530": "Le Boucher de Bay Harbor",
+						"3533044117": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants."
+					},
+					"italian": {
+						"2978719530": "Il Macellaio di Bay Harbor",
+						"3533044117": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente."
+					},
+					"german": {
+						"2978719530": "Bay Harbor-Metzger",
+						"3533044117": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird."
+					},
+					"spanish": {
+						"2978719530": "Carnicero de la Bahía",
+						"3533044117": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas."
+					},
+					"russian": {
+						"2978719530": "Мясника из Бэй-Харбор",
+						"3533044117": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": ["replace/summersuave"],
+			"blobsFolders": ["blobs/summersuave"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Bay Harbor Butcher",
+						"2101382595": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody."
+					},
+					"french": {
+						"134957393": "Le Boucher de Bay Harbor",
+						"2101382595": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants."
+					},
+					"italian": {
+						"134957393": "Il Macellaio di Bay Harbor",
+						"2101382595": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente."
+					},
+					"german": {
+						"134957393": "Bay Harbor-Metzger",
+						"2101382595": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird."
+					},
+					"spanish": {
+						"134957393": "Carnicero de la Bahía",
+						"2101382595": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas."
+					},
+					"russian": {
+						"134957393": "Мясника из Бэй-Харбор",
+						"2101382595": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": ["replace/summersightseeing"],
+			"blobsFolders": ["blobs/summersightseeing"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
+						"2814457931": "Bay Harbor Butcher"
+					},
+					"french": {
+						"2627471231": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants.",
+						"2814457931": "Le Boucher de Bay Harbor"
+					},
+					"italian": {
+						"2627471231": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente.",
+						"2814457931": "Il Macellaio di Bay Harbor"
+					},
+					"german": {
+						"2627471231": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird.",
+						"2814457931": "Bay Harbor-Metzger"
+					},
+					"spanish": {
+						"2627471231": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas.",
+						"2814457931": "Carnicero de la Bahía"
+					},
+					"russian": {
+						"2627471231": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки.",
+						"2814457931": "Мясника из Бэй-Харбор"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": ["replace/casualundercover"],
+			"blobsFolders": ["blobs/casualundercover"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Bay Harbor Butcher",
+						"3635577953": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody."
+					},
+					"french": {
+						"2052724919": "Le Boucher de Bay Harbor",
+						"3635577953": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants."
+					},
+					"italian": {
+						"2052724919": "Il Macellaio di Bay Harbor",
+						"3635577953": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente."
+					},
+					"german": {
+						"2052724919": "Bay Harbor-Metzger",
+						"3635577953": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird."
+					},
+					"spanish": {
+						"2052724919": "Carnicero de la Bahía",
+						"3635577953": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas."
+					},
+					"russian": {
+						"2052724919": "Мясника из Бэй-Харбор",
+						"3635577953": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": ["replace/midnightblack"],
+			"blobsFolders": ["blobs/midnightblack"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
+						"2762453674": "Bay Harbor Butcher"
+					},
+					"french": {
+						"972885031": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants.",
+						"2762453674": "Le Boucher de Bay Harbor"
+					},
+					"italian": {
+						"972885031": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente.",
+						"2762453674": "Il Macellaio di Bay Harbor"
+					},
+					"german": {
+						"972885031": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird.",
+						"2762453674": "Bay Harbor-Metzger"
+					},
+					"spanish": {
+						"972885031": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas.",
+						"2762453674": "Carnicero de la Bahía"
+					},
+					"russian": {
+						"972885031": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки.",
+						"2762453674": "Мясника из Бэй-Харбор"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": ["replace/marrakesh"],
+			"blobsFolders": ["blobs/marrakesh"],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Bay Harbor Butcher",
+						"4241939803": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody."
+					},
+					"french": {
+						"1490534793": "Le Boucher de Bay Harbor",
+						"4241939803": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants."
+					},
+					"italian": {
+						"1490534793": "Il Macellaio di Bay Harbor",
+						"4241939803": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente."
+					},
+					"german": {
+						"1490534793": "Bay Harbor-Metzger",
+						"4241939803": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird."
+					},
+					"spanish": {
+						"1490534793": "Carnicero de la Bahía",
+						"4241939803": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas."
+					},
+					"russian": {
+						"1490534793": "Мясника из Бэй-Харбор",
+						"4241939803": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": ["replace/tropicalsuit"],
+			"blobsFolders": ["blobs/tropicalsuit"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
+						"2347383834": "Bay Harbor Butcher"
+					},
+					"french": {
+						"2053833950": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants.",
+						"2347383834": "Le Boucher de Bay Harbor"
+					},
+					"italian": {
+						"2053833950": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente.",
+						"2347383834": "Il Macellaio di Bay Harbor"
+					},
+					"german": {
+						"2053833950": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird.",
+						"2347383834": "Bay Harbor-Metzger"
+					},
+					"spanish": {
+						"2053833950": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas.",
+						"2347383834": "Carnicero de la Bahía"
+					},
+					"russian": {
+						"2053833950": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки.",
+						"2347383834": "Мясника из Бэй-Харбор"
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": ["replace/smartcasual"],
+			"blobsFolders": ["blobs/smartcasual"],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Bay Harbor Butcher",
+						"678625422": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody."
+					},
+					"french": {
+						"252086724": "Le Boucher de Bay Harbor",
+						"678625422": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants."
+					},
+					"italian": {
+						"252086724": "Il Macellaio di Bay Harbor",
+						"678625422": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente."
+					},
+					"german": {
+						"252086724": "Bay Harbor-Metzger",
+						"678625422": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird."
+					},
+					"spanish": {
+						"252086724": "Carnicero de la Bahía",
+						"678625422": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas."
+					},
+					"russian": {
+						"252086724": "Мясника из Бэй-Харбор",
+						"678625422": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": ["replace/raver"],
+			"blobsFolders": ["blobs/raver"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Bay Harbor Butcher",
+						"4079878924": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody."
+					},
+					"french": {
+						"3362995256": "Le Boucher de Bay Harbor",
+						"4079878924": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants."
+					},
+					"italian": {
+						"3362995256": "Il Macellaio di Bay Harbor",
+						"4079878924": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente."
+					},
+					"german": {
+						"3362995256": "Bay Harbor-Metzger",
+						"4079878924": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird."
+					},
+					"spanish": {
+						"3362995256": "Carnicero de la Bahía",
+						"4079878924": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas."
+					},
+					"russian": {
+						"3362995256": "Мясника из Бэй-Харбор",
+						"4079878924": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки."
+					}
+				}
+			}
+		},
+		{
+			"group": "Replace",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": ["replace/luckyducky"],
+			"blobsFolders": ["blobs/luckyducky"],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2681050670": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
+						"2760943898": "Bay Harbor Butcher"
+					},
+					"french": {
+						"2681050670": "Canalisez Le Passager noir qui sommeille en vous avec ce henley, ce pantalon cargo et ces bottes. Complétez avec une montre élégante et des gants en latex pour les moments les plus sanglants.",
+						"2760943898": "Le Boucher de Bay Harbor"
+					},
+					"italian": {
+						"2681050670": "Sfrutta il Passeggero Oscuro che è in te con questa henley, pantaloni cargo e stivali. Completano il tutto un orologio alla moda e guanti in lattice per le situazioni più cruente.",
+						"2760943898": "Il Macellaio di Bay Harbor"
+					},
+					"german": {
+						"2681050670": "Mit diesem Hemd, der Cargohose und den Stiefeln kannst du deinen inneren Dunklen Passagier verkörpern. Komplett mit stylischer Uhr und Latexhandschuhen, wenn es blutig wird.",
+						"2760943898": "Bay Harbor-Metzger"
+					},
+					"spanish": {
+						"2681050670": "Canaliza tu Oscuro Pasajero interior con esta camiseta, pantalones cargo y botas. Completo con un elegante reloj y guantes de látex para cuando las cosas se pongan sangrientas.",
+						"2760943898": "Carnicero de la Bahía"
+					},
+					"russian": {
+						"2681050670": "Пробудите своего внутреннего Тёмного Пассажира в этой нательной рубашке, брюках-карго и высоких ботинках. В дополнение идут стильные наручные часы и латексные перчатки — на случай, если придётся запачкать руки.",
+						"2760943898": "Мясника из Бэй-Харбор"
+					}
+				}
+			}
+		},
+		{
+			"group": "Gloves",
+			"name": "Bay Harbor Butcher",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Latex gloves. Default.",
+			"image": "bayharborbutcher.jpg"
+		},
+		{
+			"group": "Gloves",
+			"name": "Darkly Dreaming",
+			"type": "select",
+			"tooltip": "Bare hands.",
+			"image": "darklydreaming.jpg",
+			"contentFolders": ["variant/gloves/darklydreaming"]
+		},
+		{
+			"group": "Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"tooltip": "Driving gloves.",
+			"image": "driving.jpg",
+			"contentFolders": ["variant/gloves/driving"]
+		},
+		{
+			"group": "Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"tooltip": "Leather gloves.",
+			"image": "leather.jpg",
+			"contentFolders": ["variant/gloves/leather"]
+		}
+	],
+	"updateCheck": "https://github.com/JojjeE/h3-bayharbor/releases/latest/download/updates.json"
+}

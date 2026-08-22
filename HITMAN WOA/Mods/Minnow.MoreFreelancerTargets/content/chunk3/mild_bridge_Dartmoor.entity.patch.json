@@ -1,0 +1,289 @@
+{
+	"tempHash": "0050299D79861FA5",
+	"tbluHash": "0059CF167A74F26D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b4ead3d8d9214bd5",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									"361a509da58f847c"
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									"6cd23f666b987c72"
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "8a31e173f48c4e25",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "5e7fab0f3fdc1cbc",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "63730d7125802da0",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "8178f7f481f47aa4",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "17df37169aa35694",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "5795e0a0f692d1a1",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "93fcb6eedd11e9e9",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "70782c2e3189fa93",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "64fcf19188ec7275",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "4d6172b72523b898",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "5f97cabd14c5c459",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "4b0450a3f7eb7687",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "a027f265a3140de0",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "b74143d0dcb5d888",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "f601659c0ee943fc",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "7ac34d94fb48190c",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "459d652176c9b596",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "2b0b01b46768bb9b",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "df83b450bf5e8084",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "9187cc59bbfd41e2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "432defd747389fa2",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									},
+									{
+										"ref": "5b908ba4ad817f4f",
+										"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

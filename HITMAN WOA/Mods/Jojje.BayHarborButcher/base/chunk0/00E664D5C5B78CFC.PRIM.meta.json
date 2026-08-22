@@ -1,0 +1,25 @@
+{
+	"hash_value": "00E664D5C5B78CFC",
+	"hash_offset": 41550856,
+	"hash_size": 2147768265,
+	"hash_resource_type": "PRIM",
+	"hash_reference_table_size": 31,
+	"hash_reference_table_dummy": 0,
+	"hash_size_final": 431280,
+	"hash_size_in_memory": 4294967295,
+	"hash_size_in_video_memory": 4294967295,
+	"hash_reference_data": [
+		{
+			"hash": "00F4AD30F2B345EC",
+			"flag": "1F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/individuals/italy/elusive_target_mimosa/materials/male_reg_mimosa_01_sweater_01.mi].pc_mi",
+			"flag": "5F"
+		},
+		{
+			"hash": "[assembly:/_pro/characters/assets/_apparel/accessories/buttons/materials/buttons_03_shirt.mi].pc_mi",
+			"flag": "5F"
+		}
+	]
+}

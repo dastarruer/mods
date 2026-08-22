@@ -1,0 +1,434 @@
+{
+	"tempHash": "00EC6F39AB4C993D",
+	"tbluHash": "00B37E6B96CDA6B1",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2a4c5ae131266493",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									"b9331f5ba04abf55"
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "1e27b3dffd87932b",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "4a7fd7585899709c",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "7780c4acc002299a",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "87ac4e3c0721ecae",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "f419e7c64112f1a3",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "ff48a1e1981ae8f5",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "faf10924699393c1",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "152a7bc0f022bd1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "701143b99762fb21",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "740616aaf65dbbb4",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "75d1c418f19c0030",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "970e1ca9fb9d68f8",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "98eefbb9067073f8",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "650e6e021ad87c71",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "e6f61b04d5288e7b",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "ca62e81457d86fa9",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "f19409b91df0bf47",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "cb4dcd6bddea230c",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "34a884bfa35aa4b8",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "0889020419d47caa",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "e1b0cd2ec1b0b0c6",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "da1f7c42bcdcbd05",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "480650f5213cf871",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "f74a95d33ba140ba",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "5c428b1199facb81",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "b0554f8fdd9cff15",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "57fffdc344691b46",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "7b63855f61221cef",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "f0ed5d2b34be5e1c",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "05ab235fa527da49",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "41596170129fcaad",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "d2435f0b4ad0ba1d",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									},
+									{
+										"ref": "07ff98a2a81ba4f2",
+										"externalScene": "[assembly:/_pro/scenes/missions/rocky/scenario_dugong.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"7e633fe7a11a9a06",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": -25.567556176996774
+							},
+							"position": {
+								"x": -85.70105743408203,
+								"y": 176.29190063476565,
+								"z": 5.155320167541504
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

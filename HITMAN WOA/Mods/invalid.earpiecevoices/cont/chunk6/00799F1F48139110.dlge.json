@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "00799F1F48139110",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43757_missiondone_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43757_missiondone_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43757_missiondone_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,3.9)\\\\Excellent work, 47. All targets have been eliminated.//(3.9,6.6)\\\\I know this can't have been easy...//(6.6,10.4)\\\\Now get out of there. We have a team on standby to take care of the rest.//(10.4,40.4)\\\\Your money is being transferred now.",
+			"fr": "//(0,3.9)\\\\Excellent travail, 47. Toutes les cibles ont été éliminées.//(3.9,6.6)\\\\Ça n'a pas dû être une partie de plaisir...//(6.6,10.4)\\\\Bien, il est temps pour vous de sortir d'ici, une autre équipe va prendre le relais.//(10.4,40.4)\\\\Je vous transfère les fonds.",
+			"it": "//(0,3.9)\\\\Ottimo lavoro, 47. Tutti i bersagli sono stati eliminati.//(3.9,6.6)\\\\So che non è stato facile...//(6.6,10.4)\\\\Ora vattene da lì. C'è una squadra pronta a occuparsi del resto.//(10.4,40.4)\\\\Il denaro è in fase di trasferimento.",
+			"de": "//(0,3.9)\\\\Hervorragende Arbeit, 47. Alle Ziele wurden ausgeschaltet.//(3.9,6.65)\\\\Ich weiß, dass es sicher nicht leicht war ...//(6.65,10.3)\\\\Jetzt verschwinden Sie von dort. Ein Team steht bereit, um den Rest zu erledigen.//(10.3,40.3)\\\\Ihr Geld wird jetzt überwiesen.",
+			"es": "//(0,3.8)\\\\Excelente trabajo, 47. Todos los objetivos han sido abatidos.//(4.1,6.25)\\\\Sé de sobra que no ha sido sencillo...//(6.87,10.38)\\\\Venga, sal de ahí. Tenemos a un equipo a la espera para ocuparse del resto.//(10.6,40.6)\\\\Ya se te está transfiriendo el dinero.",
+			"ru": "//(0,3.9)\\\\Отличная работа, 47-й. Все цели устранены.//(3.9,6.6)\\\\Задача оказалась непростой...//(6.6,10.4)\\\\Тебе пора уходить. Об остальном позаботится наша команда.//(10.4,40.4)\\\\Деньги уже переведены на твой счет.",
+			"cn": "//(0,3.9)\\\\干得漂亮，47。所有目标均已消灭。//(3.9,6.6)\\\\我知道这一定不容易......//(6.6,10.4)\\\\现在离开那里。我们有另一支待命队伍会处理剩下的事。//(10.4,40.4)\\\\我们正在把钱转给你。",
+			"tc": "//(0,6.7)\\\\做得好，47。所有目標皆已消滅。我知道這個任務不簡單......//(6.7,36.7)\\\\現在快離開吧，小隊已經準備好收拾善後了，我們馬上把錢轉給你。",
+			"jp": "//(0,3.7)\\\\よくやったわ。すべてのターゲットを排除したわ。//(3.7,6.35)\\\\かなり難しい任務だったはず...//(6.35,10.13)\\\\さあ、そこから脱出して。後始末はスタンバイしてるチームに任せて。//(10.13,40.13)\\\\報酬を口座に送金中よ。"
+		}
+	}
+}

@@ -1,0 +1,71 @@
+{
+	"tempHash": "002C8DCC6F430D3B",
+	"tbluHash": "003C8369E9238BEC",
+	"patch": [
+		{ "RemoveEntityByID": "e626e98d8004bcf4" },
+		{ "RemoveEntityByID": "fc8f1746ae3ff1a6" },
+		{ "RemoveEntityByID": "6ba8de1833dd08e4" },
+		{ "RemoveEntityByID": "717870304e72e3d0" },
+		{
+			"SubEntityOperation": [
+				"13f4cef6bb81eebf",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"Lerp",
+						"SpecularRoughnessMin"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"13f4cef6bb81eebf",
+				{
+					"RemoveEventConnection": [
+						"Lerp",
+						"ConstantVector1D_04_Value",
+						"717870304e72e3d0"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"79b2681c4e0bfbaa",
+				{ "RemoveAllEventConnectionsForEvent": "Lerp" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0c355f81606aedfd",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{ "RemoveItemByValue": "717870304e72e3d0" },
+							{ "RemoveItemByValue": "6ba8de1833dd08e4" },
+							{
+								"AddItemAfter": [
+									"e8dca41c0e97fad8",
+									"cafe44d805dd3c37"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe44d805dd3c37",
+				{
+					"parent": "0c355f81606aedfd",
+					"name": "Hands",
+					"factory": "009A6D9F7927FB89",
+					"blueprint": "00F49463DEA8D412"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

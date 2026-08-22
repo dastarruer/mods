@@ -1,0 +1,98 @@
+{
+	"tempHash": "00E39362E4A905B6",
+	"tbluHash": "007159D1E210DDCD",
+	"rootEntity": "4c0c4ae7075dc5d7",
+	"entities": {
+		"00b74f2ec3aecf75": {
+			"parent": "731225877a2d3b7f",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"4c0c4ae7075dc5d7": {
+			"parent": null,
+			"name": "CHARSET_Agent47_tacticalsweater",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"59736ef48c9d6d13",
+						"731225877a2d3b7f",
+						"2d03bf071e357cef"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"6eafed26a5d0d4ac": {
+			"parent": "59736ef48c9d6d13",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"59736ef48c9d6d13": {
+			"parent": "4c0c4ae7075dc5d7",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["6eafed26a5d0d4ac"]
+				}
+			}
+		},
+		"2d03bf071e357cef": {
+			"parent": "4c0c4ae7075dc5d7",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["2c76f1fae9fa88f4"],
+					"postInit": true
+				}
+			}
+		},
+		"2c76f1fae9fa88f4": {
+			"parent": "2d03bf071e357cef",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_tacticalsweater_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"731225877a2d3b7f": {
+			"parent": "4c0c4ae7075dc5d7",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["00b74f2ec3aecf75"]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

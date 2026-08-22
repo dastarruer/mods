@@ -1,0 +1,23 @@
+{
+	"tempHash": "00496CCC247E5708",
+	"tbluHash": "009B2FAFF58E3114",
+	"patch": [
+		{ "RemoveEntityByID": "76ee97e63b3eb15a" },
+		{
+			"SubEntityOperation": [
+				"5b6989e52a010ddb",
+				{ "PatchArrayPropertyValue": ["m_aBodyParts", [{ "RemoveItemByValue": "76ee97e63b3eb15a" }]] }
+			]
+		},
+		{ "SubEntityOperation": ["cafea93492d2e945", { "SetName": "Arms_Biceps_Hand" }] },
+		{ "SubEntityOperation": ["cafea93492d2e945", { "SetFactory": "0081BA55B3D8292E" }] },
+		{ "SubEntityOperation": ["cafea93492d2e945", { "SetBlueprint": "00CFA61BB1571AF8" }] },
+		{
+			"SubEntityOperation": [
+				"cafe3dfa418c3bf7",
+				{ "RemoveEventConnection": ["Lerp", "ConstantVector1D_04_Value", "76ee97e63b3eb15a"] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

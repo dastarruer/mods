@@ -1,0 +1,568 @@
+{
+	"tempHash": "00D15B6A8159D00D",
+	"tbluHash": "00F23DCB39B5FD0D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"98ca7baed06a1211",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "755eec74b5e4ed3d",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "00bccf1f7f801eae",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "f0970c248bfd7bc3",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "92e98a406b8deb9d",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "8bc4dd1f9de5af87",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "d76936cf04536547",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "7cf7688d34733f49",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/octopus_pro1.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "9ff70f44dba3f1b7",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "897357c81fbd7e03",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "4265e999d12da471",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "f110e2281e84bb10",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "054fc2044602fdc4",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "9fb43fb657029320",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "f2903b900cc7763e",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "a3d85467126c3fd0",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "da6f15e1594ecef9",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "cccdd066ddc7a317",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "1bbd661e34f3ab5c",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "b6a2437c3f19e29d",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "abb93bcc48ac7998",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "dc346a143aff5356",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "b562f2c87fc80af3",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "ee5f1463f4f67872",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "d07e8ce757a83b57",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "5ce406d29bab53f1",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "3d52fdb907f70990",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "770974679de523c8",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "1877517cf20326b6",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "36b54e975644449b",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "3f136a02e0693cee",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "da7c68831bf09a67",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "ab708c685a5f1bce",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "14c8ece62cbde8da",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "1e9f3b7f90d55f18",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "9247f096e9202721",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "0843a011e17eb9bb",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "4559fa27ef0a3ad5",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "9d524c8fa0ab6c14",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_mission_octopus.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "0b73f0f796b6e4fb",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "315f9053eeac4cce",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_streets_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "f5b5d4e8fe8524ee",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_smallshops_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "6d3d7564a556e46f",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_smallshops_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "babec0aae05acbbc",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_sewers_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "41dc8ccda0e8a3d4",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "7e97da44c3e624ee",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_pier_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "8fd05f60af8a7557",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_morgue_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "8332209243f0f5f7",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "380d05c3c9cb16ad",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_mainsquare_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "d4d087d6e50955c3",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "f72dbf26111659c1",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_graveyard_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "60dce6fc494391ff",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "e97cb0112672a95d",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "c3fb4f554799b566",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "7f616da1aec597f5",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_cafe_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "1c9188ccd0c0ae9c",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "46bc72dee2ac451b",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "aad58dea4d9985f3",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "4b3ad3e8e62701cd",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "2986a6a83081e4c7",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "2e97adbdaf69b49e",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachsquare_day.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"2ca3f83b0f2e97a9",
+									{
+										"ref": "33c5cf36f87c2344",
+										"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/npc_ambient_beachshop_day.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

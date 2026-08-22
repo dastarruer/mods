@@ -1,0 +1,166 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"45a1d99878646f48",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "5427740bba37ff6b" },
+							{
+								"AddItemAfter": [
+									"e821c93cb1bcf1c4",
+									"1ab4ddae0fda4047"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"a7b541a3b7e71c1d",
+									"6d9c3c0eda5c4ecd"
+								]
+							},
+							{ "RemoveItemByValue": "1ab4ddae0fda4047" },
+							{ "RemoveItemByValue": "6d9c3c0eda5c4ecd" },
+							{
+								"AddItemAfter": [
+									"3cc11065f2a6f2fd",
+									"5427740bba37ff6b"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f32398dd674b0dee",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "1c3f509effb348ed" },
+							{ "RemoveItemByValue": "5427740bba37ff6b" },
+							{ "RemoveItemByValue": "3cc11065f2a6f2fd" },
+							{
+								"AddItemBefore": [
+									"5427740bba37ff6b",
+									"e821c93cb1bcf1c4"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ab4ddae0fda4047",
+									"a7b541a3b7e71c1d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"6d9c3c0eda5c4ecd",
+									"5427740bba37ff6b"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"6d9c3c0eda5c4ecd",
+									"3cc11065f2a6f2fd"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bc2377112da3983e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"8786bf21a5cdb146",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 5
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"cca9d5b4124ac3a2",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "a7b541a3b7e71c1d" },
+							{ "RemoveItemByValue": "3cc11065f2a6f2fd" },
+							{
+								"AddItemAfter": [
+									"1ab4ddae0fda4047",
+									"a7b541a3b7e71c1d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"6d9c3c0eda5c4ecd",
+									"5427740bba37ff6b"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"6d9c3c0eda5c4ecd",
+									"3cc11065f2a6f2fd"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d187dcfcbc85f5b5",
+				{
+					"PatchArrayPropertyValue": [
+						"m_Choices",
+						[
+							{ "RemoveItemByValue": "1c3f509effb348ed" },
+							{ "RemoveItemByValue": "5427740bba37ff6b" },
+							{ "RemoveItemByValue": "3cc11065f2a6f2fd" },
+							{
+								"AddItemAfter": [
+									"1ab4ddae0fda4047",
+									"a7b541a3b7e71c1d"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"6d9c3c0eda5c4ecd",
+									"5427740bba37ff6b"
+								]
+							},
+							{
+								"AddItemAfter": [
+									"6d9c3c0eda5c4ecd",
+									"3cc11065f2a6f2fd"
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

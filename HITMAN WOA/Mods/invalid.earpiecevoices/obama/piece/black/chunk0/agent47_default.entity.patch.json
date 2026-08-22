@@ -1,0 +1,263 @@
+{
+	"tempHash": "00D347CBA29EE6BA",
+	"tbluHash": "000A263E54999100",
+	"patch": [
+		{
+			"AddEntity": [
+				"feedbbe92e907ba2",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "Maggot Earpiece",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedbcaf74e45f0f",
+				{
+					"parent": "feedbbe92e907ba2",
+					"name": "earpiece",
+					"factory": "[assembly:/_pro/items/geometry/quest/ica_earpiece_a.wl2?/ica_earpiece_a.prim].pc_entitytype",
+					"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnableCollision": {
+							"type": "bool",
+							"value": false
+						},
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": 174.354,
+									"y": -7.748,
+									"z": 174.354
+								},
+								"position": {
+									"x": 0.058,
+									"y": 0.01,
+									"z": 0.079
+								}
+							}
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_bRemovePhysics": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bKinematic": { "type": "bool", "value": false },
+						"m_bIgnoreCharacters": {
+							"type": "bool",
+							"value": true
+						},
+						"m_PrimitiveScale": {
+							"type": "SVector3",
+							"value": { "x": 0.8, "y": 0.8, "z": 0.8 }
+						},
+						"m_bVisible": { "type": "bool", "value": true },
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "0ff5798a35665af2"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedc33675a6bc7d",
+				{
+					"parent": "feedbbe92e907ba2",
+					"name": "Give the earpiece",
+					"factory": "[modules:/zheroitemaction.class].pc_entitytype",
+					"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
+					"properties": {
+						"m_rHitmanCharacter": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						},
+						"m_rKeywordsToFind": {
+							"type": "SEntityTemplateReference",
+							"value": "feedf10529f27dc5"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed88e3d81cd751",
+				{
+					"parent": "feedc33675a6bc7d",
+					"name": "Itemspawner",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+					"properties": {
+						"m_bSpawnOnStart": {
+							"type": "bool",
+							"value": false
+						},
+						"m_rMainItemKey": {
+							"type": "SEntityTemplateReference",
+							"value": "feedf10529f27dc5"
+						},
+						"m_eRoomBehaviour": {
+							"type": "ZSpatialEntity.ERoomBehaviour",
+							"value": "ROOM_DYNAMIC"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "158cb860b1fce56d"
+						}
+					},
+					"events": {
+						"Item": { "SetItem": ["feedc33675a6bc7d"] },
+						"ItemReady": {
+							"PickupIntoPocket": ["feedc33675a6bc7d"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedf10529f27dc5",
+				{
+					"parent": "feedc33675a6bc7d",
+					"name": "Itemkey_Earpiece",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": {
+						"m_RepositoryId": {
+							"type": "ZGuid",
+							"value": "fa2b936a-7c8c-4e30-a495-6f2e95ae03a7"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda535e4d3e731",
+				{
+					"parent": "feedbbe92e907ba2",
+					"name": "fine fuck you game",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"events": {
+						"EventOccurred": {
+							"GetCurrentContractID": ["cafee55c553460a9"],
+							"In": ["cafe84a25a0d1757"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe84a25a0d1757",
+				{
+					"parent": "feeda535e4d3e731",
+					"name": "SignalGateEntity_Void",
+					"factory": "[modules:/zsignalgateentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalgateentity_void.class].pc_entityblueprint",
+					"properties": {
+						"m_rCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe1644d122775c"
+						},
+						"m_bEnabled": { "type": "bool", "value": true }
+					},
+					"events": {
+						"Out": { "SpawnItem": ["feed88e3d81cd751"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee55c553460a9",
+				{
+					"parent": "cafe8f4d71d56bdc",
+					"name": "ContractIdComparerEntity",
+					"factory": "[modules:/zcontractidcomparerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcontractidcomparerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sContractId": {
+							"type": "ZString",
+							"value": "ebcd14b2-0786-4ceb-a2a4-e771f60d0125"
+						}
+					},
+					"events": {
+						"ContractIDsIdentical": {
+							"SetTrue": ["cafe8f4d71d56bdc"],
+							"In": ["cafe84a25a0d1757"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1644d122775c",
+				{
+					"parent": "cafee55c553460a9",
+					"name": "InvertedCondition",
+					"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_rCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe8f4d71d56bdc"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8f4d71d56bdc",
+				{
+					"parent": "feedbbe92e907ba2",
+					"name": "Is berlin",
+					"factory": "[modules:/zvalueboolbasic.class].pc_entitytype",
+					"blueprint": "[modules:/zvalueboolbasic.class].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea0488216e6fd",
+				{
+					"parent": "feedbcaf74e45f0f",
+					"name": "deez nuts",
+					"factory": "[assembly:/_pro/items/materials/quest/ica_earpiece_a.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/items/materials/quest/ica_earpiece_a.mi].pc_entityblueprint",
+					"properties": {
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#000000"
+						},
+						"Diffuse_Color_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eModulate"
+						},
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feedbcaf74e45f0f"]
+						},
+						"Active": { "type": "bool", "value": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

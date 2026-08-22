@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "008D09822DDD8C9A",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43750_lambicid_diana_002",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43750_lambicid_diana_002.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43750_lambicid_diana_002.animset].pc_animset",
+		"languages": {
+			"en": "//(0,3.5)\\\\That... is Max Valliant. Ex ICA.//(3.5,33.5)\\\\Find out what he wants. Then put him to rest.",
+			"fr": "//(0,30)\\\\Voilà Max Valliant, un ancien de l'ICA. Découvrez ce qu'il cherche, puis éliminez-le.",
+			"it": "//(0,3.5)\\\\Quello... è Max Valliant, ex agente dell'ICA.//(3.5,33.5)\\\\Scopri cosa vuole, poi eliminalo.",
+			"de": "//(0,3.5)\\\\Das ... ist Max Valliant. Ex-ICA.//(3.5,33.5)\\\\Finden Sie heraus, was er will. Danach betten Sie ihn zur Ruhe.",
+			"es": "//(0,3.6)\\\\Ese... es Max Valliant, antiguo agente de la Agencia.//(3.6,33.6)\\\\Descubre qué es lo que quiere y, luego, ponlo a dormir.",
+			"ru": "//(0,3.5)\\\\Это... Макс Вальян. Бывший агент МКА.//(3.5,33.5)\\\\Выясни, что он хочет, и убери его.",
+			"cn": "//(0,3.5)\\\\那个人......就是麦克斯·瓦兰特。前ICA特工。//(3.5,33.5)\\\\查明他的计划。然后送他归西。",
+			"tc": "//(0,3.5)\\\\那是......馬克思·瓦里安，前 ICA 特務。//(3.5,33.5)\\\\找出他的目的，然後解決掉他。",
+			"jp": "//(0,3.55)\\\\あれは... マックス・ヴァリアント。元ICAのエージェント。//(3.55,33.55)\\\\彼が何を求めているか突き止めてから、始末して。"
+		}
+	}
+}

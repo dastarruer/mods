@@ -1,0 +1,154 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe87612dbc388b",
+				{
+					"parent": "cafed2a926332d5b",
+					"name": "CHARSET_Agent47_SignatureSuit",
+					"factory": "00F7168721546778",
+					"blueprint": "003203803636E8D6"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeff58359ca952",
+				{
+					"parent": "cafed2a926332d5b",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafed2a926332d5b"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed2a926332d5b",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Lowligh_casual_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Hitman"
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_SNEAKERS"
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe87612dbc388b"]
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "b873774e-c933-4112-9d4e-912fa56a31ec"
+						},
+						"m_bCanCallForHelp": {
+							"type": "bool",
+							"value": true
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "CHAR_Global_Hero_Lowligh_casual_M"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Lowlight casual"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_Fallback"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/b873774e-c933-4112-9d4e-912fa56a31ec_hitman6_hero_lowlightcasual_m_name_.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/b873774e-c933-4112-9d4e-912fa56a31ec_hitman6_hero_lowlightcasual_m_description_.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIsHitmanSuit": {
+							"type": "bool",
+							"value": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef9292f076c7f",
+				{
+					"parent": "cafed2a926332d5b",
+					"name": "Prof_Hero_SignatureSuit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafed2a926332d5b"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe33729ec7c185",
+				{
+					"parent": "cafed2a926332d5b",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "cafed2a926332d5b"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5bd5d430118b",
+				{
+					"parent": "cafed2a926332d5b",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafed2a926332d5b"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

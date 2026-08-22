@@ -1,0 +1,794 @@
+{
+	"tempHash": "00A9B93A825F5BDC",
+	"tbluHash": "005BA5CA6AC00627",
+	"patch": [
+		{ "RemoveEntityByID": "9119218a7f64342e" },
+		{ "RemoveEntityByID": "6d49d37e6d99ff2f" },
+		{ "RemoveEntityByID": "a48b4d951f49a18f" },
+		{ "RemoveEntityByID": "f89ab20918005fc5" },
+		{ "RemoveEntityByID": "5264d65c126839e8" },
+		{ "RemoveEntityByID": "28d46047d7b84ef6" },
+		{
+			"SubEntityOperation": [
+				"8b4a96744624212e",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 92.21514767695776
+							},
+							"position": {
+								"x": 41.20574951171875,
+								"y": -155.69740295410156,
+								"z": -19.0
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"56aba558da4ebe3f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 91.05728144355984
+							},
+							"position": {
+								"x": -0.5602790117263794,
+								"y": 0.09040799736976624,
+								"z": 8.391382217407227
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"37cf52828634ab72",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 2.950948542966215
+							},
+							"position": {
+								"x": -0.19145579636096952,
+								"y": 2.517914056777954,
+								"z": 1.608154058456421
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"51011d9b072f7db3",
+				{
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "9119218a7f64342e"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"51011d9b072f7db3",
+				{
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "9119218a7f64342e"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"51011d9b072f7db3",
+				{
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "9119218a7f64342e"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"51011d9b072f7db3",
+				{
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "9119218a7f64342e"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9a2bf3aebdcba039",
+				{
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "28d46047d7b84ef6"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9a2bf3aebdcba039",
+				{
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "28d46047d7b84ef6"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9a2bf3aebdcba039",
+				{
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "28d46047d7b84ef6"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9a2bf3aebdcba039",
+				{
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "28d46047d7b84ef6"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f09f99df423d1aa1",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 99.39570809889231
+							},
+							"position": {
+								"x": 0.912621021270752,
+								"y": 1.964020013809204,
+								"z": -0.09261299669742584
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"176626949fcc1660",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 98.8680489859488
+							},
+							"position": {
+								"x": 0.03689098358154297,
+								"y": 0.094757080078125,
+								"z": 0.9949626922607422
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"357b9593e54a052f",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 98.8680489859488
+							},
+							"position": {
+								"x": -0.0031270980834960938,
+								"y": 0.0382843017578125,
+								"z": 0.9949617385864258
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f49a1051535028d3",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": -0.0,
+								"y": 0.0,
+								"z": 2.950948542966215
+							},
+							"position": {
+								"x": -0.1914539933204651,
+								"y": 2.517883062362671,
+								"z": 1.6081500053405762
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c36839187f1b651e",
+				{
+					"RemoveEventConnection": ["OnTrue", "EnableHitmanCollision", "f89ab20918005fc5"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c36839187f1b651e",
+				{
+					"RemoveEventConnection": ["OnTrue", "EnableCameraCollision", "f89ab20918005fc5"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c36839187f1b651e",
+				{
+					"RemoveEventConnection": ["OnFalse", "DisableHitmanCollision", "f89ab20918005fc5"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"c36839187f1b651e",
+				{
+					"RemoveEventConnection": ["OnFalse", "DisableCameraCollision", "f89ab20918005fc5"]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8aac2e282d28",
+				{
+					"parent": "fffffffffffffffe",
+					"name": "Modded_BlackMarketSuppliers",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafece8bbe6481fa",
+				{
+					"parent": "cafebe32dc9b99e0",
+					"name": "Setpiece_Evergreen_SupplierRoom_common",
+					"factory": "009188CDBBE3646E",
+					"blueprint": "00356AEA24E43DC8",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 150, "y": 0, "z": 400 }
+							}
+						},
+						"m_Seed": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "c8657a023aedee52",
+								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"PostfilterController": {
+							"type": "SEntityTemplateReference",
+							"value": "58a0ad94bea29cfd"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["fffffffffffffffe"],
+						"Rooms": ["fffffffffffffffe"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe461066a87202",
+				{
+					"parent": "cafebe32dc9b99e0",
+					"name": "Setpiece_Evergreen_SupplierRoom_items",
+					"factory": "00563EA0437AEDD9",
+					"blueprint": "00A8E88FB7559125",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 150, "y": 0, "z": 1400 }
+							}
+						},
+						"m_Seed": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "c8657a023aedee52",
+								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"PostfilterController": {
+							"type": "SEntityTemplateReference",
+							"value": "58a0ad94bea29cfd"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["fffffffffffffffe"],
+						"Rooms": ["fffffffffffffffe"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebb03dba62c70",
+				{
+					"parent": "cafebe32dc9b99e0",
+					"name": "Setpiece_Evergreen_SupplierRoom_epic",
+					"factory": "00A341B746C81344",
+					"blueprint": "00F76E4D62E37AF6",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 150, "y": 0, "z": 800 }
+							}
+						},
+						"m_Seed": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "c8657a023aedee52",
+								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"PostfilterController": {
+							"type": "SEntityTemplateReference",
+							"value": "58a0ad94bea29cfd"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["fffffffffffffffe"],
+						"Rooms": ["fffffffffffffffe"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe43d4f677b01a",
+				{
+					"parent": "cafebe32dc9b99e0",
+					"name": "Setpiece_Evergreen_SupplierRoom_rare",
+					"factory": "00269AA071B55555",
+					"blueprint": "0061FC7D9575FA71",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 150, "y": 0, "z": 600 }
+							}
+						},
+						"m_Seed": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "c8657a023aedee52",
+								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"PostfilterController": {
+							"type": "SEntityTemplateReference",
+							"value": "58a0ad94bea29cfd"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["fffffffffffffffe"],
+						"Rooms": ["fffffffffffffffe"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe7b6febbc6c9f",
+				{
+					"parent": "cafebe32dc9b99e0",
+					"name": "Setpiece_Evergreen_SupplierRoom_legendary",
+					"factory": "007232AC0C534410",
+					"blueprint": "00CCCD10921B82DD",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 150, "y": 0, "z": 1000 }
+							}
+						},
+						"m_Seed": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "c8657a023aedee52",
+								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"PostfilterController": {
+							"type": "SEntityTemplateReference",
+							"value": "58a0ad94bea29cfd"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["fffffffffffffffe"],
+						"Rooms": ["fffffffffffffffe"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafefd177179763e",
+				{
+					"parent": "cafebe32dc9b99e0",
+					"name": "Setpiece_Evergreen_SupplierRoom_themed",
+					"factory": "002B59D75EAC2C93",
+					"blueprint": "00D2FFEA21504021",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": { "x": 0, "y": 0, "z": 0 },
+								"position": { "x": 150, "y": 0, "z": 1200 }
+							}
+						},
+						"m_Seed": {
+							"type": "SEntityTemplateReference",
+							"value": {
+								"ref": "c8657a023aedee52",
+								"externalScene": "[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype"
+							},
+							"postInit": true
+						},
+						"PostfilterController": {
+							"type": "SEntityTemplateReference",
+							"value": "58a0ad94bea29cfd"
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": "fffffffffffffffe",
+							"postInit": true
+						}
+					},
+					"subsets": {
+						"AudioEmitters": ["fffffffffffffffe"],
+						"Rooms": ["fffffffffffffffe"]
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafebe32dc9b99e0",
+				{
+					"parent": "cafe8aac2e282d28",
+					"name": "Setpiece_BlackMarketPhone_Station",
+					"factory": "00FAC12880D5DD49",
+					"blueprint": "004A8BE13CF1BDC9",
+					"properties": {
+						"m_mTransform": {
+							"type": "SMatrix43",
+							"value": {
+								"rotation": {
+									"x": -0.0,
+									"y": 0.0,
+									"z": -0.0
+								},
+								"position": {
+									"x": 4.234371185302734,
+									"y": -157.2337188720703,
+									"z": -18.98985481262207
+								}
+							}
+						},
+						"m_eidParent": {
+							"type": "SEntityTemplateReference",
+							"value": null,
+							"postInit": true
+						}
+					},
+					"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe72216929bf59",
+				{
+					"parent": "cafece8bbe6481fa",
+					"name": "Reciever",
+					"factory": "004431ED90E784E2",
+					"blueprint": "0033EB6A108DCA99",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe8ae0efd9572c"
+						},
+						"m_bEnabled": { "type": "bool", "value": true }
+					},
+					"events": {
+						"EventReceived": {
+							"MoveHitmanToRoom": ["cafece8bbe6481fa"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8ae0efd9572c",
+				{
+					"parent": "cafe72216929bf59",
+					"name": "EventToken_Evergreen_AgendaStatus_CourierActive",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "OpenCommonShop"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe35b1617644c5",
+				{
+					"parent": "cafe461066a87202",
+					"name": "Reciever",
+					"factory": "004431ED90E784E2",
+					"blueprint": "0033EB6A108DCA99",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafed300dbf8db63"
+						},
+						"m_bEnabled": { "type": "bool", "value": true }
+					},
+					"events": {
+						"EventReceived": {
+							"MoveHitmanToRoom": ["cafe461066a87202"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed300dbf8db63",
+				{
+					"parent": "cafe35b1617644c5",
+					"name": "EventToken_Evergreen_AgendaStatus_CourierActive",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "OpenItemShop"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea61387abd3c8",
+				{
+					"parent": "cafefd177179763e",
+					"name": "Reciever",
+					"factory": "004431ED90E784E2",
+					"blueprint": "0033EB6A108DCA99",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe0be229ce2dd4"
+						},
+						"m_bEnabled": { "type": "bool", "value": true }
+					},
+					"events": {
+						"EventReceived": {
+							"MoveHitmanToRoom": ["cafefd177179763e"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0be229ce2dd4",
+				{
+					"parent": "cafea61387abd3c8",
+					"name": "EventToken_Evergreen_AgendaStatus_CourierActive",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "OpenThematicShop"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0f82313d8938",
+				{
+					"parent": "cafe7b6febbc6c9f",
+					"name": "Reciever",
+					"factory": "004431ED90E784E2",
+					"blueprint": "0033EB6A108DCA99",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe1722572a8395"
+						},
+						"m_bEnabled": { "type": "bool", "value": true }
+					},
+					"events": {
+						"EventReceived": {
+							"MoveHitmanToRoom": ["cafe7b6febbc6c9f"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1722572a8395",
+				{
+					"parent": "cafe0f82313d8938",
+					"name": "EventToken_Evergreen_AgendaStatus_CourierActive",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "OpenLegendaryShop"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea328197a64ea",
+				{
+					"parent": "cafe43d4f677b01a",
+					"name": "Reciever",
+					"factory": "004431ED90E784E2",
+					"blueprint": "0033EB6A108DCA99",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe4a6668745aa7"
+						},
+						"m_bEnabled": { "type": "bool", "value": true }
+					},
+					"events": {
+						"EventReceived": {
+							"MoveHitmanToRoom": ["cafe43d4f677b01a"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4a6668745aa7",
+				{
+					"parent": "cafea328197a64ea",
+					"name": "EventToken_Evergreen_AgendaStatus_CourierActive",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "OpenRareShop"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0ffafa96d0ef",
+				{
+					"parent": "cafebb03dba62c70",
+					"name": "Reciever",
+					"factory": "004431ED90E784E2",
+					"blueprint": "0033EB6A108DCA99",
+					"properties": {
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafed90fd818eaca"
+						},
+						"m_bEnabled": { "type": "bool", "value": true }
+					},
+					"events": {
+						"EventReceived": {
+							"MoveHitmanToRoom": ["cafebb03dba62c70"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed90fd818eaca",
+				{
+					"parent": "cafe0ffafa96d0ef",
+					"name": "EventToken_Evergreen_AgendaStatus_CourierActive",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "OpenEpicShop"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

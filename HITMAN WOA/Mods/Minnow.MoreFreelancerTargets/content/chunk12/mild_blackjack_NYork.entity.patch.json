@@ -1,0 +1,262 @@
+{
+	"tempHash": "00D166E0B6B33168",
+	"tbluHash": "00B9F0643C78572D",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"72e74299a1dc66fe",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "2ba2247e3d49094a",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "adb3181a4cbaff99",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "1d20a9136b7cf0a7",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "965325d9ef34690b",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "ab98e9d63db424e9",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "9746131d718acf9f",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "2b41e7e36fef81c3",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "5a6871c18324e86a",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "f30a74339b038217",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "05ff6914b7ce8cab",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "e13343f2706f611d",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "5af27248b03b23c9",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "3e5da1ab58b4ebc0",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "e421feb01268f4bb",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "747f59930e4cfcc8",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "fa71b6d674159882",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "2ea483484e274e21",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "5467b10ad27a1f7d",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "dee5b7b5a996b96d",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "11f9965bac9f6f1b",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "f304e25ff9d64408",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "82c32784d69ed43e",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "51661a98bfb7c56b",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "8016fb9ca5012675",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "f0b432ccbd012964",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "d5c06146968f9a7d",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"1ba2eb159d1d41d9",
+									{
+										"ref": "d0c2019c97af7adb",
+										"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

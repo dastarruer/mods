@@ -1,0 +1,48 @@
+{
+	"tempHash": "006864DBF5FD7CD4",
+	"tbluHash": "00C681E41ADBD918",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"2b24a41c0d929515",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_nValue",
+						"value": 1
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"813d32486bbf00dd",
+				{
+					"RemoveEventConnection": [
+						"PollTrue",
+						"SetValue",
+						{
+							"ref": "7b1086981415a28a",
+							"value": { "type": "int32", "value": 0 }
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"813d32486bbf00dd",
+				{
+					"RemoveEventConnection": [
+						"PollFalse",
+						"SetValue",
+						{
+							"ref": "7b1086981415a28a",
+							"value": { "type": "int32", "value": 0 }
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

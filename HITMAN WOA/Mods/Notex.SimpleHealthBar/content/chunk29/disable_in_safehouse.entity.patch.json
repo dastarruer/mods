@@ -1,0 +1,13 @@
+{
+	"tempHash": "00A7182B3923256C",
+	"tbluHash": "00C15211736359B6",
+	"patch": [
+		{
+			"AddOverrideDelete": {
+				"ref": "cafef77f80f5f691",
+				"externalScene": "[assembly:/_pro/scenes/bricks/gameessentialsbase.brick].pc_entitytype"
+			}
+		}
+	],
+	"patchVersion": 6
+}

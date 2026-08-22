@@ -1,0 +1,331 @@
+{
+	"tempHash": "00D6C83B2487913C",
+	"tbluHash": "007069AA5A274642",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"1cd639bf97c91b8f",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "aaf2c95efee1fde7",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "562570db90d25717",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "43a220e18dc98706",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "45d523e7ca2c6039",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "7792a72df28b3c8e",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "e8b007f8253626cd",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "6d1c7c7a5c1cfe72",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "8393373158aa87d3",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "6ba4f7c72467276d",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "3a9bbdf37da875b3",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "93f6368347d8b4ae",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "e04680f45356b477",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "78ab099d272e213e",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "524482232266f7ee",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "957b138fc241bd28",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "d8599542b6daa2de",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "8463029696bd2503",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "692536967270d1ef",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "7958206c131b7eec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "3ae551b15b541745",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "0349d50eb090ac1f",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "0f3741b5cd4b77de",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "64865f1ed0e4f338",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "8bb49c232796fe3f",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "24f2e9f0dbba9ad2",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									{
+										"ref": "3f0844161e9ea3ec",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									},
+									{
+										"ref": "8eca67202e27764d",
+										"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

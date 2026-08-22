@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "00DD064566935D39",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43751_clnprsntreveal_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43751_clnprsntreveal_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43751_clnprsntreveal_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,3.5)\\\\47? This is a threat we could not have predicted.//(3.5,33.5)\\\\We need a new line of action. Stand by for further instructions.",
+			"fr": "//(0,3.5)\\\\47 ? Voilà une menace que l'on n'avait pas anticipée.//(3.5,33.5)\\\\Nous allons réfléchir à un nouveau plan d'action, tenez-vous prêt.",
+			"it": "//(0,3.5)\\\\47? Questa è una minaccia che non potevamo prevedere.//(3.5,33.5)\\\\Ci serve una nuova linea di azione. Resta in attesa di ulteriori istruzioni.",
+			"de": "//(0,3.5)\\\\47? Das ist eine Bedrohung, die wir nicht vorhersehen konnten.//(3.5,33.5)\\\\Wir brauchen ein neues Vorgehen. Weitere Befehle folgen.",
+			"es": "//(0,3.45)\\\\¿47? Esta es una amenaza que era imposible de predecir.//(3.65,33.65)\\\\Necesitamos un nuevo plan. Espera a recibir instrucciones.",
+			"ru": "//(0,3.5)\\\\47-й, мы не ожидали этой угрозы.//(3.5,33.5)\\\\Нам нужен новый план действий. Жди дальнейших указаний.",
+			"cn": "//(0,4.785276)\\\\47？这是我们预料之外的威胁。//(4.785276,34.78527)\\\\我们需要安排新的行动规划。暂且待命，等待进一步指示。",
+			"tc": "//(0,3.5)\\\\47？這個威脅出乎我們的預料之外。//(3.5,33.5)\\\\我們需要重新擬定計畫，在收到進一步指示前先待命。",
+			"jp": "//(0,5)\\\\47？これは予想できなかった脅威ね。どう対処するか考えないと。//(5,35)\\\\次の指示が来るまで待機してて。"
+		}
+	}
+}

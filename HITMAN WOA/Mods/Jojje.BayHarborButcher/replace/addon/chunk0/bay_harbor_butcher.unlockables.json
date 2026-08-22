@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER": {
+		"Id": "TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER",
+		"Guid": "f97b1d6f-28a3-4667-b1f9-b5d415d8480a",
+		"Type": "disguise",
+		"Subtype": "casual",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "48ba6b81-9e95-49f6-9562-bd93b4aad385",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

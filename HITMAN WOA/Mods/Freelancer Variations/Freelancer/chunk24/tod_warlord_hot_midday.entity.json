@@ -1,0 +1,90 @@
+{
+	"tempHash": "0040FB2631B2C266",
+	"tbluHash": "001F480FA0C2C731",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "ToD_Warlord_Hot_Midday",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "0114d0cb82685dfe",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "f5f1776c-03bf-4271-aed5-9387fef79234"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "927f8c3164a61c06",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+		},
+		{
+			"ref": "98db34e145799013",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+		},
+		{
+			"ref": "64f27ac3d5fa7b8e",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c74db2ed8db7874",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+		},
+		{
+			"ref": "ddc1edd109b0c359",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		},
+		{
+			"ref": "88ff75dcb19e9d7d",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		},
+		{
+			"ref": "b7dd09bd6dc84bb3",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		},
+		{
+			"ref": "5d3394ef44abe20f",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [
+		{
+			"fromEntity": {
+				"ref": "77ff7bd8931e2e15",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+			},
+			"fromPin": "OnActDone",
+			"toEntity": {
+				"ref": "7161b29dffcd7dd3",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+			},
+			"toPin": "Start"
+		}
+	],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/tod_midday.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

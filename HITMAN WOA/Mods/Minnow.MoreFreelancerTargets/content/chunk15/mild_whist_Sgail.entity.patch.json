@@ -1,0 +1,649 @@
+{
+	"tempHash": "00590B4B89C00E50",
+	"tbluHash": "000EAB1E0D3AD9BB",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"8b3aa1ba18464731",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "9473dce7421e2976",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "e08db594707c5375",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "f5d88bffa7470ecb",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "19ffde308619b4f8",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "0f7219f2a4b90105",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "1f8b50e58f512c35",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "8874914ad488913f",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "01979d291bdbb852",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "cf6d07c9e52e20bf",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "aa3ad9f5ee780778",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "73775f883247eae8",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "1db3ed1be602a5da",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "ac45578319f19acf",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "5f28ce27fad5a9cd",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "22f7d5e53ee04087",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "f69ee25ccdbacb6b",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "023aa4162bfaff98",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "be53a54c88f6198f",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "90bd25e70b90a6ed",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "8d0b5d314476c10f",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "508be6d93da82682",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "03dd8ada1675892b",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "33b56dfc76ccfeb2",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "6bab4c2415ca1721",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "ea4d7cb6b1ec1a39",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "b09c23a488a75771",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "bfdaf71b003d20bc",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "5e5b9f00b8935def",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "f28d22ea46959124",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "db8e038f445c668a",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "9ceb931135ecd9a0",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "f8e506e395036341",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "878a588e4290d10d",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "69c2e131dc3508b4",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "adfae088b228f34e",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "557ebc04d3539263",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "b57b0c8b1206d6f3",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "63b036a8e0d2907a",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "dcea0c8ce265d5b3",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "feb5b521027d59c5",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "accffd3ccb0e7ce9",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "ece0a77b319471ff",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "15b5a3816b00b7e9",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "a72db1e1fbe9f879",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "1f3da13232c7308b",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "47e02d126f466cca",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "b4930a66d7940500",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "bf44b62055918254",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "345eb17fee70e7fa",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "d011241cbbd22e12",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "4460326e2db1227d",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "e364bcd31b863711",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "88aeefbb541567b5",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "4cdb9e82f6c98526",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "afadaebee3e640d6",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "f5b961a77012e383",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "379b688d8f1fae44",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "f600601083a47f19",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "546f3d57fe2a3d3b",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "b3720f8b1dca5c5a",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "3fae001db444ffdd",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "5454a225d590d3dc",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "c988666e43b66e82",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "a841260e12bf16de",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "eb6fdd6d1e3f6510",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "30e5fa0330587c9e",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "2c576981c03653e6",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "7f003a1578c42401",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "a7ed65bbcf7649ff",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"217f0c14c3e2938c",
+									{
+										"ref": "af82f42d7cb0da9a",
+										"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

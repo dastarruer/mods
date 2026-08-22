@@ -1,0 +1,55 @@
+{
+	"tempHash": "0014CC8A590DF1C6",
+	"tbluHash": "00298777022FFAEB",
+	"patch": [
+		{ "RemoveEntityByID": "211b55e4ebefc166" },
+		{
+			"SubEntityOperation": [
+				"cc397de81419e7da",
+				{
+					"RemoveAllEventConnectionsForTrigger": [
+						"Lerp",
+						"SpecularRoughnessMin"
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"bb2d02e8a19b4ad1",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aBodyParts",
+						[
+							{ "RemoveItemByValue": "211b55e4ebefc166" },
+							{
+								"AddItemAfter": [
+									"89cdbc56efc70d05",
+									"cafe1ca11f75a3d4"
+								]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe1ca11f75a3d4",
+				{
+					"parent": "bb2d02e8a19b4ad1",
+					"name": "Gloves_Leather",
+					"factory": "00BEE701448762C1",
+					"blueprint": "005D2B1CBD509E61",
+					"properties": {
+						"Diffuse_Color_01_Value": {
+							"type": "SColorRGB",
+							"value": "#2e2e2e"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

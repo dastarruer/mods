@@ -1,0 +1,151 @@
+{
+	"tempHash": "008C271E6142DBD9",
+	"tbluHash": "00BD4A01229A29FF",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Raccoon_Midday",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "8b025a8f2da0bc21",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 86.58227146645217,
+							"y": -87.18735109483444,
+							"z": -92.98826490787212
+						},
+						"position": {
+							"x": -5.916108,
+							"y": 65.756454,
+							"z": 26.245642
+						},
+						"scale": { "x": 1.0, "y": 1, "z": 1 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "460599b4b6c4632f",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				},
+				{
+					"ref": "a8154769b4151956",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				},
+				{
+					"ref": "6fbd29d534d8bf78",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aStartConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3f9eefe0cba1bda7",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				},
+				{
+					"ref": "fba068462cdabb3f",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				},
+				{
+					"ref": "000f662aeabe21e4",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				},
+				{
+					"ref": "514be670daa21485",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				},
+				{
+					"ref": "cf4a7fedf033bc03",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "c344095d80eebc04",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartSearchOnTargetDead": {
+					"type": "bool",
+					"value": false
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "12f1f8b87ed48246",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false }
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "1eb5ee3bbf1018c1",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "5127e2eb418bd823",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "ad638bae266f3301",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "66b3e820a73f2a39",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/mission_hot_blackjack.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/tod_midday.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

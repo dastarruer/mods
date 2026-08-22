@@ -1,0 +1,16 @@
+{
+	"customPaths": [
+		"[assembly:/_pro/characters/assets/individuals/agent47/bayharborbutcher/geometry/bay_harbor_butcher.wl2?/bay_harbor_butcher_henley.weightedprim](bodypart).pc_bonerig",
+		"[assembly:/_pro/characters/assets/individuals/agent47/bayharborbutcher/geometry/bay_harbor_butcher.wl2?/bay_harbor_butcher_henley.weightedprim](bodypart).pc_weightedprim",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_bay_harbor_butcher.entitytemplate].pc_entitytype",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_bay_harbor_butcher.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_bay_harbor_butcher_heroa_v0.entitytemplate].pc_entitytemplate",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/outfit_agent47_global_bay_harbor_butcher_heroa_v0.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/assets/individuals/agent47/bayharborbutcher/textures/bay_harbor_butcher_henley.texture?/normal_a.tex](asnormalmap).pc_tex",
+		"[assembly:/_pro/characters/assets/individuals/agent47/bayharborbutcher/textures/bay_harbor_butcher_henley.texture?/normal_a.tex](asnormalmap).pc_mipblock1",
+		"[assembly:/_pro/characters/assets/individuals/agent47/bayharborbutcher/textures/bay_harbor_butcher_henley.texture?/diffuse_a.tex](ascolormap).pc_tex",
+		"[assembly:/_pro/characters/assets/individuals/agent47/bayharborbutcher/textures/bay_harbor_butcher_henley.texture?/diffuse_a.tex](ascolormap).pc_mipblock1",
+		"[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/48ba6b81-9e95-49f6-9562-bd93b4aad385_global_hero_bay_harbor_butcher_m_name_.sweetline].pc_sweetline",
+		"[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/48ba6b81-9e95-49f6-9562-bd93b4aad385_global_hero_bay_harbor_butcher_m_description_.sweetline].pc_sweetline"
+	]
+}

@@ -1,0 +1,528 @@
+{
+	"tempHash": "00DFCBB8C2174922",
+	"tbluHash": "009361923ED16336",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "ToD_Warlord_Midday",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "0114d0cb82685dfe",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "f5f1776c-03bf-4271-aed5-9387fef79234"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "44358db7a9f237af",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALEHI03"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "69e7a536e188485e",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVFEMHI03"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "8d8face82d9340ff",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bDeepTrespassing": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "061efd4c27bb4894",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aActors": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "a62b9866aab3d1b2",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "2908543968976820",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "23611a06c195ba2a",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "ae911b301434e868",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "243a03ec8dee5b7a",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "98f1fea7b62a1fd3",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "21b56722bca0947e",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "0c8d71cce0647063",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "397d68545d1c53f6",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "e29b68aafad14999",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "fdd286885cc26904",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype"
+						},
+						{
+							"ref": "9aaec2b343d913f4",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_corridors_wing_b.brick].pc_entitytype"
+						},
+						{
+							"ref": "603a18c4427fe184",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_corridors_wing_b.brick].pc_entitytype"
+						},
+						{
+							"ref": "c6399b61855fec4b",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_atrium_interior.brick].pc_entitytype"
+						},
+						{
+							"ref": "8525203fcc9afdff",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_atrium_interior.brick].pc_entitytype"
+						},
+						{
+							"ref": "7dc976fc4448bd4c",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_atrium_interior.brick].pc_entitytype"
+						},
+						{
+							"ref": "feaa5e9c72d1f70c",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_atrium_roof.brick].pc_entitytype"
+						},
+						{
+							"ref": "54d3e89b0704b854",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_atrium_roof.brick].pc_entitytype"
+						},
+						{
+							"ref": "f0acf0c5b123843f",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_atrium_roof.brick].pc_entitytype"
+						},
+						{
+							"ref": "42a9b7e6018bb2ac",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_guardroom.brick].pc_entitytype"
+						},
+						{
+							"ref": "8c5fbc29aa08def3",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_guardroom.brick].pc_entitytype"
+						},
+						{
+							"ref": "b86be28bde077d8d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "2a214183f1734f9f",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "ccfbb7d9690081ea",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "7bf09d969be912af",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype"
+						},
+						{
+							"ref": "3d7443815b8c00d9",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_dining.brick].pc_entitytype"
+						},
+						{
+							"ref": "6c6777903b10c089",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_dining.brick].pc_entitytype"
+						},
+						{
+							"ref": "40867fdd2319b533",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_dining.brick].pc_entitytype"
+						},
+						{
+							"ref": "2eba3851023e7ce4",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_dining.brick].pc_entitytype"
+						},
+						{
+							"ref": "8df8730d95123ac1",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_dining.brick].pc_entitytype"
+						},
+						{
+							"ref": "097ba7fd45c71809",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_kitchen.brick].pc_entitytype"
+						},
+						{
+							"ref": "69709a5ef9246ce5",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_kitchen.brick].pc_entitytype"
+						},
+						{
+							"ref": "dfe79ddb67cbb18c",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_kitchen.brick].pc_entitytype"
+						},
+						{
+							"ref": "aba3a351c18ed679",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_kitchen.brick].pc_entitytype"
+						},
+						{
+							"ref": "e974a00b7dc273c7",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_deliveryarea.brick].pc_entitytype"
+						},
+						{
+							"ref": "53fc47734dccd526",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_deliveryarea.brick].pc_entitytype"
+						},
+						{
+							"ref": "3901a2b3048635d4",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_deliveryarea.brick].pc_entitytype"
+						},
+						{
+							"ref": "56d0de403d1602f5",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_lounge.brick].pc_entitytype"
+						},
+						{
+							"ref": "bbe6f1a76cee2af4",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/npc_ambient_sidegarden.brick].pc_entitytype"
+						},
+						{
+							"ref": "edecf4f4036ca8e0",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+						},
+						{
+							"ref": "0f83d8b79079b12a",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "d8f3b77b9a74d2a4",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "5dd7bfc5ae796a20",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "4b26912dd8451cc1",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "596776e1e5bf5517",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "e39f0862dec6d5e8",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "f46de10039b9d318",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "c917679dfb584b34",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "08c989f9f17e4f91",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+						},
+						{
+							"ref": "bbaa30da7561d91d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "d24d8c0f879749f5",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "83ae532e46c67c7b",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "8d56b84dfc7449c2",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "7e8e950bacff8e18",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "9436444f363becdd",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "f94004e971e14ab3",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "740a4ed12055c14d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "6dc4da0b16e44e30",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "c74c14a9a7a31a66",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "14865498c0eccfdb",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "17314d5ecd334087",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "9e07a86a86485d7d",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "458b1219aecd6fc3",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "a93d9aa8365762ca",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "9f094a69554ad77b",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "648405540936200c",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "f7de613b3c9eb7fc",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "8c538992ef6ba234",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "7bf9fcd54c2ed29c",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "d762e4aa215b6a40",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype"
+						},
+						{
+							"ref": "58210279243db230",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+						},
+						{
+							"ref": "9c7e7e4512ad694f",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+						},
+						{
+							"ref": "7f140b87ac5bef30",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+						},
+						{
+							"ref": "f8669210a1f89337",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+						},
+						{
+							"ref": "a4bd6b8fec4e9c46",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+						},
+						{
+							"ref": "78e661b2b6df4113",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+						},
+						{
+							"ref": "ea378579a51394c5",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+						},
+						{
+							"ref": "e36a2b90fb8d6ef3",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+						},
+						{
+							"ref": "528f5e8d62f6fddf",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_ts6_gimlet.brick].pc_entitytype"
+						},
+						{
+							"ref": "8790347f726b9737",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_ts6_gimlet.brick].pc_entitytype"
+						},
+						{
+							"ref": "8010b50844173aea",
+							"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "528f5e8d62f6fddf",
+					"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_ts6_gimlet.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "63d2164f-efa3-4a19-aaa0-279a0029dd74"
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "5c9a59eb-7dc4-4785-983f-7e411a755bab"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "927f8c3164a61c06",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+		},
+		{
+			"ref": "98db34e145799013",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype"
+		},
+		{
+			"ref": "64f27ac3d5fa7b8e",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c74db2ed8db7874",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+		},
+		{
+			"ref": "ddc1edd109b0c359",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		},
+		{
+			"ref": "88ff75dcb19e9d7d",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		},
+		{
+			"ref": "b7dd09bd6dc84bb3",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		},
+		{
+			"ref": "acb7e45d12887602",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+		},
+		{
+			"ref": "6ed31a281ecb6860",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+		},
+		{
+			"ref": "6c1240b3622f3c92",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+		},
+		{
+			"ref": "8e4e5bc5dcec8903",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype"
+		},
+		{
+			"ref": "5d3394ef44abe20f",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		},
+		{
+			"ref": "2ad049b579a88dd1",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype"
+		},
+		{
+			"ref": "5272ac3661d3801b",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_ts6_gimlet.brick].pc_entitytype"
+		},
+		{
+			"ref": "fb4673f1fb1c2d9f",
+			"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_ts6_gimlet.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [
+		{
+			"fromEntity": {
+				"ref": "77ff7bd8931e2e15",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+			},
+			"fromPin": "OnActDone",
+			"toEntity": {
+				"ref": "7161b29dffcd7dd3",
+				"externalScene": "[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype"
+			},
+			"toPin": "Start"
+		}
+	],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_bloodymary.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_arrival.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_tiger.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_basement.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_guardroom.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_brassmonkey.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_bangkok_martini.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_ts6_gimlet.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_dining.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_kitchen.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/mission_mild_sicbo.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_sidegarden.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_restaurant_lounge.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_deliveryarea.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_atrium_roof.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_atrium_interior.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/npc_ambient_corridors_wing_b.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/bangkok/tod_midday.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

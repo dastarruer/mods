@@ -1,0 +1,180 @@
+{
+	"tempHash": "0050AF74C93564C4",
+	"tbluHash": "00C89F28C7390631",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Night_Hot_Highball",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "13585097aa6eae12",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/override_trompo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 142 },
+						"position": {
+							"x": -107.86386,
+							"y": 262.0285,
+							"z": 27.727587
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "a887d3a462c31445",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/override_trompo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5.322999954223633,
+						"y": 4.510000228881836,
+						"z": 2.2070000171661377
+					}
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 14.4028966367115
+						},
+						"position": {
+							"x": -0.0894012451171875,
+							"y": 0.937225341796875,
+							"z": 0.2271156311035156
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "bdae5cc0c37e3406",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/override_trompo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": 60.48725701209795
+						},
+						"position": {
+							"x": -108.63410949707033,
+							"y": 259.1351623535156,
+							"z": 27.72758674621582
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d490b42f92d8adc4",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				},
+				{
+					"ref": "0bb365da3bb660ca",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				},
+				{
+					"ref": "548de670755da916",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f69db51b7181b8c2",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				},
+				{
+					"ref": "8a4fc682be1d2c17",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				},
+				{
+					"ref": "b283c7efb56bf529",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "604bc6ea3f0018e1",
+					"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "4d9e72755102aba1",
+							"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+						},
+						{
+							"ref": "ddb36af283bfb5df",
+							"externalScene": "[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "9b50f8ea023b2c3e",
+			"externalScene": "[assembly:/_pro/scenes/missions/colombia/elusive_highball.brick].pc_entitytype"
+		},
+		{
+			"ref": "fbd3f94f25211808",
+			"externalScene": "[assembly:/_pro/scenes/missions/colombia/elusive_highball.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/colombia/scenario_hippo.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colombia/mission_hot_trompo.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colombia/elusive_highball.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colombia/gamechanger_hippo_holly.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colombia/override_trompo.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colombia/tod_night.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

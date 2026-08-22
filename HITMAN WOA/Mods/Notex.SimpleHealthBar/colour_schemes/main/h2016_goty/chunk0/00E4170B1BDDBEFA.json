@@ -1,0 +1,9 @@
+{
+	"MainColours": {
+		"LowHealthColour": "#900D12",
+		"MediumHealthColour": "#FFFFFF",
+		"FullHealthColour": "#FFFFFF",
+		"InfectedColour": "#F8EE2F",
+		"MediumHealthRatio": 0.3
+	}
+}

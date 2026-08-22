@@ -1,0 +1,45 @@
+{
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"version": "1.4.1",
+	"id": "invalid.earpiecevoices",
+	"name": "Handler earpiece dialogue",
+	"description": "Makes all handler dialogue have a radio sound filter for added realism. No longer will Diana be speaking directly inside your head.",
+	"authors": ["invalid"],
+	"frameworkVersion": "2.33.20",
+	"contentFolders": ["cont"],
+	"updateCheck": "https://github.com/scrungofan/handler-dialogue/releases/latest/download/updates.json",
+	"options": [
+		{
+			"name": "Add earpiece (white)",
+			"tooltip": "Add a visual earpiece to 47",
+			"type": "select",
+			"contentFolders": ["obama/piece/white"],
+			"enabledByDefault": true,
+			"group": "Earpiece",
+			"image": "obama/white.png"
+		},
+		{
+			"name": "Add earpiece (black)",
+			"tooltip": "Add a visual earpiece to 47, but it's black",
+			"type": "select",
+			"contentFolders": ["obama/piece/black"],
+			"group": "Earpiece",
+			"image": "obama/black.png"
+		},
+		{
+			"name": "No earpiece",
+			"tooltip": "Don't add a visual earpiece to 47",
+			"type": "select",
+			"contentFolders": ["obama/nopiece"],
+			"group": "Earpiece",
+			"image": "obama/127589221-photo-of-the-adult-happy-bald-man.jpg"
+		},
+		{
+			"name": "Enable filter on ghost mode announcer",
+			"tooltip": "Whether or not to enable the radio filter on the announcer in ghost mode.",
+			"type": "checkbox",
+			"contentFolders": ["verSUS"],
+			"enabledByDefault": false
+		}
+	]
+}

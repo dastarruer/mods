@@ -1,0 +1,2 @@
+- `config.json` - Config file for SMF
+- `Mods/` - All hitman mods

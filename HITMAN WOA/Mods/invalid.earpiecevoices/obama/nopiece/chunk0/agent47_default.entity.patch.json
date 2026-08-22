@@ -1,0 +1,158 @@
+{
+	"tempHash": "00D347CBA29EE6BA",
+	"tbluHash": "000A263E54999100",
+	"patch": [
+		{
+			"AddEntity": [
+				"feedbbe92e907ba2",
+				{
+					"parent": "158cb860b1fce56d",
+					"name": "Maggot Earpiece",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedc33675a6bc7d",
+				{
+					"parent": "feedbbe92e907ba2",
+					"name": "Give the earpiece",
+					"factory": "[modules:/zheroitemaction.class].pc_entitytype",
+					"blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
+					"properties": {
+						"m_rHitmanCharacter": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" },
+						"m_rKeywordsToFind": { "type": "SEntityTemplateReference", "value": "feedf10529f27dc5" }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed88e3d81cd751",
+				{
+					"parent": "feedc33675a6bc7d",
+					"name": "Itemspawner",
+					"factory": "[modules:/zitemspawner.class].pc_entitytype",
+					"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+					"properties": {
+						"m_bSpawnOnStart": { "type": "bool", "value": false },
+						"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feedf10529f27dc5" },
+						"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "158cb860b1fce56d" }
+					},
+					"events": {
+						"Item": { "SetItem": ["feedc33675a6bc7d"] },
+						"ItemReady": { "PickupIntoPocket": ["feedc33675a6bc7d"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedf10529f27dc5",
+				{
+					"parent": "feedc33675a6bc7d",
+					"name": "Itemkey_Earpiece",
+					"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+					"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+					"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "fa2b936a-7c8c-4e30-a495-6f2e95ae03a7" } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda535e4d3e731",
+				{
+					"parent": "feedbbe92e907ba2",
+					"name": "fine fuck you game",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"events": {
+						"EventOccurred": {
+							"GetCurrentContractID": ["cafe6aaadb8fe1a5"],
+							"In": ["cafed16d233ffdb6"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6aaadb8fe1a5",
+				{
+					"parent": "cafe4b24a73ab2fa",
+					"name": "ContractIdComparerEntity",
+					"factory": "[modules:/zcontractidcomparerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zcontractidcomparerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sContractId": {
+							"type": "ZString",
+							"value": "ebcd14b2-0786-4ceb-a2a4-e771f60d0125"
+						}
+					},
+					"events": {
+						"ContractIDsIdentical": {
+							"SetTrue": ["cafe4b24a73ab2fa"],
+							"In": ["cafed16d233ffdb6"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafed16d233ffdb6",
+				{
+					"parent": "feeda535e4d3e731",
+					"name": "SignalGateEntity_Void",
+					"factory": "[modules:/zsignalgateentity_void.class].pc_entitytype",
+					"blueprint": "[modules:/zsignalgateentity_void.class].pc_entityblueprint",
+					"properties": {
+						"m_rCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe57b82f265628"
+						},
+						"m_bEnabled": { "type": "bool", "value": true }
+					},
+					"events": {
+						"Out": { "SpawnItem": ["feed88e3d81cd751"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe57b82f265628",
+				{
+					"parent": "cafe6aaadb8fe1a5",
+					"name": "InvertedCondition",
+					"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+					"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+					"properties": {
+						"m_rCondition": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe4b24a73ab2fa"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe4b24a73ab2fa",
+				{
+					"parent": "feedbbe92e907ba2",
+					"name": "Is berlin",
+					"factory": "[modules:/zvalueboolbasic.class].pc_entitytype",
+					"blueprint": "[modules:/zvalueboolbasic.class].pc_entityblueprint",
+					"properties": {
+						"m_bValue": { "type": "bool", "value": false }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

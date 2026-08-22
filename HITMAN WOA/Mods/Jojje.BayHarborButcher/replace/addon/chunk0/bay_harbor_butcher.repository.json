@@ -1,0 +1,14 @@
+{
+	"48ba6b81-9e95-49f6-9562-bd93b4aad385": {
+		"ID_": "48ba6b81-9e95-49f6-9562-bd93b4aad385",
+		"CommonName": "CHAR_Global_Hero_Bay_Harbor_Butcher_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_bay_harbor_butcher.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_BAY_HARBOR_BUTCHER"
+	}
+}

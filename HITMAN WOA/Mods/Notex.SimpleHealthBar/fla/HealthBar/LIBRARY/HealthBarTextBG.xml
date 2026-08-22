@@ -1,0 +1,30 @@
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="HealthBarTextBG" itemID="65d42326-00000140" lastModified="1708572519">
+  <timeline>
+    <DOMTimeline name="HealthBarTextBG" layerDepthEnabled="true">
+      <layers>
+        <DOMLayer name="Layer_1" color="#00FFFF" current="true" isSelected="true">
+          <frames>
+            <DOMFrame index="0" keyMode="9728">
+              <elements>
+                <DOMShape>
+                  <fills>
+                    <FillStyle index="1">
+                      <SolidColor color="#323232"/>
+                    </FillStyle>
+                  </fills>
+                  <edges>
+                    <Edge fillStyle0="1" edges="!520 0|0 0!0 0|0 520!0 520|520 520!520 520|520 0"/>
+                    <Edge cubics="!520 0(;520,0 0,0 0,0q520 0 0 0);"/>
+                    <Edge cubics="!0 0(;0,0 0,520 0,520q0 0 0 520);"/>
+                    <Edge cubics="!0 520(;0,520 520,520 520,520q0 520 520 520);"/>
+                    <Edge cubics="!520 520(;520,520 520,0 520,0q520 520 520 0);"/>
+                  </edges>
+                </DOMShape>
+              </elements>
+            </DOMFrame>
+          </frames>
+        </DOMLayer>
+      </layers>
+    </DOMTimeline>
+  </timeline>
+</DOMSymbolItem>

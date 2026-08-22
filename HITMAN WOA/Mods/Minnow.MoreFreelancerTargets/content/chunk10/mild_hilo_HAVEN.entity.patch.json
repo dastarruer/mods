@@ -1,0 +1,505 @@
+{
+	"tempHash": "00915F68E5D78A5B",
+	"tbluHash": "00A72D530E741353",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"123d26152394a9df",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aActors",
+						[
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "6c0976083cfa67a6",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "86f3be8256569f2c",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "1896c95c2f6d0cd2",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "24b413ca144de0ff",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "eb9101f67b96f398",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "db2e67f410d652ee",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "bbe03a650b47356b",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "c1cce69a9ee0a397",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "0e5c780a2d58df8c",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "8fee700e64a3eadb",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "c63abc99589f8ea7",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "c98103a1c3b66e63",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "2fa17c5550ebf416",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "d172c0ffcce46217",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "51293c405267f574",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "c37144b97d88641b",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "bee65dbe76887358",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "f6acb6bb585b84d5",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "8d2e5847d170ad41",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "57bd2d9838ebfda2",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "765656b03860c4a2",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "a34967a8d071b8fa",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "47a08b8ad02750b5",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "6694c6144a8bd03b",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "8e23b68e792fdbc2",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "ffea9ee7eb0b0280",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "a81e2c9598d3a662",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "1032b32a609ba234",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "fcd8e8d3a0075459",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "09b27697d17123b4",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "d0da744520a377c2",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "fbd4a48324ce87bc",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "60022278b55365ae",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "aba0e2a15dc8deaa",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "a7191cedede1c2a7",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "a83be3d4f0157e01",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "597aa821e5ab2732",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "bda3e05e0262ecb2",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "7aafa0eec3dc310f",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "2ec8a90050f7054d",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "1344bf1aa405d442",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "1f3749648ae7414e",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "5274c154982ff177",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "afffbe4b35b9a585",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "3279073ac6ad2593",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "06b307c8df330f21",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "58f58f883ce96159",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "63fdb0fc7deed58c",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "005be47c99e7acf2",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "6af3c4a9da2ee007",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "906aea787534e9a2",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "d6f9e14d03cd2557",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "b7dd4ee4a7128eeb",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/override_hilo.brick].pc_entitytype"
+									}
+								]
+							},
+							{
+								"AddItemAfter": [
+									"42b9262e037348ec",
+									{
+										"ref": "e98eaad779e5efbb",
+										"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+									}
+								]
+							}
+						]
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

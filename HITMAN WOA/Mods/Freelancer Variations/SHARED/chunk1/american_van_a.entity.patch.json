@@ -1,0 +1,35 @@
+{
+    "tempHash": "0075F905615FCF14",
+    "tbluHash": "00214DC380A82F1A",
+    "patch": [
+        {
+            "SubEntityOperation": [
+                "c72b43c1ce59ffdc",
+                {
+                    "AddPropertyAliasConnection": [
+                        "LightsOn",
+                        {
+                            "originalProperty": "m_bVisible",
+                            "originalEntity": "5379df457376db97"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "SubEntityOperation": [
+                "c72b43c1ce59ffdc",
+                {
+                    "AddPropertyAliasConnection": [
+                        "LightsOn",
+                        {
+                            "originalProperty": "LightOn",
+                            "originalEntity": "c8b63fa145335985"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "patchVersion": 6
+}

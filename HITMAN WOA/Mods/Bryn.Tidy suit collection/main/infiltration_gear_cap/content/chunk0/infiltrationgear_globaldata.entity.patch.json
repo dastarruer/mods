@@ -1,0 +1,255 @@
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"cafe91bb15f75c2f",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "CHARSET_Agent47_SignatureSuit",
+					"factory": "0070CB9056C77923",
+					"blueprint": "005285C6F0F05103"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe9ec1ea3dd8cf",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafeb138104d528c"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb138104d528c",
+				{
+					"parent": "0ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Infiltration_gear_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": {
+							"type": "EActorType",
+							"value": "eAT_Hitman"
+						},
+						"m_eSoundFootwearType": {
+							"type": "EHM5SoundFootwearType",
+							"value": "EFWT_SWAT_BOOTS"
+						},
+						"m_aCharSets": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafe91bb15f75c2f"]
+						},
+						"m_sId": {
+							"type": "ZGuid",
+							"value": "c8d0a0d3-e943-4956-911b-60d8e73d52af"
+						},
+						"m_bCanCallForHelp": {
+							"type": "bool",
+							"value": true
+						},
+						"m_sCommonName": {
+							"type": "ZString",
+							"value": "CHAR_Global_Hero_Infiltration_gear_M"
+						},
+						"m_sTitle": {
+							"type": "ZString",
+							"value": "Infiltration gear"
+						},
+						"m_eOutfitAICategory": {
+							"type": "EOutfitAICategory",
+							"value": "OAC_47Suit"
+						},
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/c8d0a0d3-e943-4956-911b-60d8e73d52af_hitman6_hero_infiltrationgear_m_name_.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext?/c8d0a0d3-e943-4956-911b-60d8e73d52af_hitman6_hero_infiltrationgear_m_description_.sweetline].pc_sweetline",
+								"flag": "5F"
+							}
+						},
+						"m_bHeroDisguiseAvailable": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bIsHitmanSuit": {
+							"type": "bool",
+							"value": true
+						},
+						"m_bWeaponsAllowed": {
+							"type": "bool",
+							"value": true
+						},
+						"m_aWeaponsAllowedExceptionKeywords": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [
+								"cafe0df01918fcf9",
+								"cafeb49bb09251a3",
+								"cafe5d54cee0465f",
+								"cafe224c8ea59488",
+								"cafe02ecf896fcda",
+								"cafe5eaddf0cbaf9"
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe39ba8a09dcdf",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Prof_Hero_SignatureSuit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafeb138104d528c"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe38350cac51b2",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_rHolder": {
+							"type": "SEntityTemplateReference",
+							"value": "cafeb138104d528c"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe3855865065e5",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["cafeb138104d528c"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0df01918fcf9",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Keyword_ITEM_AXE",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_axe.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_axe.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeb49bb09251a3",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Keyword_WEAPON_RIFLE",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_rifle.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_rifle.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": [],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5d54cee0465f",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Keyword_WEAPON_SHOTGUN",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_shotgun.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_shotgun.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe224c8ea59488",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Keyword_WEAPON_SMG",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_smg.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_smg.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": []
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe02ecf896fcda",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Keyword_WEAPON_SWORD",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_sword.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_sword.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe5eaddf0cbaf9",
+				{
+					"parent": "cafeb138104d528c",
+					"name": "Keyword_ITEM_SNIPER_RIFLE",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

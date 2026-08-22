@@ -1,0 +1,103 @@
+{
+	"tempHash": "00334720C9D29571",
+	"tbluHash": "005E0508B10A3E4E",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "ToD_Sunset",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe8c6257fe867c": {
+			"parent": "cafe9c0cd9844c59",
+			"name": "Event Transmitter",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entitytype",
+			"blueprint": "003D29EFE5AC1BCC",
+			"properties": {
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe7acb52c3b1e1"
+				}
+			}
+		},
+		"cafe7acb52c3b1e1": {
+			"parent": "cafe8c6257fe867c",
+			"name": "EventToken_Evergreen_AgendaStatus_CourierActive",
+			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": { "type": "ZString", "value": "FV_Drop" }
+			}
+		},
+		"cafe9c0cd9844c59": {
+			"parent": "fffffffffffffffe",
+			"name": "Black Market Compat",
+			"factory": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreen_pollactivecontract.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/templates/ld design assets/ld_helpers_evergreen.template?/evergreen_pollactivecontract.entitytemplate].pc_entityblueprint",
+			"events": {
+				"hotMeyer": { "TransmitEvent": ["cafe8c6257fe867c"] },
+				"mildMeyer": { "TransmitEvent": ["cafe8c6257fe867c"] }
+			}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "add6035959bd8a52",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_tomorrowland.brick].pc_entitytype"
+				},
+				{
+					"ref": "399a2a53a2d32a9e",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_tomorrowland.brick].pc_entitytype"
+				},
+				{
+					"ref": "0baa6c3c7c634183",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_tomorrowland.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eFaction": {
+					"type": "EActorFaction",
+					"value": "eActorFaction_VIP_13"
+				},
+				"m_eActorFaction": {
+					"type": "EActorFaction",
+					"value": "eActorFaction_VIP_13"
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "cb7a1de8debd63a7",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "0bbd4cd305b95069",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "fe26f307e68560ca",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_tomorrowland.brick].pc_entitytype"
+		},
+		{
+			"ref": "dd0d68dd9ef1761a",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_tomorrowland.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/elusive_tomorrowland.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/edgy/mission_fox/tod_berlin_sunset.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

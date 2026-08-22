@@ -1,0 +1,118 @@
+{
+	"tempHash": "007AD1AB4A3958A4",
+	"tbluHash": "00E522AB0186A2D9",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "ToD_Day_ETs",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "d7b68095c4c275fc",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				},
+				{
+					"ref": "fa1c8f45ad54274b",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				},
+				{
+					"ref": "657cba818254782f",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eActorFaction": {
+					"type": "EActorFaction",
+					"value": "eActorFaction_VIP_15"
+				},
+				"m_eFaction": {
+					"type": "EActorFaction",
+					"value": "eActorFaction_VIP_15"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d08a07948c2d8acc",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				},
+				{
+					"ref": "adda3838cc3e037b",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				},
+				{
+					"ref": "16bbfe0a71c8b101",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				},
+				{
+					"ref": "c71f62051b1b2bea",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				},
+				{
+					"ref": "73822387e20ca4a8",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				},
+				{
+					"ref": "b9ada9a4b4992e6e",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "70a8c04fc775d685",
+					"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "af2a75723462be64",
+			"externalScene": "[assembly:/_pro/scenes/missions/theark/elusive_goldendoublet.brick].pc_entitytype"
+		},
+		{
+			"ref": "75c3a5bf467fe21a",
+			"externalScene": "[assembly:/_pro/scenes/missions/theark/elusive_skittlebomb.brick].pc_entitytype"
+		},
+		{
+			"ref": "f9ff27b616dac81a",
+			"externalScene": "[assembly:/_pro/scenes/missions/theark/elusive_skittlebomb.brick].pc_entitytype"
+		},
+		{
+			"ref": "b617aef12443c400",
+			"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+		},
+		{
+			"ref": "df3a825bdddd40e4",
+			"externalScene": "[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/theark/scenario_magpie.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/theark/elusive_goldendoublet.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/theark/elusive_skittlebomb.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/theark/mission_hot_whist.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/theark/tod_midday.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

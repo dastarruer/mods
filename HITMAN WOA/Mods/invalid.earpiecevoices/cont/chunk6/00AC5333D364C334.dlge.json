@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "00AC5333D364C334",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43753_clnseereveal_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43753_clnseereveal_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43753_clnseereveal_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,4.2)\\\\47? That there, is not Valliant!//(4.2,9)\\\\Something is not right. Could it be a clone?//(9,39)\\\\I need to talk to the board members. Stand by for further instructions.",
+			"fr": "//(0,30)\\\\Ce n'est pas Valliant, 47 ! Il y a un problème. Un clone, peut-être ? Je dois en parler aux membres du conseil. Tenez-vous prêt, je reviens avec d'autres instructions.",
+			"it": "//(0,4.2)\\\\47? Quello lì non è Valliant!//(4.2,9)\\\\Qualcosa non torna. Potrebbe trattarsi di un clone?//(9,39)\\\\Devo parlare con i membri del consiglio. Resta in attesa di ulteriori istruzioni.",
+			"de": "//(0,4.1)\\\\47? Das dort ist nicht Valliant!//(4.1,6.45)\\\\Da stimmt etwas nicht.//(7.2,8.6)\\\\Könnte das ein Klon sein?//(9.2,39.2)\\\\Ich muss mit den Mitgliedern des Direktoriums sprechen. Halten Sie sich bereit für weitere Befehle.",
+			"es": "//(0,4)\\\\¡47, ese de ahí no es Valliant!//(4.4,8.88)\\\\Aquí está pasando algo raro. ¿Podría ser un clon?//(9.17,39.17)\\\\Tengo que hablar con los miembros de la junta. Espera a recibir instrucciones.",
+			"ru": "//(0,4.2)\\\\47-й? Это не Вальян! Что-то явно не так.//(4.2,9)\\\\Может быть, это его клон?//(9,39)\\\\Мне надо поговорить с советом директоров. Жди дальнейших указаний.",
+			"cn": "//(0,4.2)\\\\47？那家伙不是瓦兰特！//(4.2,9)\\\\有点不对劲。难道是克隆体？//(9,39)\\\\我要和董事会成员谈谈。暂且待命，等待进一步指示。",
+			"tc": "//(0,4.3)\\\\47？那個不是瓦里安！//(4.3,9)\\\\有哪裡不對勁，難道他是複製人嗎？//(9,39)\\\\我得和董事會成員談談，在收到進一步指示前先待命。",
+			"jp": "//(0,4)\\\\47？あれはヴァリアントじゃないわ！//(4,6.88)\\\\何かがおかしい。//(6.88,8.75)\\\\もしかしてクローンかしら？//(8.75,38.75)\\\\役員会と相談しないといけないわ。次の指示が来るまで待機してて。"
+		}
+	}
+}

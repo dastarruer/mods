@@ -1,0 +1,10 @@
+{
+	"tempHash": "00F9068910496A80",
+	"tbluHash": "0099441FF2CC8BED",
+	"patch": [
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/missions/elegant/lighting_overrides_llama.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}

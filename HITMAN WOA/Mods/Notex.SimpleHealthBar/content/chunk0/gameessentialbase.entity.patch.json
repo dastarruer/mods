@@ -1,0 +1,385 @@
+{
+	"tempHash": "0093B7139387B988",
+	"tbluHash": "004D99E9BEC3EA51",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"8e16e03dab8d2cef",
+				{
+					"AddEventConnection": ["EventReceived", "SetVisible", "cafe0141885e38a0"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"db9f74950fec79f8",
+				{
+					"PatchArrayPropertyValue": [
+						"m_aChildren",
+						[
+							{
+								"AddItemAfter": ["0c74ae87029bd724", "cafef77f80f5f691"]
+							}
+						]
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"d63ac16cd1c66f50",
+				{
+					"AddEventConnection": ["Out02", "Hide", "cafef4e298a79304"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ecdfd17726bd53ca",
+				{
+					"AddEventConnection": ["OnFalse", "Hide", "cafe0141885e38a0"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ecdfd17726bd53ca",
+				{
+					"AddEventConnection": ["OnTrue", "Show", "cafe0141885e38a0"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"43f4c2bb1b13db7b",
+				{
+					"AddEventConnection": ["Out02", "Show", "cafef4e298a79304"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"34f439ac06f0f3ec",
+				{
+					"AddEventConnection": ["OnFalse", "Hide", "cafe353bf2365fa9"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"34f439ac06f0f3ec",
+				{
+					"AddEventConnection": ["OnTrue", "Show", "cafe353bf2365fa9"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"69be349a738c7ea9",
+				{
+					"AddEventConnection": ["EventReceived", "SetVisible", "cafe353bf2365fa9"]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ff4672d7da2e8b02",
+				{
+					"AddProperty": [
+						"HealthBar",
+						{
+							"type": "SEntityTemplateReference",
+							"value": "cafef4e298a79304"
+						}
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"ff4672d7da2e8b02",
+				{
+					"AddPropertyAliasConnection": [
+						"HealthBar",
+						{
+							"originalProperty": "m_pTargetControl",
+							"originalEntity": "cafe353bf2365fa9"
+						}
+					]
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafeba446945a84b",
+				{
+					"parent": "6933599ccecbd1ed",
+					"name": "HealthBar",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef77f80f5f691",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "HealthBar",
+					"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/HealthBar.swf?/healthbar.HealthBar.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entitytype",
+					"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/ui/controls/HealthBar.swf?/healthbar.HealthBar.uic].entitytype,[modules:/zuicontrollayoutlegacyaspect.class].entitytype).pc_entityblueprint",
+					"properties": {
+						"m_pMovieResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/ui/controls/HealthBar.swf].pc_swf",
+								"flag": "5F"
+							}
+						},
+						"m_sClassName": {
+							"type": "ZString",
+							"value": "healthbar.HealthBar"
+						},
+						"m_vPositionOffset": {
+							"type": "SVector3",
+							"value": { "x": 15, "y": 829, "z": 0 }
+						},
+						"m_eAlignmentType": {
+							"type": "ZUIControlLayoutLegacyAspect.EAlignmentType",
+							"value": "E_ALIGNMENT_TYPE_BottomLeft"
+						},
+						"m_eSizeMode": {
+							"type": "ZUIControlLayoutLegacyAspect.ELayoutMode",
+							"value": "E_LAYOUT_MODE_Proportional_Scale_MaintainAspect"
+						},
+						"m_vSize": {
+							"type": "SVector2",
+							"value": { "x": 100, "y": 100 }
+						},
+						"m_bIsVisible": { "type": "bool", "value": true },
+						"m_fAlpha": { "type": "float32", "value": 100.0 },
+						"Debug": { "type": "uint32", "value": 100 },
+						"DebugMode": { "type": "bool", "value": false },
+						"Height": { "type": "float32", "value": 1 },
+						"Width": { "type": "float32", "value": 1 }
+					},
+					"events": {
+						"RequestData": {
+							"GetData": ["cafea8f9b3707ba1", "cafe6e40d206cd7a"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe48ce24f0d026",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "HealthSoundController",
+					"factory": "[modules:/zhm5healthsoundcontroller.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5healthsoundcontroller.class].pc_entityblueprint",
+					"events": {
+						"CurrentHealth": {
+							"SetTextHealth": ["cafef77f80f5f691"],
+							"GetHealth": ["cafea104c0198b1a"]
+						},
+						"Died": {
+							"SetTextHealth": [
+								{
+									"ref": "cafef77f80f5f691",
+									"value": {
+										"type": "float32",
+										"value": 0
+									}
+								}
+							],
+							"SetBarHealth": [
+								{
+									"ref": "cafef77f80f5f691",
+									"value": {
+										"type": "float32",
+										"value": 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafee53c186d2b03",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "EventChannelReceiver_bool",
+					"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_bool.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_bEnabled": { "type": "bool", "value": true },
+						"m_rChannelToken": {
+							"type": "SEntityTemplateReference",
+							"value": "cafe8b035c1e15db"
+						}
+					},
+					"events": {
+						"OnTrue": { "Hide": ["cafe353bf2365fa9"] },
+						"OnFalse": { "Show": ["cafe353bf2365fa9"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe8b035c1e15db",
+				{
+					"parent": "cafee53c186d2b03",
+					"name": "TokenID",
+					"factory": "[modules:/ztokenidentity.class].pc_entitytype",
+					"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
+					"properties": {
+						"m_sName": {
+							"type": "ZString",
+							"value": "EventChannel_Notex_HealthBar"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe353bf2365fa9",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "HealthBarVisibilityController_Instant",
+					"factory": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_fFadeTime": { "type": "float32", "value": 0 },
+						"m_pTargetControl": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef77f80f5f691"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe0141885e38a0",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "HealthBarVisibilityController_Fade",
+					"factory": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_fFadeTime": { "type": "float32", "value": 1 },
+						"m_pTargetControl": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef77f80f5f691"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafef4e298a79304",
+				{
+					"parent": "ff4672d7da2e8b02",
+					"name": "HealthBar",
+					"factory": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zuicontrolvisibilitycontrollerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pTargetControl": {
+							"type": "SEntityTemplateReference",
+							"value": "cafef77f80f5f691"
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea8f9b3707ba1",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "DynamicObject_Main",
+					"factory": "[modules:/zdynamicobjectentity.class].pc_entitytype",
+					"blueprint": "[modules:/zdynamicobjectentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pJSONResource": {
+							"type": "ZRuntimeResourceID",
+							"value": "[assembly:/ui/data/healthbar/colours_main.json].pc_json"
+						}
+					},
+					"events": {
+						"Data": { "MainColours": ["cafef77f80f5f691"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe6e40d206cd7a",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "DynamicObject_Secondary",
+					"factory": "[modules:/zdynamicobjectentity.class].pc_entitytype",
+					"blueprint": "[modules:/zdynamicobjectentity.class].pc_entityblueprint",
+					"properties": {
+						"m_pJSONResource": {
+							"type": "ZRuntimeResourceID",
+							"value": "[assembly:/ui/data/healthbar/colours_secondary.json].pc_json"
+						}
+					},
+					"events": {
+						"Data": {
+							"SecondaryColours": ["cafef77f80f5f691"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafe80cf93bca7cf",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "GameEventListener",
+					"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+					"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+					"properties": {
+						"m_eEvent": {
+							"type": "EGameEventType",
+							"value": "GET_SavegameRestored"
+						}
+					},
+					"events": {
+						"EventOccurred": {
+							"GetData": ["cafea8f9b3707ba1", "cafe6e40d206cd7a"]
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"cafea104c0198b1a",
+				{
+					"parent": "cafeba446945a84b",
+					"name": "HitmanHealthModifier",
+					"factory": "[modules:/zhm5hitmanhealthmodifier.class].pc_entitytype",
+					"blueprint": "[modules:/zhm5hitmanhealthmodifier.class].pc_entityblueprint",
+					"events": {
+						"OnGetHealth": {
+							"SetBarHealth": ["cafef77f80f5f691"]
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "https://tonytools.win/schemas/dlge.schema.json",
+	"hash": "003EB0783140C254",
+	"DITL": "00B7E83B2B5BFE20",
+	"CLNG": "00E3CBB0725ED16C",
+	"rootContainer": {
+		"type": "WavFile",
+		"wavName": "ds43762_clnlab_diana_001",
+		"soundtag": "Voiceover_Handler_ICAEarpiece",
+		"defaultWav": "[assembly:/sound/wwise/originals/voices/english(us)/wet/43000_elusive/lambic/43750_handler/ds43762_clnlab_diana_001.wav].pc_wes",
+		"defaultFfx": "[assembly:/_pro/facefx/exported_animation/english(us)/wet/43000_elusive/lambic/43750_handler/ds43762_clnlab_diana_001.animset].pc_animset",
+		"languages": {
+			"en": "//(0,30)\\\\This must be where the clones are created. This operation is bigger than I feared. 47? You know what you need to do.",
+			"fr": "//(0,30)\\\\Ce doit être ici que sont créés les clones. Cette opération est plus importante que je le craignais... Vous savez quoi faire, 47.",
+			"it": "//(0,30)\\\\Questo dev'essere il luogo in cui vengono creati i cloni. Questa operazione è molto più vasta di quanto temessi. 47? Sai cosa devi fare.",
+			"de": "//(0,3.5)\\\\Hier werden vermutlich die Klone geschaffen.//(3.5,6.2)\\\\Diese Operation ist größer, als ich befürchtet hatte.//(6.2,36.2)\\\\47? Sie wissen, was zu tun ist.",
+			"es": "//(0,2.5)\\\\Aquí debe de ser donde crean los clones.//(3.7,5.9)\\\\Esta operación es mucho más grande de lo que me temía.//(6.4,36.4)\\\\47, ya sabes lo que tienes que hacer.",
+			"ru": "//(0,30)\\\\Видимо, здесь создают клонов. Этот проект гораздо масштабнее, чем мы думали. 47-й, ты знаешь что делать.",
+			"cn": "//(0,30)\\\\这里肯定就是克隆体的制造地点。这场阴谋的规模比我想象中还大。47？你知道该怎么做。",
+			"tc": "//(0,6.2)\\\\這裡一定就是他製造複製人的地方。行動的規模比我預想的還要大。//(6.2,36.2)\\\\47？你知道該怎麼做。",
+			"jp": "//(0,5.9)\\\\クローンが作られてるのはここね。これは想像していた以上の仕事になりそうね。//(5.9,35.9)\\\\あなたならやるべきことが何か、わかってるわよね？"
+		}
+	}
+}
