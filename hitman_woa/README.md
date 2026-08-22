@@ -1,2 +1,3 @@
 - `config.json` - Config file for SMF
+- `MissionCompanion.dll` - Required for freelancer variations
 - `Mods/` - All hitman mods
