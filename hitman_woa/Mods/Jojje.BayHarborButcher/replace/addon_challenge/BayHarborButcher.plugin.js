@@ -5,7 +5,6 @@
  * @licence LGPL-v3
  */
 
-const { PEACOCKVER, PEACOCKVERSTRING } = require("@peacockproject/core/utils")
 const { log, LogLevel } = require("@peacockproject/core/loggingInterop")
 
 const challenges = [
@@ -118,14 +117,15 @@ const challenges = [
 ]
 
 module.exports = function BayHarborButcher(controller) {
-	if (Math.abs(PEACOCKVER) < 7000) {
-		log(LogLevel.ERROR, `[Bay Harbor Butcher] This plugin requires Peacock v7! You're on v${PEACOCKVERSTRING}!`)
-		return
-	}
+	controller.hooks.onUserLogin.tap("Bay Harbor Butcher", async (version, userId) => {
+		if (!controller.smf.modEnabledForUser(userId, `Jojje.BayHarborButcher@1.1.1`)) {
+			log(LogLevel.ERROR, "[Bay Harbor Butcher] Mod currently not deployed, please deploy it in SMF.")
+			return
+		}
+		for (const challenge of challenges) {
+			controller.challengeService.registerChallenge(challenge, "assassination", challenge.ParentLocationId, "h3")
+		}
 
-	for (const challenge of challenges) {
-		controller.challengeService.registerChallenge(challenge, "assassination", challenge.ParentLocationId, "h3")
-	}
-
-	log(LogLevel.INFO, "[Bay Harbor Butcher] Ready. (Plugin Started)")
+		log(LogLevel.INFO, "[Bay Harbor Butcher] Ready. (Plugin Started)")
+	})
 }

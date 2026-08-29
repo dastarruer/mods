@@ -1,0 +1,35 @@
+{
+	"tempHash": "00C2F62D9F84F519",
+	"tbluHash": "00B4FF13E74E586F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"0b42cb970d25fdbc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_ResourceID",
+						"value": {
+							"resource": "[assembly:/_pro/environment/geometry/props/harbour_props/liferaft_container_a.wl2?/liferaft_container_a.linkedprim].pc_linkedprim",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"0b42cb970d25fdbc",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_CollisionResourceID",
+						"value": {
+							"resource": "[assembly:/_pro/environment/geometry/props/harbour_props/liferaft_container_a.wl2?/liferaft_container_a.linkedprim].pc_coll",
+							"flag": "5F"
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

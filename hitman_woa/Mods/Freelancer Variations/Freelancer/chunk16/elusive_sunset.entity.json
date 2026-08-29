@@ -1193,7 +1193,7 @@
 				}
 			}
 		},
-		"feed2eb0bc0865a1": {
+		"cafe6bbd2a8a67cf": {
 			"parent": "fffffffffffffffe",
 			"name": "wall_construction2m_a_04 TUNNEL BLOCKER",
 			"factory": "[assembly:/_pro/environment/templates/props/trash/wooden_planks_a.template?/wall_construction2m_a_04.entitytemplate].pc_entitytype",
@@ -1219,9 +1219,61 @@
 					"value": "ROOM_DYNAMIC"
 				}
 			}
+		},
+		"cafe243dde020b4c": {
+			"parent": "cafe6bbd2a8a67cf",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.000013660380782691822,
+							"y": 0.03956468099451631,
+							"z": -0.03956469042747496
+						},
+						"position": {
+							"x": 0.00138092041015625,
+							"y": 0.08262491226196289,
+							"z": 1.244173288345337
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.5,
+						"y": 3.0999999046325684,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fPenaltyMultiplier": { "type": "float32", "value": -1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe6bbd2a8a67cf",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "8190a40f7f67650d",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "3dda572f-a812-4685-a97a-d9ab6c3cae31"
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -1988,7 +2040,8 @@
 		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/colombia/colombia_outfits.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/skunk/outfits_skunk.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/skunk/tod_sunset.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/skunk/tod_sunset.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

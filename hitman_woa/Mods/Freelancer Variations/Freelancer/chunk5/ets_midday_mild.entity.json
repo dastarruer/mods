@@ -295,10 +295,6 @@
 							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
 						},
 						{
-							"ref": "d2088bb8e0621a6c",
-							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
-						},
-						{
 							"ref": "8284dce17d9bd259",
 							"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
 						},
@@ -508,6 +504,74 @@
 						},
 						{
 							"ref": "cafefcc63c701ea5",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe78e3764ba7b1",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe2fd734f31a3d",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafee9ebb3cecdfc",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe64d68acce0ca",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe6f52da8a9943",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe3a0e283e42e7",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe0f823eca23a2",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe92e8bb195dde",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafeda80a5d39563",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe517b13e6ebda",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe4bc9f617c051",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe57a4fa4df64e",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafef9bbcfc81074",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe07efda3db387",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafeae6ea01fe87e",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafe35263c78690d",
+							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
+						},
+						{
+							"ref": "cafeeeced112e3c6",
 							"externalScene": "[assembly:/_pro/scenes/missions/elegant/ets_midday.brick].pc_entitytype"
 						}
 					]

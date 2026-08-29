@@ -159,7 +159,7 @@
 					"type": "ZString",
 					"value": "Hard Boi 1"
 				},
-				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_nOutfitVariation": { "type": "int32", "value": 6 },
 				"m_nOutfitCharset": { "type": "int32", "value": 17 },
 				"m_eRequiredVoiceVariation": {
@@ -278,7 +278,7 @@
 					"type": "ZString",
 					"value": "Hard Boi 3"
 				},
-				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_nOutfitVariation": { "type": "int32", "value": 1 },
 				"m_nOutfitCharset": { "type": "int32", "value": 2 },
 				"m_eRequiredVoiceVariation": {
@@ -458,7 +458,7 @@
 					"type": "ZString",
 					"value": "Hard Boi 2"
 				},
-				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_nOutfitCharset": { "type": "int32", "value": 2 },
 				"m_eRequiredVoiceVariation": {
@@ -657,7 +657,7 @@
 					"type": "ZString",
 					"value": "Hard Boi 4"
 				},
-				"m_nWeaponIndex": { "type": "int32", "value": 2 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_nOutfitVariation": { "type": "int32", "value": 8 },
 				"m_nOutfitCharset": { "type": "int32", "value": 12 },
 				"m_eRequiredVoiceVariation": {

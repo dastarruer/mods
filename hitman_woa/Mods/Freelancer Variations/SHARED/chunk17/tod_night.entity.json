@@ -5143,9 +5143,176 @@
 					"value": "eBox"
 				}
 			}
+		},
+		"cafea9590caf56c6": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "rat",
+			"factory": "[modules:/zsoundbankentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsoundbankentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pBankResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/soundbanks/levelspecific/rat.wwisesoundbank].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "3c61c0540e9057f0",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "65172204b3f2e86b",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "421da47de1a83e91",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "30cdb01725ce543f",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "b41c1bb148da031e",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "01d7554be724ce99",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "d0950d51a725b089",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "b514635c84fef9d2",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "b5f0fb6f9adadd38",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "a40dc949abe315c9",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/loc_rat/mission_rat/rat_outside_global/rat_outside_global_pos/pos_distant_city_realistic/play_sfx_amb_pos_rat_distantcity_humdogs_01_lp.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "3ca38458db58763a",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "b5cd7089f99c16fe",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "5f8b6f26cd2b0b5d",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "0004d78e3a8271da",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "21f30451a4045891",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "ed7d004becb2a77d",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "db0edd4380a9ab13",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "7923cbcdf6c3476a",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "9eaf74fb4c2486e3",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "9d9cbbebde364dee",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "0918dd91d9af44d9",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "8ed4d3d644b635c9",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/loc_rat/mission_rat/rat_outside_global/rat_outside_global_pos/pos_distant_city_realistic/play_sfx_amb_pos_rat_distantcity_humhorndogs_01_lp.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "201c9ff70d5f694a",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/loc_rat/mission_rat/rat_outside_global/rat_outside_global_pos/pos_distant_city_realistic/play_sfx_amb_pos_rat_distantcity_trafficsirens_01_lp.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "bdd98b1c0f0c58b0",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "a90ed30e2c2c93c2",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pMainEvent": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/loc_rat/mission_rat/rat_outside_global/rat_outside_global_pos/pos_distant_city_realistic/play_sfx_amb_pos_rat_distantcity_traffic_distmed_01_lp.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -5159,13 +5326,17 @@
 				{
 					"ref": "1fd69bfb88b56641",
 					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+				},
+				{
+					"ref": "087c0ad7fef61881",
+					"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
 				}
 			],
 			"properties": {
 				"m_pMainEvent": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00E656CB0E9ED0ED",
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/loc_rockydugong/mission_rockydugong/subl_general_outside/amb/play_amb_bg_cricketmedclose.wwiseevent].pc_wwisebank",
 						"flag": "5F"
 					}
 				}

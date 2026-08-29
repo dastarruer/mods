@@ -5,7 +5,7 @@
 	"entities": {
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "tod_night",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
 		},
@@ -2981,9 +2981,477 @@
 				}
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"cafef9bccb3a2bd2": {
+			"parent": "cafe47751516d5ec",
+			"name": "Water Pier Lighting",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafef4692c35b5e1": {
+			"parent": "cafef9bccb3a2bd2",
+			"name": "pier_light_a",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 125.24461078427048,
+							"y": -89.95154335116653,
+							"z": -54.71582366365429
+						},
+						"position": {
+							"x": 0.0887601226568222,
+							"y": 3.371521234512329,
+							"z": 3.244678497314453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d6d4c1ac2f63f1d8",
+						"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.47999998927116394,
+						"y": 9.010000228881836
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d0ffe9"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 15.899999618530272
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.018453292548656464,
+						"y": 0.9010000228881836
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 100.0 },
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 40.0
+				}
+			}
+		},
+		"cafeabc6f3c6461f": {
+			"parent": "cafef9bccb3a2bd2",
+			"name": "pier_light_a",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 125.24461078427048,
+							"y": -89.95154335116653,
+							"z": -54.71582366365429
+						},
+						"position": {
+							"x": 0.0887601226568222,
+							"y": 13.162898063659668,
+							"z": 3.244678497314453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d6d4c1ac2f63f1d8",
+						"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.47999998927116394,
+						"y": 9.010000228881836
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d0ffe9"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 15.899999618530272
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.018453292548656464,
+						"y": 0.9010000228881836
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 100.0 },
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 40.0
+				}
+			}
+		},
+		"cafecbe06f78a772": {
+			"parent": "cafef9bccb3a2bd2",
+			"name": "pier_light_a",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 125.24461078427048,
+							"y": -89.95154335116653,
+							"z": -54.71582366365429
+						},
+						"position": {
+							"x": 0.0887601226568222,
+							"y": 25.049657821655273,
+							"z": 3.244678497314453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d6d4c1ac2f63f1d8",
+						"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.47999998927116394,
+						"y": 9.010000228881836
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d0ffe9"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 15.899999618530272
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.018453292548656464,
+						"y": 0.9010000228881836
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 100.0 },
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 40.0
+				}
+			}
+		},
+		"cafe4b247db23403": {
+			"parent": "cafef9bccb3a2bd2",
+			"name": "pier_light_a",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 124.42538989044326,
+							"y": -89.95250847622607,
+							"z": 124.46495569396252
+						},
+						"position": {
+							"x": 2.906127691268921,
+							"y": 30.75840950012207,
+							"z": 3.244678497314453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d6d4c1ac2f63f1d8",
+						"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.47999998927116394,
+						"y": 9.010000228881836
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d0ffe9"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 15.899999618530272
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.018453292548656464,
+						"y": 0.9010000228881836
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 100.0 },
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 40.0
+				}
+			}
+		},
+		"cafee2c804f5db4a": {
+			"parent": "cafef9bccb3a2bd2",
+			"name": "pier_light_a",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 124.42538989044326,
+							"y": -89.95250847622607,
+							"z": 124.46495569396252
+						},
+						"position": {
+							"x": 2.906127691268921,
+							"y": 19.21562385559082,
+							"z": 3.244678497314453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d6d4c1ac2f63f1d8",
+						"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.47999998927116394,
+						"y": 9.010000228881836
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d0ffe9"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 15.899999618530272
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.018453292548656464,
+						"y": 0.9010000228881836
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 100.0 },
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 40.0
+				}
+			}
+		},
+		"cafee08aee2e99b8": {
+			"parent": "cafef9bccb3a2bd2",
+			"name": "pier_light_a",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 124.42538989044326,
+							"y": -89.95250847622607,
+							"z": 124.46495569396252
+						},
+						"position": {
+							"x": 2.906127691268921,
+							"y": 7.970956325531006,
+							"z": 3.244678497314453
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "d6d4c1ac2f63f1d8",
+						"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+					},
+					"postInit": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.47999998927116394,
+						"y": 9.010000228881836
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d0ffe9"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 15.899999618530272
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.018453292548656464,
+						"y": 0.9010000228881836
+					}
+				},
+				"DiffusePower": { "type": "float32", "value": 100.0 },
+				"GlowPower": { "type": "float32", "value": 500.0 },
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 40.0
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "cf5ee760a3dc3a88",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"ConstantVector1D_06_Value": {
+					"type": "float32",
+					"value": -1.950000047683716
+				},
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": -0.3499999940395355
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "1abe22a1d41f7fa2",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"ConstantVector1D_08_Value": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"ConstantVector1D_13_Value": {
+					"type": "float32",
+					"value": 4.300000190734863
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "ec6b1b5d99073b42",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "68271fd2338ecbbe",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "984f448c0151bda5",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "96e66d1b8f1fd0be",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "630087ff24a360e0",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "eb8821e2114b6513",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "f89cac590655b77e",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d281bd4348c88d05",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"GlowPower": { "type": "float32", "value": 500 },
+				"DiffusePower": { "type": "float32", "value": 100.0 },
+				"IgnoreTimeOfDay": { "type": "bool", "value": false },
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"LightCastShadows": { "type": "bool", "value": true },
+				"On": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cae04bfcef30406b",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "67ed699661bc378d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "55f732c28382f2f6",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "fbd0954abebc32ef",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"WindowLightsIntensity": {
+					"type": "float32",
+					"value": 0.0
+				},
+				"TVLamps": { "type": "bool", "value": true },
+				"LampVisible": { "type": "bool", "value": true }
+			}
+		},
 		{
 			"entities": [
 				{
@@ -3649,7 +4117,10 @@
 			],
 			"properties": {
 				"On": { "type": "bool", "value": true },
-				"m_bCastShadows": { "type": "bool", "value": true }
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 60.0
+				}
 			}
 		},
 		{
@@ -4318,6 +4789,22 @@
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "2aadb66e6a5f2477",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "47263d8b5705f9df",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "997b92a345e13ed8",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "4fcc150b197d303c",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
 		{
 			"ref": "f260d638b78ad73d",
 			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"

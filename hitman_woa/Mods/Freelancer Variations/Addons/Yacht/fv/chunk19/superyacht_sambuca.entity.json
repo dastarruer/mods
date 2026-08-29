@@ -1,0 +1,294 @@
+{
+	"tempHash": "00B2C80546C99B8A",
+	"tbluHash": "00BD9FCC612E21E5",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Superyacht_sambuca.brick",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "50e7f9e41f2b8efb",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": {
+							"x": -101.33560180664064,
+							"y": 40.704,
+							"z": -0.000014999999621068127
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "0891d66ab88f85d2",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_supermap.navp].pc_navp",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c3d4a28b34210779",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pGrid": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/scenes/missions/miami/scene_miami_yacht_supermap.airg].pc_airg",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "57e202b320b5cd54",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": { "On": { "type": "bool", "value": true } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "f730262af5f305fa",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 2.0119780018773534
+						},
+						"position": {
+							"x": -133.9612,
+							"y": -56.908672,
+							"z": 11.022165
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "6367c4e3a476f9ec",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bValue": { "type": "bool", "value": false }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "74260f3fe59b4bfe",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "f1de2373-eebe-4448-808a-8c2764b2c931"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "7d8805a925bb2d51",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "0eda939e-db2b-4344-9c3f-9d00eb2fb1bc"
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e7e9143ac8b839c7",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "2ff0df5cddce48d6",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "66c86a13a1b8868b",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				},
+				{
+					"ref": "b40514baba7f5df9",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_bValue": { "type": "bool", "value": true }
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "4e6742a0a41c838c",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -88.95314624057949
+						},
+						"position": {
+							"x": -140.6262,
+							"y": -2.9294868,
+							"z": 12.201007
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "03dba4de4030a0d2",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 1.387056673956207
+						},
+						"position": {
+							"x": -141.16238,
+							"y": -6.637029,
+							"z": 11
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "43e7667805b98b89",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnableConditions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "f730262af5f305fa",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 2.0119780018773534
+						},
+						"position": {
+							"x": -133.9612,
+							"y": -56.908672,
+							"z": 11.022165
+						}
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "85df5de0f552f0a6",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+		},
+		{
+			"ref": "cb6b99c78fbc86d1",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+		},
+		{
+			"ref": "051724d481d9b907",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "ccdc83fdc173123d",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype"
+		},
+		{
+			"ref": "373310d5a8e71a83",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/mission_sambuca.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/override_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/tod_sunset.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

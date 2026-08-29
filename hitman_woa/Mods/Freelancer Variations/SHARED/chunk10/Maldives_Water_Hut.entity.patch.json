@@ -1,0 +1,566 @@
+{
+	"tempHash": "008B2959D8860478",
+	"tbluHash": "008EABA5EB74335F",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"f04bcb92daeb0dd6",
+				{ "RemovePropertyByName": "On" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f04bcb92daeb0dd6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 90.08474048023264,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": 28.59246063232422,
+								"y": -2.7043240070343018,
+								"z": -0.2940700054168701
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f04bcb92daeb0dd6",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f04bcb92daeb0dd6",
+				{ "SetPropertyPostInit": ["m_eidParent", false] }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f04bcb92daeb0dd6",
+				{
+					"AddProperty": [
+						"IgnoreTimeOfDay",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f04bcb92daeb0dd6",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f04bcb92daeb0dd6",
+				{
+					"AddProperty": [
+						"LightCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"f04bcb92daeb0dd6",
+				{
+					"AddProperty": [
+						"DiffuseColor",
+						{ "type": "SColorRGB", "value": "#c7efff" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"603b55415baca4bf",
+				{ "RemovePropertyByName": "On" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"603b55415baca4bf",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 90.08474048023264,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": 28.59246063232422,
+								"y": 2.241913080215454,
+								"z": -0.2940700054168701
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"603b55415baca4bf",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"603b55415baca4bf",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 100.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"603b55415baca4bf",
+				{
+					"AddProperty": [
+						"IgnoreTimeOfDay",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"603b55415baca4bf",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"603b55415baca4bf",
+				{
+					"AddProperty": [
+						"LightCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"603b55415baca4bf",
+				{
+					"AddProperty": [
+						"DiffuseColor",
+						{ "type": "SColorRGB", "value": "#c7efff" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e952addbdabff6",
+				{ "RemovePropertyByName": "On" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e952addbdabff6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 90.08474048023264,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": 28.59246063232422,
+								"y": 4.5972161293029785,
+								"z": -0.2940700054168701
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e952addbdabff6",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e952addbdabff6",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 100.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e952addbdabff6",
+				{
+					"AddProperty": [
+						"IgnoreTimeOfDay",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e952addbdabff6",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e952addbdabff6",
+				{
+					"AddProperty": [
+						"LightCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"96e952addbdabff6",
+				{
+					"AddProperty": [
+						"DiffuseColor",
+						{ "type": "SColorRGB", "value": "#c7efff" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12a6db3b40f324c6",
+				{ "RemovePropertyByName": "On" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12a6db3b40f324c6",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 90.08474048023264,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": 28.592620849609375,
+								"y": 6.814164161682129,
+								"z": -0.25373101234436035
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12a6db3b40f324c6",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12a6db3b40f324c6",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 100.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12a6db3b40f324c6",
+				{
+					"AddProperty": [
+						"IgnoreTimeOfDay",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12a6db3b40f324c6",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12a6db3b40f324c6",
+				{
+					"AddProperty": [
+						"LightCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"12a6db3b40f324c6",
+				{
+					"AddProperty": [
+						"DiffuseColor",
+						{ "type": "SColorRGB", "value": "#c7efff" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b49bbebc5c4ac17",
+				{ "RemovePropertyByName": "On" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b49bbebc5c4ac17",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 90.08474048023264,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": 28.59246063232422,
+								"y": -5.059628009796143,
+								"z": -0.2940700054168701
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b49bbebc5c4ac17",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b49bbebc5c4ac17",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 100.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b49bbebc5c4ac17",
+				{
+					"AddProperty": [
+						"IgnoreTimeOfDay",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b49bbebc5c4ac17",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b49bbebc5c4ac17",
+				{
+					"AddProperty": [
+						"LightCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"4b49bbebc5c4ac17",
+				{
+					"AddProperty": [
+						"DiffuseColor",
+						{ "type": "SColorRGB", "value": "#c7efff" }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"985846b559962f84",
+				{ "RemovePropertyByName": "On" }
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"985846b559962f84",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_mTransform",
+						"value": {
+							"rotation": {
+								"x": 90.08474048023264,
+								"y": 0.0,
+								"z": -90.0
+							},
+							"position": {
+								"x": 28.59246063232422,
+								"y": 0.025036999955773354,
+								"z": -0.2940700054168701
+							}
+						}
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"985846b559962f84",
+				{
+					"SetPropertyValue": {
+						"property_name": "GlowPower",
+						"value": 500
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"985846b559962f84",
+				{
+					"SetPropertyValue": {
+						"property_name": "DiffusePower",
+						"value": 100.0
+					}
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"985846b559962f84",
+				{
+					"AddProperty": [
+						"IgnoreTimeOfDay",
+						{ "type": "bool", "value": false }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"985846b559962f84",
+				{
+					"AddProperty": [
+						"m_bCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"985846b559962f84",
+				{
+					"AddProperty": [
+						"LightCastShadows",
+						{ "type": "bool", "value": true }
+					]
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"985846b559962f84",
+				{
+					"AddProperty": [
+						"DiffuseColor",
+						{ "type": "SColorRGB", "value": "#c7efff" }
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

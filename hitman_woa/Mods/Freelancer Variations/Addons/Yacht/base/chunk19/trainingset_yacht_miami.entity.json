@@ -3341,8 +3341,8 @@
 		"5b28e46d491c1678": {
 			"parent": "e47c0e02ca5a33ce",
 			"name": "SetPiece_Tutorial_Unique_Suspended_LifeRaft",
-			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_seagull_liferafts.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_seagull_liferafts.entitytemplate].pc_entityblueprint",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_suspended_liferaft.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_suspended_liferaft.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -45341,8 +45341,8 @@
 		"e71fa179356c6ebb": {
 			"parent": "e47c0e02ca5a33ce",
 			"name": "SetPiece_Tutorial_Unique_Suspended_LifeRaft01",
-			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_seagull_liferafts.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_sniperchallenge_unique.template?/setpiece_sc_seagull_liferafts.entitytemplate].pc_entityblueprint",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_suspended_liferaft.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_tutorial_unique.template?/setpiece_tutorial_unique_suspended_liferaft.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -46977,8 +46977,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90.66321252031288 },
-						"position": { "x": -21.626922607421875, "y": -56.13056945800781, "z": -45.92352294921875 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.66321252031288 },
+						"position": { "x": -21.78163146972656, "y": -56.0330810546875, "z": -45.92352294921875 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "cafe4794e94ebade" }
@@ -85360,8 +85360,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -7.273594219731633 },
-						"position": { "x": -21.333053588867188, "y": -55.780792236328125, "z": -45.41691970825195 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -7.273594219731633 },
+						"position": { "x": -21.4095458984375, "y": -55.780792236328125, "z": -45.41691970825195 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "cafe4794e94ebade" },
@@ -114447,7 +114447,8 @@
 						"position": { "x": 3.987046241760254, "y": 16.785812377929688, "z": 3.697550058364868 }
 					}
 				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"cafeb696bab122d0": {
@@ -114483,7 +114484,8 @@
 						"position": { "x": -0.7860275506973267, "y": -12.590808868408203, "z": 7.480478286743164 }
 					}
 				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"cafe61800204aa74": {
@@ -114499,7 +114501,8 @@
 						"position": { "x": 7.024135112762451, "y": -21.987215042114254, "z": 7.21970272064209 }
 					}
 				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -114580,7 +114583,8 @@
 						"position": { "x": 1.098743557929993, "y": -12.666314125061035, "z": 4.139579772949219 }
 					}
 				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"cafe1aa9d6d9a8f1": {
@@ -114660,7 +114664,8 @@
 						"position": { "x": 8.97249698638916, "y": -32.52199935913086, "z": 3.8703324794769287 }
 					}
 				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"cafebbdca6cecdba": {
@@ -114676,7 +114681,8 @@
 						"position": { "x": -41.5863037109375, "y": 11.161730766296388, "z": 1.538520336151123 }
 					}
 				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"cafef519ed3fe73e": {
@@ -114692,7 +114698,8 @@
 						"position": { "x": 5.799058437347412, "y": -15.547430992126465, "z": 7.693422317504883 }
 					}
 				},
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -114733,7 +114740,8 @@
 				"On": { "type": "bool", "value": true },
 				"GlowPower": { "type": "float32", "value": 100 },
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
-				"m_bCastShadows": { "type": "bool", "value": true }
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -114758,7 +114766,8 @@
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"SoundEnabled": { "type": "bool", "value": true },
 				"m_bCastShadows": { "type": "bool", "value": true },
-				"Breakable": { "type": "bool", "value": true }
+				"Breakable": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -114783,7 +114792,8 @@
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"SoundEnabled": { "type": "bool", "value": true },
 				"m_bCastShadows": { "type": "bool", "value": true },
-				"Breakable": { "type": "bool", "value": true }
+				"Breakable": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},

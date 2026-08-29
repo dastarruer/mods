@@ -501,6 +501,17 @@
 				},
 				"m_bHDREnabled": { "type": "bool", "value": true }
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "85ab59e834afe527",
+					"externalScene": "[assembly:/_pro/scenes/missions/elegant/scenario_llama.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_fLODScale": { "type": "float32", "value": 2.0 }
+			}
 		}
 	],
 	"overrideDeletes": [],

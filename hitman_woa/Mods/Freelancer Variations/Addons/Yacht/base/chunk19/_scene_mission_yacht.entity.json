@@ -413,10 +413,16 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				},
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -451,10 +457,18 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
-				}
+				},
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				},
+				"LightCastShadows": { "type": "bool", "value": true },
+				"m_bCastShadows": { "type": "bool", "value": true }
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -481,7 +495,12 @@
 				},
 				"m_aSecurityDevices": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cafee351b851ee5b", "cafe3d500cd02d58", "cafe8cd74813a167", "cafed4214f756a92"],
+					"value": [
+						"cafee351b851ee5b",
+						"cafe3d500cd02d58",
+						"cafe8cd74813a167",
+						"cafed4214f756a92"
+					],
 					"postInit": true
 				}
 			},
@@ -523,10 +542,16 @@
 						},
 						"position": { "x": 0.0, "y": 0.0, "z": 0.0 }
 					}
+				},
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
@@ -555,10 +580,16 @@
 				"m_eRoomBehaviour": {
 					"type": "ZSpatialEntity.ERoomBehaviour",
 					"value": "ROOM_DYNAMIC"
+				},
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
 				}
 			},
 			"subsets": {
-				"Activatable_NormalGameplay, IEntity": ["fffffffffffffffe"],
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				],
 				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		}

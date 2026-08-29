@@ -1,5 +1,5 @@
 {
-	"version": "1.12.3",
+	"version": "1.12.5",
 	"id": "KevinRudd.FreelancerVariations",
 	"name": "Freelancer Variations",
 	"contentFolders": ["Freelancer"],
@@ -60,7 +60,7 @@
 			"type": "conditional",
 			"condition": "\"TeamRuddcy.RandomToDs\" not in config.loadOrder",
 			"contentFolders": ["SHARED"],
-			"dependencies": [{
+			"dependencies": ["0026DCAB01593B34,008F55E057D79796,00F178A2B3B66FBB,00DAB64C50475ECB",{
 				"runtimeID": "00907BCED9E107EB",
 				"toChunk": 9,
 				"comment": "Magpie Lamp"
@@ -659,6 +659,10 @@
 		},{
 			"runtimeID": "00E46CDC41EA5D9B",
 			"toChunk": 8
+		},{
+			"runtimeID": "0015F1AACC33D462,00842635474A25BE,000DE295997C5220,0029A942816B3E2F",
+			"comment": "Restored assets post-launch",
+			"toChunk": 1
 		}]
 	}, {
 		"name": "Passenger Train",
@@ -1395,8 +1399,8 @@
 		},
 		{
 			"runtimeID": "007DFE9269EB5C3D",
-			"toChunk": 19,
-			"comment": "Hantu helipad"
+			"portFromChunk1": true,
+			"comment": "Setpiece_SC_Seagull_Liferafts"
 		},
 
 

@@ -4,8 +4,8 @@
 	"name": "Bay Harbor Butcher",
 	"description": "Channel your inner Dark Passenger with this henley, cargo pants and boots. Complete with stylish watch and latex gloves for when things get bloody.",
 	"authors": ["Jojje"],
-	"frameworkVersion": "2.33.23",
-	"version": "1.1.0",
+	"frameworkVersion": "2.33.42",
+	"version": "1.1.1",
 	"contentFolders": ["base"],
 	"dependencies": [
 		{

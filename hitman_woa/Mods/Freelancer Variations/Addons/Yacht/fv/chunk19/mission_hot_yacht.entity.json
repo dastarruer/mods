@@ -3235,11 +3235,7 @@
 			"blueprint": "[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
 			"events": {
 				"Out": {
-					"TransmitEvent": [
-						"0ea5b365515e8afb",
-						"52849fbf6161a03e",
-						"2202576b30de4d2a"
-					]
+					"TransmitEvent": ["0ea5b365515e8afb", "52849fbf6161a03e", "2202576b30de4d2a"]
 				}
 			}
 		},
@@ -4442,11 +4438,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5ce4c1c02a742046",
-						"8940d5a06af87009",
-						"cbfd9e116bbd38fc"
-					],
+					"value": ["5ce4c1c02a742046", "8940d5a06af87009", "cbfd9e116bbd38fc"],
 					"postInit": true
 				}
 			}
@@ -6178,11 +6170,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"33d3d23bf415391c",
-						"6c43376332c6afec",
-						"2a711571277f6b48"
-					],
+					"value": ["33d3d23bf415391c", "6c43376332c6afec", "2a711571277f6b48"],
 					"postInit": true
 				}
 			}
@@ -17543,7 +17531,12 @@
 		}
 	},
 	"propertyOverrides": [],
-	"overrideDeletes": [],
+	"overrideDeletes": [
+		{
+			"ref": "cafe747f8e904393",
+			"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+		}
+	],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
@@ -17552,7 +17545,8 @@
 		"[assembly:/_pro/scenes/missions/miami/override_yacht_standalone.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/thefacility/trainingset_yacht_miami.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
 	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,

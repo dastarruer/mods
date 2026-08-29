@@ -1221,7 +1221,12 @@
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": [
+						{
+							"ref": "cafef012d0981ed1",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					]
 				}
 			},
 			"subsets": {
@@ -1339,7 +1344,12 @@
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": [
+						{
+							"ref": "cafef012d0981ed1",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					]
 				}
 			},
 			"subsets": {
@@ -1558,7 +1568,12 @@
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": []
+					"value": [
+						{
+							"ref": "cafef012d0981ed1",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+						}
+					]
 				}
 			},
 			"subsets": {
@@ -1879,6 +1894,15 @@
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "be9a6a0b57dc6283",
+					"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
 		{
 			"entities": [
 				{

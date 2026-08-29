@@ -10142,9 +10142,65 @@
 					}
 				}
 			}
+		},
+		"cafe0e5bdf52ef6d": {
+			"parent": "abcde10693bb488a",
+			"name": "PFObstacle",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0.000013660380782691822,
+							"y": 0.03956468099451631,
+							"z": -0.03956469042747496
+						},
+						"position": {
+							"x": 0.00138092041015625,
+							"y": 0.08262491226196289,
+							"z": 1.244173288345337
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.5,
+						"y": 3.0999999046325684,
+						"z": 1.7999999523162842
+					}
+				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_fPenaltyMultiplier": { "type": "float32", "value": -1 },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "abcde10693bb488a",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "8190a40f7f67650d",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				},
+				{
+					"ref": "1bad761b3ce02cd1",
+					"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "3dda572f-a812-4685-a97a-d9ab6c3cae31"
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -11223,6 +11279,14 @@
 		}
 	],
 	"overrideDeletes": [
+		{
+			"ref": "2fd44710c909e653",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+		},
+		{
+			"ref": "927f4b72cebfaaff",
+			"externalScene": "[assembly:/_pro/scenes/missions/skunk/override_solitaire.brick].pc_entitytype"
+		},
 		{
 			"ref": "ccffbf29c118297b",
 			"externalScene": "[assembly:/_pro/scenes/missions/skunk/scenario_skunk.brick].pc_entitytype"

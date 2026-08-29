@@ -475,7 +475,7 @@
 	],
 	"overrideDeletes": [
 		{
-			"ref": "5116b4d5a06c9de",
+			"ref": "05116b4d5a06c9de",
 			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/mission_flu.brick].pc_entitytype"
 		},
 		{
@@ -497,6 +497,14 @@
 		{
 			"ref": "1c55e25d3058f974",
 			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/npc_mission_snowcrane.brick].pc_entitytype"
+		},
+		{
+			"ref": "cc83c3700d7bfb56",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "1ccdb775e5552171",
+			"externalScene": "[assembly:/_pro/scenes/missions/hokkaido/location.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],

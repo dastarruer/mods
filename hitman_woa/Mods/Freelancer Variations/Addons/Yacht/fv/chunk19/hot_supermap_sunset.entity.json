@@ -1,0 +1,506 @@
+{
+	"tempHash": "008633360DC5DCD9",
+	"tbluHash": "00839CD3A0864089",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Hot_Supermap_Sunset",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {}
+		}
+	},
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "6d6eabbea7355394",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "84e121f8dcced7c3",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "fd628676f8da3ac3",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "f10260e83e94de73",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "79b85b35a4489b70",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "f8ad84cc5fe10ab6",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "9a7501400d61543d",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "af1fc680db0653e1",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "7d103ed20ec285fa",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "c02e87032303aeca",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "fd4f39570d65b731",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "3b98fd686f33955e",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_yacht.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						},
+						{
+							"ref": "cafefff4c4ae392e",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/override_yacht.brick].pc_entitytype",
+							"exposedEntity": "exitActivated"
+						}
+					]
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "5d489f36a25c2b88",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+				},
+				{
+					"ref": "2548fbdbe7f956f3",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -0.0,
+							"y": 0.0,
+							"z": -162.87648790700408
+						},
+						"position": {
+							"x": -224.89602661132812,
+							"y": 164.78414916992188,
+							"z": 2.649519443511963
+						}
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "cd34638cf99183b5",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "be500b749272a885",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "871655075e00862c",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "2aa7c67fb7baf8e0",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "1994aea4ddb7218b",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "0bce9bd970330ecd",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "f335b90f36198c85",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "ff8c4d745bdb5c73",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "199b4bd60a9b9fe1",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "da62b57ea6631b62",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "421044f5550b7a3f",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "9bcc96b0b4fe61e9",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "ab112f497ae54013",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "b6b0e07662eadbc8",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "e8b79d8ef8b6263d",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "16c15dc9c87d0dc4",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "0efd245e89de85f1",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "0233944850bc1ff5",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "564d809115851f11",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "650ac7bba9cec623",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "945589fcb2240510",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "1b9308ca86d79cb6",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "79a5f98c688f7a57",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "17f5d53a339610f4",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "1f8d688e1fcd168d",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "81bb9163899c307a",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "7301143c557cd91f",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "fe723a5c09767d20",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "1c08e3596983873e",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "0d97afbc8e7c8504",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "12b091e8c5157b32",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "51e20ec4d8a2c3dd",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "340c789fc1499de3",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "78fe5d47a2128db0",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "8664f45b87a9eda0",
+							"externalScene": "[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype"
+						},
+						{
+							"ref": "90aa1f54aac27fb2",
+							"externalScene": "[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype"
+						}
+					]
+				},
+				"Lookout1Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe5b706dbfd71e",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout1Act1_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe85c460aca072",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout1Act2_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe60301eb808f3",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout2Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe4077644c06e2",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout1Act3_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe959f20eca7ab",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout2Act1_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe5b14e81b006c",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout2Act2_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe6a1d4965be05",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout2Act3_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe42ba09f1c8c9",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout3Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe05434a520513",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout3Act1_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe5f10448e780f",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout3Act2_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe86e4cf46725a",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout3Act3_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe23b8485247f1",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout4Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafeb98dc96c52e8",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout4Act1_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe45bc5fe1fdae",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout4Act2_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafefc44e74a3f6c",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"Lookout4Act3_Gen3": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe1af70b3eb948",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "c239fb791d97ac8e",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"meeting1OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafeac0fe7a48e53",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"meeting2OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe5157a9f2dd8a",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"meeting3OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe283fa22a6436",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "d876b7f269982d8a",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"meeting1OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafeca21239cfadb",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"meeting2OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe79799769db80",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"meeting3OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe3bf3e9226bc6",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "32b1a9afbf47587b",
+					"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"meeting1OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe93fa1190e424",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"meeting2OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe0f7737b1e40c",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				},
+				"meeting3OrganizerSpatial": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "cafe4da66ab94547",
+						"externalScene": "[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype"
+					}
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "8ff4e9d2c2a37239",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+		},
+		{
+			"ref": "b71d9bd328bef131",
+			"externalScene": "[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype"
+		}
+	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/missions/miami/superyacht_sambuca.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/mission_hot_pinochle.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/npc_module_002_miami.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/outfits_prologue.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/thefacility/override_yacht.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/miami/override_pinochle.brick].pc_entitytype"
+	],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

@@ -9458,7 +9458,7 @@
 							[
 								0, -1.5376640558242798, 0, 0,
 								-0.2443430870771408, 0.8136370778083801,
-								5.475490301059245e-17, -1.5376640558242798
+								5.4754903010592447e-17, -1.5376640558242798
 							],
 							[
 								0.5, -0.9683700203895568, 0, 0,
@@ -9638,6 +9638,20 @@
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "f7fe26688b2ff594",
+					"externalScene": "[assembly:/_pro/scenes/missions/sheep/difficulty_hard_newzealand_sheep.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				}
+			}
+		},
 		{
 			"entities": [
 				{

@@ -5,12 +5,49 @@
 	"entities": {
 		"fffffffffffffffe": {
 			"parent": null,
-			"name": "Scene",
+			"name": "Tod_night_hot",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype",
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe6fce2d12beed": {
+			"parent": "fffffffffffffffe",
+			"name": "GameEventListener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": {
+				"EventOccurred": {
+					"SetTrue": [
+						{
+							"ref": "0b7eb14d6fc55cde",
+							"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+						},
+						{
+							"ref": "8c4f3f4c4af97b66",
+							"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+						}
+					]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "61cd4317a29838fb",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_pEventResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/opulent/34000_stingray/34000_story/dr34216_bunkerlockdownactivated.sweetdialog?/dr34216_bunkerlockdownactivated_pallas_ai_001.sweetdialogitem].pc_dialogevent",
+						"flag": "5F"
+					}
+				}
+			}
+		},
 		{
 			"entities": [
 				{
@@ -63,10 +100,6 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
 				},
 				{
-					"ref": "3177888f9566e045",
-					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
-				},
-				{
 					"ref": "1d9f52144c71a1d9",
 					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
 				}
@@ -100,6 +133,14 @@
 				},
 				{
 					"ref": "351b14aff4e5612d",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "cacc736459a050ec",
+					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+				},
+				{
+					"ref": "d738a06e6ccfda6e",
 					"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
 				}
 			],
@@ -138,10 +179,52 @@
 		{
 			"ref": "e4ca0ba7abfe484f",
 			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "56d32bf1e4693d7e",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "77f232f371ebc540",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "21b260f40cadd526",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+		},
+		{
+			"ref": "c42bc48d7249f6b3",
+			"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
+	"pinConnectionOverrides": [
+		{
+			"fromEntity": {
+				"ref": "597813b6a0a3b308",
+				"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+			},
+			"fromPin": "OnStart",
+			"toEntity": {
+				"ref": "ea32c653810ed3c9",
+				"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+			},
+			"toPin": "Start"
+		}
+	],
+	"pinConnectionOverrideDeletes": [
+		{
+			"fromEntity": {
+				"ref": "597813b6a0a3b308",
+				"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+			},
+			"fromPin": "OnStart",
+			"toEntity": {
+				"ref": "0fd29ca3e15a70a3",
+				"externalScene": "[assembly:/_pro/scenes/missions/opulent/mission_stingray/scenario_stingray.brick].pc_entitytype"
+			},
+			"toPin": "Start"
+		}
+	],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/opulent/mission_stingray/tod_night.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/opulent/mission_stingray/mission_hot_hilo.brick].pc_entitytype",
