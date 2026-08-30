@@ -1,0 +1,32 @@
+{
+	"tempHash": "00C3C1186E7495FE",
+	"tbluHash": "00EB7557C5F42132",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"9d1353bea7bfc3ab",
+				{
+					"SetBlueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"SubEntityOperation": [
+				"9d1353bea7bfc3ab",
+				{
+					"AddProperty": [
+						"m_CollisionResourceID",
+						{
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "[assembly:/_pro/environment/geometry/architecture/windows/windows_modern_consulate.wl2?/consulate_windowsection_4x4m_b_frosted.prim].pc_coll",
+								"flag": "5F"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,1 +1,2 @@
 *.tga filter=lfs diff=lfs merge=lfs -text
+*.GFXV filter=lfs diff=lfs merge=lfs -text
